@@ -1,0 +1,21 @@
+{
+  "$comment": "Commercial content register. Only entries with status 'approved' (with terms, dates and conditions where promotional) may be rendered to customers. Research date 18–19 Nov 2026.",
+  "claims": [
+    { "id": "va-2-5", "claim": "Value addition (V.A.) starting from 2.5%", "type": "pricing-promotion", "status": "pending", "evidence": "Listed in the v2 brief. Not found on svarahi.co or svarahigold.xyz public pages.", "needs": "Owner confirmation, applicable products, terms, start/end dates" },
+    { "id": "making-0", "claim": "0% making charges", "type": "pricing-promotion", "status": "pending", "evidence": "Instagram reel Dfmadx8k0jE caption (11 Nov 2026). CONFLICTS with svarahi.co FAQ: 'making charge … shown separately'.", "needs": "Owner to resolve conflict; terms, eligible items, dates" },
+    { "id": "rs123-gram", "claim": "₹123 per gram promotional benefit", "type": "pricing-promotion", "status": "pending", "evidence": "Listed in the v2 brief only.", "needs": "Owner confirmation, mechanics, terms, dates" },
+    { "id": "goldplus-7-5", "claim": "Gold+ benefit up to 7.5%", "type": "scheme", "status": "pending", "evidence": "Listed in the v2 brief. svarahi.co policies mention a 'savings scheme' but give no figures.", "needs": "Scheme rules, eligibility, maturity terms, regulatory wording" },
+    { "id": "stoneless-value", "claim": "Stone-less value policy", "type": "policy", "status": "pending", "evidence": "Listed in the v2 brief only.", "needs": "Exact policy wording" },
+    { "id": "stone-buyback-65", "claim": "65% stone buyback", "type": "policy", "status": "pending", "evidence": "Listed in the v2 brief only.", "needs": "Exact policy wording, conditions" },
+    { "id": "purity-weight", "claim": "Product purity and weight per piece", "type": "product-data", "status": "pending", "evidence": "No per-piece data published anywhere; svarahi.co confirms these 'in store'.", "needs": "Per-piece specification sheet" },
+    { "id": "hallmark-huid", "claim": "BIS hallmark and HUID on gold jewellery", "type": "trust", "status": "pending", "evidence": "Stated on svarahi.co FAQ and footer (business's own site).", "needs": "Owner re-confirmation for the new site" },
+    { "id": "gst-invoice", "claim": "GST invoice with every purchase", "type": "trust", "status": "pending", "evidence": "svarahi.co footer and Terms §3.", "needs": "Owner re-confirmation" },
+    { "id": "purity-testing", "claim": "In-store purity testing machine", "type": "service", "status": "pending", "evidence": "Instagram reel Dfmadx8k0jE shows a testing machine.", "needs": "Owner confirmation that it is customer-facing and free" },
+    { "id": "hours", "claim": "Open every day, 11 am – 8:30 pm", "type": "business-fact", "status": "pending", "evidence": "Google Maps listing (svarahi.co shows a placeholder).", "needs": "Owner confirmation incl. holidays" },
+    { "id": "rating", "claim": "4.9★ on Google (60 reviews)", "type": "reviews", "status": "pending", "evidence": "Google Maps, 18 Nov 2026. Changes over time.", "needs": "Owner approval to display; live or dated figure" },
+    { "id": "reviews", "claim": "Customer review quotations", "type": "reviews", "status": "pending", "evidence": "None collected. Reviewers' consent required to quote.", "needs": "Owner-supplied, consented testimonials" },
+    { "id": "parking", "claim": "Parking and amenities", "type": "business-fact", "status": "pending", "evidence": "Not published anywhere.", "needs": "Owner details" },
+    { "id": "phone-alt", "claim": "Phone +91 70191 03928", "type": "contact", "status": "pending", "evidence": "Instagram captions. svarahi.co lists +91 85500 00483.", "needs": "Owner to choose published number(s)" },
+    { "id": "manufacturer-direct", "claim": "Jewellery straight from manufacturers", "type": "positioning", "status": "approved", "evidence": "svarahi.co title, logo lockup and Instagram bio — the business's own published positioning.", "needs": "—" }
+  ]
+}

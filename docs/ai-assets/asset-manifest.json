@@ -1,0 +1,353 @@
+[
+  {
+    "assetId": "ai-hero-bridal-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Homepage hero campaign editorial banner",
+    "title": "Cinematic Bridal Silk & Gold Campaign Hero",
+    "altText": "Fictional Indian model in deep maroon silk saree and ornate antique gold temple necklace arrangement with warm golden studio lighting and negative copy space on left",
+    "dimensions": {
+      "width": 1376,
+      "height": 768,
+      "aspectRatio": "16:9"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/hero/hero-bridal-campaign.jpg",
+      "originalBytes": 611653,
+      "webp": "/assets/generated/nano-banana/hero/hero-bridal-campaign.webp",
+      "webpBytes": 80298,
+      "avif": "/assets/generated/nano-banana/hero/hero-bridal-campaign.avif",
+      "avifBytes": 80781,
+      "responsive640Webp": "/assets/generated/nano-banana/hero/hero-bridal-campaign-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-lookbook-bridal-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Bridal styling lookbook editorial portrait",
+    "title": "South Indian Temple Gold Bridal Styling",
+    "altText": "Full bridal lookbook editorial featuring traditional temple gold choker, layered haram, jhumkas, and maang tikka on rich burgundy velvet",
+    "dimensions": {
+      "width": 896,
+      "height": 1200,
+      "aspectRatio": "3:4"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/lookbook/bridal/lookbook-bridal-01.jpg",
+      "originalBytes": 779525,
+      "webp": "/assets/generated/nano-banana/lookbook/bridal/lookbook-bridal-01.webp",
+      "webpBytes": 161402,
+      "avif": "/assets/generated/nano-banana/lookbook/bridal/lookbook-bridal-01.avif",
+      "avifBytes": 171307,
+      "responsive640Webp": "/assets/generated/nano-banana/lookbook/bridal/lookbook-bridal-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-lookbook-festive-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Festive collection lookbook showcase",
+    "title": "Contemporary Festive Gold Styling",
+    "altText": "Festive Indian jewellery styling with emerald green silk saree, handcrafted gold choker, matching jhumkas, and bangles",
+    "dimensions": {
+      "width": 896,
+      "height": 1200,
+      "aspectRatio": "3:4"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/lookbook/festive/lookbook-festive-01.jpg",
+      "originalBytes": 797319,
+      "webp": "/assets/generated/nano-banana/lookbook/festive/lookbook-festive-01.webp",
+      "webpBytes": 138462,
+      "avif": "/assets/generated/nano-banana/lookbook/festive/lookbook-festive-01.avif",
+      "avifBytes": 137416,
+      "responsive640Webp": "/assets/generated/nano-banana/lookbook/festive/lookbook-festive-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-lookbook-everyday-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Everyday fine jewellery editorial lookbook",
+    "title": "Minimalist Everyday Gold Chain & Huggies",
+    "altText": "Everyday quiet luxury styling with delicate layered gold chains and petite gold huggie earrings against warm ivory tones",
+    "dimensions": {
+      "width": 896,
+      "height": 1200,
+      "aspectRatio": "3:4"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/lookbook/everyday/lookbook-everyday-01.jpg",
+      "originalBytes": 745645,
+      "webp": "/assets/generated/nano-banana/lookbook/everyday/lookbook-everyday-01.webp",
+      "webpBytes": 120104,
+      "avif": "/assets/generated/nano-banana/lookbook/everyday/lookbook-everyday-01.avif",
+      "avifBytes": 123130,
+      "responsive640Webp": "/assets/generated/nano-banana/lookbook/everyday/lookbook-everyday-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-lookbook-heritage-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Heritage & Antique collection lookbook",
+    "title": "Antique Nagas Temple Gold & Cabochon Rubies",
+    "altText": "Heritage antique gold choker and pendant necklace set with rubies and emeralds against carved Indian architectural backdrop",
+    "dimensions": {
+      "width": 896,
+      "height": 1200,
+      "aspectRatio": "3:4"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/lookbook/heritage/lookbook-heritage-01.jpg",
+      "originalBytes": 799909,
+      "webp": "/assets/generated/nano-banana/lookbook/heritage/lookbook-heritage-01.webp",
+      "webpBytes": 158034,
+      "avif": "/assets/generated/nano-banana/lookbook/heritage/lookbook-heritage-01.avif",
+      "avifBytes": 161821,
+      "responsive640Webp": "/assets/generated/nano-banana/lookbook/heritage/lookbook-heritage-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-lookbook-mens-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Men’s fine jewellery styling lookbook",
+    "title": "Men’s Handcrafted Gold Kada & Chain",
+    "altText": "Men fine jewellery styling portrait with solid gold kada bracelet, signet ring, and tailored silk bandhgala",
+    "dimensions": {
+      "width": 896,
+      "height": 1200,
+      "aspectRatio": "3:4"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/lookbook/mens/lookbook-mens-01.jpg",
+      "originalBytes": 703446,
+      "webp": "/assets/generated/nano-banana/lookbook/mens/lookbook-mens-01.webp",
+      "webpBytes": 98164,
+      "avif": "/assets/generated/nano-banana/lookbook/mens/lookbook-mens-01.avif",
+      "avifBytes": 101061,
+      "responsive640Webp": "/assets/generated/nano-banana/lookbook/mens/lookbook-mens-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-craftsmanship-macro-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Macro craftsmanship detail editorial",
+    "title": "Macro Nakshi Chasing, Granulation & Gem Setting",
+    "altText": "Extreme macro close-up of 22k antique gold jewellery showing delicate nakshi engraving, granulation beads, and bezel-set cabochon stones",
+    "dimensions": {
+      "width": 896,
+      "height": 1200,
+      "aspectRatio": "3:4"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/craftsmanship/macro-craftsmanship-01.jpg",
+      "originalBytes": 863161,
+      "webp": "/assets/generated/nano-banana/craftsmanship/macro-craftsmanship-01.webp",
+      "webpBytes": 179306,
+      "avif": "/assets/generated/nano-banana/craftsmanship/macro-craftsmanship-01.avif",
+      "avifBytes": 179640,
+      "responsive640Webp": "/assets/generated/nano-banana/craftsmanship/macro-craftsmanship-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-counter-stage-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Virtual velvet showroom counter stage for product overlay",
+    "title": "Empty Velvet Counter Stage with Brass Rails",
+    "altText": "Empty luxury black velvet jewellery presentation busts and brushed brass pedestals on burgundy velvet counter under warm studio spotlights",
+    "dimensions": {
+      "width": 1376,
+      "height": 768,
+      "aspectRatio": "16:9"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/counter-backgrounds/velvet-counter-stage-01.jpg",
+      "originalBytes": 637430,
+      "webp": "/assets/generated/nano-banana/counter-backgrounds/velvet-counter-stage-01.webp",
+      "webpBytes": 64116,
+      "avif": "/assets/generated/nano-banana/counter-backgrounds/velvet-counter-stage-01.avif",
+      "avifBytes": 61193,
+      "responsive640Webp": "/assets/generated/nano-banana/counter-backgrounds/velvet-counter-stage-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-showroom-concept-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Showroom interior design visualization concept",
+    "title": "Contemporary Luxury Indian Jewellery Showroom Concept",
+    "altText": "Architectural concept render of a flagship fine jewellery showroom with ivory marble, velvet vitrines, and brushed brass jaali screens",
+    "dimensions": {
+      "width": 1376,
+      "height": 768,
+      "aspectRatio": "16:9"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/showroom-concepts/interior-concept-01.jpg",
+      "originalBytes": 800850,
+      "webp": "/assets/generated/nano-banana/showroom-concepts/interior-concept-01.webp",
+      "webpBytes": 143874,
+      "avif": "/assets/generated/nano-banana/showroom-concepts/interior-concept-01.avif",
+      "avifBytes": 137215,
+      "responsive640Webp": "/assets/generated/nano-banana/showroom-concepts/interior-concept-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-campaign-cover-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Vertical campaign and social reel cover",
+    "title": "Editorial Campaign Reel Cover",
+    "altText": "Vertical luxury campaign portrait of an Indian model adorned in temple gold necklace and jhumkas on burgundy velvet background",
+    "dimensions": {
+      "width": 768,
+      "height": 1376,
+      "aspectRatio": "9:16"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/campaign-covers/campaign-cover-01.jpg",
+      "originalBytes": 831304,
+      "webp": "/assets/generated/nano-banana/campaign-covers/campaign-cover-01.webp",
+      "webpBytes": 178686,
+      "avif": "/assets/generated/nano-banana/campaign-covers/campaign-cover-01.avif",
+      "avifBytes": 184400,
+      "responsive640Webp": "/assets/generated/nano-banana/campaign-covers/campaign-cover-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-texture-oxblood-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Deep oxblood velvet macro texture background",
+    "title": "Deep Oxblood Velvet Fabric Texture",
+    "altText": "Rich deep oxblood velvet macro fabric texture with soft undulating shadows and plush pile",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024,
+      "aspectRatio": "1:1"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/textures/texture-oxblood-velvet-01.jpg",
+      "originalBytes": 802733,
+      "webp": "/assets/generated/nano-banana/textures/texture-oxblood-velvet-01.webp",
+      "webpBytes": 159376,
+      "avif": "/assets/generated/nano-banana/textures/texture-oxblood-velvet-01.avif",
+      "avifBytes": 173970,
+      "responsive640Webp": "/assets/generated/nano-banana/textures/texture-oxblood-velvet-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-texture-gold-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Antique brushed gold material texture",
+    "title": "Antique Brushed Gold Metallic Surface Texture",
+    "altText": "Brushed antique gold metallic surface texture with fine directional grain and warm luster",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024,
+      "aspectRatio": "1:1"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/textures/texture-brushed-gold-01.jpg",
+      "originalBytes": 676685,
+      "webp": "/assets/generated/nano-banana/textures/texture-brushed-gold-01.webp",
+      "webpBytes": 92818,
+      "avif": "/assets/generated/nano-banana/textures/texture-brushed-gold-01.avif",
+      "avifBytes": 75900,
+      "responsive640Webp": "/assets/generated/nano-banana/textures/texture-brushed-gold-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  },
+  {
+    "assetId": "ai-texture-silk-001",
+    "group": "GROUP F — AI-GENERATED EDITORIAL CONCEPT",
+    "creator": "Nano Banana (Gemini Image Generation)",
+    "purpose": "Warm ivory silk fabric texture background",
+    "title": "Warm Ivory Silk Fabric Drape Texture",
+    "altText": "Warm ivory silk satin fabric texture with soft graceful folds and luminous sheen",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024,
+      "aspectRatio": "1:1"
+    },
+    "files": {
+      "original": "/assets/generated/nano-banana/textures/texture-ivory-silk-01.jpg",
+      "originalBytes": 735865,
+      "webp": "/assets/generated/nano-banana/textures/texture-ivory-silk-01.webp",
+      "webpBytes": 138974,
+      "avif": "/assets/generated/nano-banana/textures/texture-ivory-silk-01.avif",
+      "avifBytes": 127673,
+      "responsive640Webp": "/assets/generated/nano-banana/textures/texture-ivory-silk-01-640.webp"
+    },
+    "status": "Needs visual approval",
+    "productAuthenticity": "AI concept, not inventory (Group F)",
+    "locationAuthenticity": "Not actual showroom / studio concept",
+    "sourcePromptFile": "docs/ai-assets/generation-prompts.md",
+    "usageRestrictions": "Website editorial backgrounds and concept storytelling only. Must not be used on product catalogue cards or represented as actual Svarahi inventory."
+  }
+]

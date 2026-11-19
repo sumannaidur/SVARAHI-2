@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+/* ── Svarahi Flagship v2 — "Velvet & Gold" tokens (docs/05-design-system.md) ── */
+@theme {
+  --color-velvet: #140608;
+  --color-oxblood: #3a0c16;
+  --color-maroon: #5c1426;
+  --color-sindoor: #b3122e;
+  --color-gold: #d4a94f;
+  --color-gold-soft: #ead2a0;
+  --color-ivory: #fbf6ee;
+  --color-sandstone: #ede3d3;
+  --color-ink: #1e1214;
+  --color-mute: #7a6a66;
+
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-manrope), system-ui, sans-serif;
+
+  --ease-velvet: cubic-bezier(0.19, 0.8, 0.2, 1);
+}
+
+:root {
+  --gutter: clamp(16px, 4vw, 56px);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--color-velvet);
+  color: var(--color-ivory);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+:focus-visible {
+  outline: 1.5px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+@utility shell {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+@utility display-xl {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(3rem, 8vw, 8.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+}
+@utility display-l {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.4rem, 5vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.015em;
+}
+@utility display-m {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  line-height: 1.05;
+}
+@utility eyebrow {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+/* Square-cornered buttons with a gold hairline — jeweller, not app. */
+@utility btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  min-height: 50px;
+  padding: 0 1.6rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  border: 1px solid var(--color-gold);
+  transition: background-color 0.5s var(--ease-velvet), color 0.5s var(--ease-velvet);
+}
+@utility btn-solid {
+  background: var(--color-gold-soft);
+  color: var(--color-velvet);
+  border-color: var(--color-gold-soft);
+  &:hover {
+    background: var(--color-ivory);
+  }
+}
+@utility btn-line {
+  color: var(--color-gold-soft);
+  &:hover {
+    background: rgb(212 169 79 / 0.12);
+  }
+}
+
+/* Temple-arch frame — the v2 signature shape. */
+@utility arch {
+  border-radius: 999px 999px 0 0;
+  overflow: hidden;
+}
+
+/* Gold light sweep for jewellery imagery (decorative, pauses under reduced motion). */
+@keyframes sweep {
+  from { transform: translateX(-130%) skewX(-14deg); }
+  to { transform: translateX(230%) skewX(-14deg); }
+}
+.light-sweep {
+  position: relative;
+  overflow: hidden;
+}
+.light-sweep::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 40%;
+  background: linear-gradient(100deg, transparent, rgb(255 230 180 / 0.28), transparent);
+  mix-blend-mode: soft-light;
+  animation: sweep 6s var(--ease-velvet) infinite;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .light-sweep::after {
+    animation: none;
+    display: none;
+  }
+}

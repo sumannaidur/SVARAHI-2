@@ -1,0 +1,19 @@
+{
+  "$comment": "Official Instagram @svarahijewels — the 12 most recent posts visible publicly without sign-in (catalogued 18 Nov 2026 from Instagram's official embed pages). Media is NOT reproduced: use the official embed until Svarahi supplies originals and approves reuse. Posts with people require consent.",
+  "account": "https://www.instagram.com/svarahijewels/",
+  "posts": [
+    { "code": "Df33YXwBa9M", "type": "image", "date": "2026-11-17", "category": "bangles", "subject": "Antique-style kada, sculpted motifs, pink and green stones", "people": "none", "group": "A (embed only)", "candidate": ["hero", "craftsmanship", "bangles"] },
+    { "code": "Df1Sle8Bj40", "type": "image", "date": "2026-11-16", "category": "temple-antique", "subject": "Temple pendant necklace, green accents, pearl drops", "people": "none", "group": "A (embed only)", "candidate": ["hero", "craftsmanship", "necklaces"] },
+    { "code": "Dfyty5eAS5t", "type": "image", "date": "2026-11-15", "category": "earrings", "subject": "Gold jhumkas with green centre stones", "people": "none", "group": "A (embed only)", "candidate": ["earrings", "lookbook"] },
+    { "code": "DfwJFHMFBlr", "type": "reel", "date": "2026-11-14", "category": "customer-experience", "subject": "Customer testimonial in store", "people": "customers", "group": "A (embed only)", "candidate": ["reviews — consent required"] },
+    { "code": "DfwJDxcD1Vg", "type": "reel", "date": "2026-11-14", "category": "bridal", "subject": "Layered temple-inspired bridal necklace on bust", "people": "none", "group": "A (embed only)", "candidate": ["reels showcase", "bridal"] },
+    { "code": "Dftw0yrkQou", "type": "reel", "date": "2026-11-14", "category": "showroom", "subject": "Skit filmed among the showroom necklace displays (real interior)", "people": "staff", "group": "A (embed only)", "candidate": ["showroom — consent required"] },
+    { "code": "DftkM4CDBn1", "type": "image", "date": "2026-11-13", "category": "bangles", "subject": "Pair of floral gold bangles, pink and green stones", "people": "none", "group": "A (embed only)", "candidate": ["bangles"] },
+    { "code": "Dfq_aIBEYlT", "type": "image", "date": "2026-11-12", "category": "earrings", "subject": "Traditional earrings with stones and hanging beads", "people": "none", "group": "A (embed only)", "candidate": ["earrings"] },
+    { "code": "DfoapF2lJmf", "type": "reel", "date": "2026-11-11", "category": "necklaces", "subject": "Floral necklace with pearl drops and statement pendant", "people": "none", "group": "A (embed only)", "candidate": ["reels showcase"] },
+    { "code": "Dfmadx8k0jE", "type": "reel", "date": "2026-11-11", "category": "brand", "subject": "In-store purity-testing machine; caption claims 0% making charges", "people": "staff", "group": "A (embed only)", "candidate": ["only after claims verified + consent"] },
+    { "code": "Dfl11nDlO1E", "type": "reel", "date": "2026-11-10", "category": "necklaces", "subject": "Necklace set with green drops and matching earrings", "people": "none", "group": "A (embed only)", "candidate": ["reels showcase", "bridal"] },
+    { "code": "DfjRIoakc7D", "type": "image", "date": "2026-11-09", "category": "rings", "subject": "Antique-style ring with pink and green stones", "people": "none", "group": "A (embed only)", "candidate": ["rings"] }
+  ],
+  "notInPublicWindow": ["Grand opening", "Festive/seasonal campaigns", "Showroom walkthrough stills", "Older bridal styling posts"]
+}

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Svarahi Flagship V2 — Visual Contact Sheet</title>
+  <style>
+    :root {
+      --velvet: #140608;
+      --oxblood: #3A0C16;
+      --maroon: #5C1426;
+      --gold: #D4A94F;
+      --soft-gold: #EAD2A0;
+      --ivory: #FBF6EE;
+      --ink: #1E1214;
+    }
+    body {
+      background-color: var(--velvet);
+      color: var(--ivory);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 32px 48px;
+    }
+    h1 {
+      color: var(--gold);
+      font-family: "Cinzel", Georgia, serif;
+      font-size: 2.2rem;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: var(--soft-gold);
+      font-size: 1rem;
+      margin-bottom: 24px;
+    }
+    .badge-bar {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      background: var(--oxblood);
+      border: 1px solid var(--maroon);
+      padding: 6px 14px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      color: var(--soft-gold);
+    }
+    .badge.active {
+      background: var(--maroon);
+      border-color: var(--gold);
+      color: var(--gold);
+      font-weight: bold;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 28px;
+    }
+    .card {
+      background: var(--ink);
+      border: 1px solid #2d1419;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+    }
+    .card-img-wrap {
+      width: 100%;
+      height: 280px;
+      background: #0d0405;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+    .card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .aspect-tag {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: rgba(20, 6, 8, 0.85);
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 3px;
+      font-weight: 600;
+    }
+    .card-body {
+      padding: 18px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .asset-id {
+      font-size: 0.75rem;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+    }
+    .asset-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--ivory);
+      margin: 0;
+    }
+    .asset-purpose {
+      font-size: 0.85rem;
+      color: var(--soft-gold);
+      line-height: 1.4;
+      margin: 0;
+    }
+    .asset-meta {
+      margin-top: auto;
+      padding-top: 12px;
+      border-top: 1px solid #2d1419;
+      font-size: 0.75rem;
+      color: #998a8c;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .classification-tag {
+      display: inline-block;
+      margin-top: 4px;
+      background: #3a1018;
+      color: #e5b0b8;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-size: 0.7rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>SVARAHI FLAGSHIP V2 — VISUAL ASSET CONTACT SHEET</h1>
+  <div class="subtitle">Art Direction: Velvet &amp; Gold | AI Generation: Nano Banana 2 | Classification: Group F (Editorial Concepts)</div>
+
+  <div class="badge-bar">
+    <div class="badge active">Group F: AI Editorial Concepts (13)</div>
+    <div class="badge">Approved WebP/AVIF Ready (13)</div>
+    <div class="badge">Real Svarahi Assets (Pending Supply)</div>
+    <div class="badge">Status: Needs Visual Approval Before Front-End Integration</div>
+  </div>
+
+  <div class="grid">
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/hero/hero-bridal-campaign.webp" alt="Fictional Indian model in deep maroon silk saree and ornate antique gold temple necklace arrangement with warm golden studio lighting and negative copy space on left" loading="lazy">
+          <span class="aspect-tag">16:9</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-hero-bridal-001 &bull; 1376&times;768</div>
+          <h2 class="asset-title">Cinematic Bridal Silk &amp; Gold Campaign Hero</h2>
+          <p class="asset-purpose">Homepage hero campaign editorial banner</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 597.3 KB | <strong>WebP:</strong> 78.4 KB | <strong>AVIF:</strong> 78.9 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/lookbook/bridal/lookbook-bridal-01.webp" alt="Full bridal lookbook editorial featuring traditional temple gold choker, layered haram, jhumkas, and maang tikka on rich burgundy velvet" loading="lazy">
+          <span class="aspect-tag">3:4</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-lookbook-bridal-001 &bull; 896&times;1200</div>
+          <h2 class="asset-title">South Indian Temple Gold Bridal Styling</h2>
+          <p class="asset-purpose">Bridal styling lookbook editorial portrait</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 761.3 KB | <strong>WebP:</strong> 157.6 KB | <strong>AVIF:</strong> 167.3 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/lookbook/festive/lookbook-festive-01.webp" alt="Festive Indian jewellery styling with emerald green silk saree, handcrafted gold choker, matching jhumkas, and bangles" loading="lazy">
+          <span class="aspect-tag">3:4</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-lookbook-festive-001 &bull; 896&times;1200</div>
+          <h2 class="asset-title">Contemporary Festive Gold Styling</h2>
+          <p class="asset-purpose">Festive collection lookbook showcase</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 778.6 KB | <strong>WebP:</strong> 135.2 KB | <strong>AVIF:</strong> 134.2 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/lookbook/everyday/lookbook-everyday-01.webp" alt="Everyday quiet luxury styling with delicate layered gold chains and petite gold huggie earrings against warm ivory tones" loading="lazy">
+          <span class="aspect-tag">3:4</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-lookbook-everyday-001 &bull; 896&times;1200</div>
+          <h2 class="asset-title">Minimalist Everyday Gold Chain &amp; Huggies</h2>
+          <p class="asset-purpose">Everyday fine jewellery editorial lookbook</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 728.2 KB | <strong>WebP:</strong> 117.3 KB | <strong>AVIF:</strong> 120.2 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/lookbook/heritage/lookbook-heritage-01.webp" alt="Heritage antique gold choker and pendant necklace set with rubies and emeralds against carved Indian architectural backdrop" loading="lazy">
+          <span class="aspect-tag">3:4</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-lookbook-heritage-001 &bull; 896&times;1200</div>
+          <h2 class="asset-title">Antique Nagas Temple Gold &amp; Cabochon Rubies</h2>
+          <p class="asset-purpose">Heritage &amp; Antique collection lookbook</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 781.2 KB | <strong>WebP:</strong> 154.3 KB | <strong>AVIF:</strong> 158.0 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/lookbook/mens/lookbook-mens-01.webp" alt="Men fine jewellery styling portrait with solid gold kada bracelet, signet ring, and tailored silk bandhgala" loading="lazy">
+          <span class="aspect-tag">3:4</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-lookbook-mens-001 &bull; 896&times;1200</div>
+          <h2 class="asset-title">Men’s Handcrafted Gold Kada &amp; Chain</h2>
+          <p class="asset-purpose">Men’s fine jewellery styling lookbook</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 687.0 KB | <strong>WebP:</strong> 95.9 KB | <strong>AVIF:</strong> 98.7 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/craftsmanship/macro-craftsmanship-01.webp" alt="Extreme macro close-up of 22k antique gold jewellery showing delicate nakshi engraving, granulation beads, and bezel-set cabochon stones" loading="lazy">
+          <span class="aspect-tag">3:4</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-craftsmanship-macro-001 &bull; 896&times;1200</div>
+          <h2 class="asset-title">Macro Nakshi Chasing, Granulation &amp; Gem Setting</h2>
+          <p class="asset-purpose">Macro craftsmanship detail editorial</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 842.9 KB | <strong>WebP:</strong> 175.1 KB | <strong>AVIF:</strong> 175.4 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/counter-backgrounds/velvet-counter-stage-01.webp" alt="Empty luxury black velvet jewellery presentation busts and brushed brass pedestals on burgundy velvet counter under warm studio spotlights" loading="lazy">
+          <span class="aspect-tag">16:9</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-counter-stage-001 &bull; 1376&times;768</div>
+          <h2 class="asset-title">Empty Velvet Counter Stage with Brass Rails</h2>
+          <p class="asset-purpose">Virtual velvet showroom counter stage for product overlay</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 622.5 KB | <strong>WebP:</strong> 62.6 KB | <strong>AVIF:</strong> 59.8 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/showroom-concepts/interior-concept-01.webp" alt="Architectural concept render of a flagship fine jewellery showroom with ivory marble, velvet vitrines, and brushed brass jaali screens" loading="lazy">
+          <span class="aspect-tag">16:9</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-showroom-concept-001 &bull; 1376&times;768</div>
+          <h2 class="asset-title">Contemporary Luxury Indian Jewellery Showroom Concept</h2>
+          <p class="asset-purpose">Showroom interior design visualization concept</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 782.1 KB | <strong>WebP:</strong> 140.5 KB | <strong>AVIF:</strong> 134.0 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/campaign-covers/campaign-cover-01.webp" alt="Vertical luxury campaign portrait of an Indian model adorned in temple gold necklace and jhumkas on burgundy velvet background" loading="lazy">
+          <span class="aspect-tag">9:16</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-campaign-cover-001 &bull; 768&times;1376</div>
+          <h2 class="asset-title">Editorial Campaign Reel Cover</h2>
+          <p class="asset-purpose">Vertical campaign and social reel cover</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 811.8 KB | <strong>WebP:</strong> 174.5 KB | <strong>AVIF:</strong> 180.1 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/textures/texture-oxblood-velvet-01.webp" alt="Rich deep oxblood velvet macro fabric texture with soft undulating shadows and plush pile" loading="lazy">
+          <span class="aspect-tag">1:1</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-texture-oxblood-001 &bull; 1024&times;1024</div>
+          <h2 class="asset-title">Deep Oxblood Velvet Fabric Texture</h2>
+          <p class="asset-purpose">Deep oxblood velvet macro texture background</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 783.9 KB | <strong>WebP:</strong> 155.6 KB | <strong>AVIF:</strong> 169.9 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/textures/texture-brushed-gold-01.webp" alt="Brushed antique gold metallic surface texture with fine directional grain and warm luster" loading="lazy">
+          <span class="aspect-tag">1:1</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-texture-gold-001 &bull; 1024&times;1024</div>
+          <h2 class="asset-title">Antique Brushed Gold Metallic Surface Texture</h2>
+          <p class="asset-purpose">Antique brushed gold material texture</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 660.8 KB | <strong>WebP:</strong> 90.6 KB | <strong>AVIF:</strong> 74.1 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="../../public/assets/generated/nano-banana/textures/texture-ivory-silk-01.webp" alt="Warm ivory silk satin fabric texture with soft graceful folds and luminous sheen" loading="lazy">
+          <span class="aspect-tag">1:1</span>
+        </div>
+        <div class="card-body">
+          <div class="asset-id">ai-texture-silk-001 &bull; 1024&times;1024</div>
+          <h2 class="asset-title">Warm Ivory Silk Fabric Drape Texture</h2>
+          <p class="asset-purpose">Warm ivory silk fabric texture background</p>
+          <div class="asset-meta">
+            <div><strong>JPG:</strong> 718.6 KB | <strong>WebP:</strong> 135.7 KB | <strong>AVIF:</strong> 124.7 KB</div>
+            <div><strong>Restrictions:</strong> Concept storytelling only &bull; Not verified inventory</div>
+            <div><span class="classification-tag">GROUP F — AI CONCEPT</span></div>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+</body>
+</html>

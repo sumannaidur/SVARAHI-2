@@ -1,0 +1,1394 @@
+{
+  "project": "C:\\Users\\suman\\Desktop\\svarahi",
+  "takenAt": "2026-11-19T03:01:29.780Z",
+  "gitHead": "a5d1b2b79313dd0a20b3e1f17271651b51502308",
+  "gitStatusPorcelain": "M next.config.ts\n M package-lock.json\n M package.json\n D public/file.svg\n D public/globe.svg\n D public/next.svg\n D public/vercel.svg\n D public/window.svg\n M src/app/globals.css\n M src/app/layout.tsx\n M src/app/page.tsx\n?? .claude/\n?? PROTOTYPE_NOTES.md\n?? assets/\n?? docs/\n?? public/brand/\n?? public/campaigns/\n?? public/graphics/\n?? public/jewellery/\n?? scripts/\n?? src/app/about/\n?? src/app/collections/\n?? src/app/contact/\n?? src/app/faq/\n?? src/app/not-found.tsx\n?? src/app/pieces/\n?? src/app/policies/\n?? src/app/qa/\n?? src/app/template.tsx\n?? src/app/visit/\n?? src/components/\n?? src/content/",
+  "fileCount": 346,
+  "treeHash": "09919b89020c3ab1075f2a97ecf464019935dab4f2df6aad7a25fa521a6c8a97",
+  "files": {
+    ".claude/launch.json": {
+      "size": 207,
+      "sha256": "0a56c292d958ed40aea201a21799464fddd8811793168f4d906e762aa8160019"
+    },
+    ".gitignore": {
+      "size": 480,
+      "sha256": "207e265ff4901f9ad9f96d8ce08530e04f9fc600815472a66d0a446096d654cd"
+    },
+    "AGENTS.md": {
+      "size": 679,
+      "sha256": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0"
+    },
+    "assets/originals/svarahi-co/images/about-model.webp": {
+      "size": 108978,
+      "sha256": "a462fe8de28ab8367d72b3f3b7c2f32cd7729a89201491194b66fbb4b2aff198"
+    },
+    "assets/originals/svarahi-co/images/contact-model.webp": {
+      "size": 401308,
+      "sha256": "1f9739deecff837731495a8687c08b3912430df148426cf5f3909644c60dfa9c"
+    },
+    "assets/originals/svarahi-co/images/gram-1.webp": {
+      "size": 112814,
+      "sha256": "87452b863b4ddb827b7d5145851581d223c5d9eeac5e1b940e2938e57167e0df"
+    },
+    "assets/originals/svarahi-co/images/gram-2.webp": {
+      "size": 46940,
+      "sha256": "57509899b2d12679f9be8e9a2fb72aa7558628f8afecef503a0e2fb3ed9885f6"
+    },
+    "assets/originals/svarahi-co/images/gram-3.webp": {
+      "size": 120894,
+      "sha256": "c32c131cdc2ee1f027ec529731758552a12b54abf3acf2fdb2f99f8994e40af2"
+    },
+    "assets/originals/svarahi-co/images/gram-4.webp": {
+      "size": 36488,
+      "sha256": "9e916c55586a5c4075e39f3e0ab93e55fe71a1acb8a781eaf13c73ea5f1bb52e"
+    },
+    "assets/originals/svarahi-co/images/gram-5.webp": {
+      "size": 71552,
+      "sha256": "55ffcac9a856ee68b7e2daf42ad8d22ade00beff4c436540f7572e3a13c3b972"
+    },
+    "assets/originals/svarahi-co/images/gram-6.webp": {
+      "size": 35988,
+      "sha256": "dce5ab441679954014d6eff8c22be4e2ff330b3cfcd2033d1c15404afce8723d"
+    },
+    "assets/originals/svarahi-co/images/hero-model.webp": {
+      "size": 355496,
+      "sha256": "400432e68fbefb79c4061c62c886cb4b584875d76ca335607f679d6b1b7da27a"
+    },
+    "assets/originals/svarahi-co/images/hero-wide.webp": {
+      "size": 263866,
+      "sha256": "66ffdd1cc67f141212a66a546e40dc75e997f2a6401fbcb9e8b95de80e1e7d3a"
+    },
+    "assets/originals/svarahi-co/images/look-bangles.webp": {
+      "size": 236302,
+      "sha256": "5fd737d7cd2a7d746cc268e0501d6b42c4415faadbd084d097d67e1289edb683"
+    },
+    "assets/originals/svarahi-co/images/look-bridal.webp": {
+      "size": 91780,
+      "sha256": "f87016f3c25abc1f135d9d8a28a0a1eff3079e317c7044b8b9f3094ac098d133"
+    },
+    "assets/originals/svarahi-co/images/look-earrings.webp": {
+      "size": 73406,
+      "sha256": "a23df5917b6472489d31a43971ddba1a5b87d88f696968e1c8e34d92de6a7963"
+    },
+    "assets/originals/svarahi-co/images/look-necklaces.webp": {
+      "size": 144824,
+      "sha256": "05ba6ce16db5b84db27a257837f04ca247cb74b583708c3f3dfb8a0d527b8c35"
+    },
+    "assets/originals/svarahi-co/images/occasion-bridal.webp": {
+      "size": 133426,
+      "sha256": "8130f237c19806c01b5f222838c1a808c64b790891fa986938d971d314a3f603"
+    },
+    "assets/originals/svarahi-co/images/occasion-diamonds.webp": {
+      "size": 55746,
+      "sha256": "71038a1121439444bcfa42dd2b443def7b2d9a4fc0709f88729eb81cce40ff62"
+    },
+    "assets/originals/svarahi-co/images/occasion-everyday.webp": {
+      "size": 139270,
+      "sha256": "6acad8f5d1cf444b116eaa35b0db44bb82ee0ab18216dc4fe47899b1c5465dad"
+    },
+    "assets/originals/svarahi-co/images/occasion-feature.webp": {
+      "size": 307238,
+      "sha256": "dfaeb41b5dc41c924ee2d179c672ed238142135181776853dd4ac8f4ae0e7025"
+    },
+    "assets/originals/svarahi-co/images/occasion-festive.webp": {
+      "size": 62808,
+      "sha256": "7ea59e525f5ee207d73d0c043f29e75266734473aa6c4e58658d04ddcad17135"
+    },
+    "assets/originals/svarahi-co/images/products/bar-pendant.webp": {
+      "size": 56212,
+      "sha256": "eb10c33819029c45eac54d3ac7d7f37ebd3765fa2d69ae762d914efa276a887c"
+    },
+    "assets/originals/svarahi-co/images/products/bridal-ensemble.webp": {
+      "size": 117134,
+      "sha256": "2b8fe18f35271ad9975c8c354b895de3c58a7b5dca41f388d8ba26e6b398697c"
+    },
+    "assets/originals/svarahi-co/images/products/circle-pendant.webp": {
+      "size": 58094,
+      "sha256": "56cd859fb6179e1fbaae70ac6b312ea81ec19f5e2116f8e443178be4ae9e310b"
+    },
+    "assets/originals/svarahi-co/images/products/curb-chain.webp": {
+      "size": 57172,
+      "sha256": "ff2cb74b16a038cf696ba9f1b3441f86ec4ac5d8558f6261130493e9a28b704b"
+    },
+    "assets/originals/svarahi-co/images/products/diamond-bands.webp": {
+      "size": 64706,
+      "sha256": "1b17705378e8cbc2cc92be737ccca395c153c0b6d77a8a508a8fa0edfc613b30"
+    },
+    "assets/originals/svarahi-co/images/products/diamond-studs.webp": {
+      "size": 92276,
+      "sha256": "c63a54d5ceba7df6bca7a63faf1709eda3e9547b1d8552f1b206c30b15ce78e1"
+    },
+    "assets/originals/svarahi-co/images/products/engraved-bangles.webp": {
+      "size": 153768,
+      "sha256": "7d321ccfa89bcda397416df34409fd0d775ee2932f56162ac67f6f42b70dcc42"
+    },
+    "assets/originals/svarahi-co/images/products/filigree-bracelet.webp": {
+      "size": 86274,
+      "sha256": "ba453cfbac72c7a991171960971112a42ea32a4b547027cf305777840cbb69d0"
+    },
+    "assets/originals/svarahi-co/images/products/gold-coin-necklace.webp": {
+      "size": 83178,
+      "sha256": "7fe2b7073d3c3080496eaf754c8371162c8bdc8bc77737d6aad91df87a5d6f76"
+    },
+    "assets/originals/svarahi-co/images/products/halo-solitaire.webp": {
+      "size": 72928,
+      "sha256": "b10cf4c9e357236e4329c2836261c8e71cc1718e29dd4fa0ed430485c725e34b"
+    },
+    "assets/originals/svarahi-co/images/products/kemp-bridal-set.webp": {
+      "size": 127162,
+      "sha256": "690fb914fae60527acf6abac97c9c4e7095bd649008cff79b3561f9bca8b5d2a"
+    },
+    "assets/originals/svarahi-co/images/products/kundan-necklace-set.webp": {
+      "size": 72976,
+      "sha256": "9b8221b27c9a8a2874805ff0ce11139604aeea8cfa680357d0b4a23da5b1a6cd"
+    },
+    "assets/originals/svarahi-co/images/products/oval-loop-chain.webp": {
+      "size": 145506,
+      "sha256": "305a132a3b400b3b26ecb08e038d3155e77225476ddffd73cd70d4611fc19494"
+    },
+    "assets/originals/svarahi-co/images/products/oxidised-silver-set.webp": {
+      "size": 244512,
+      "sha256": "e1010e879b5eaf7c79ae8c40f6d59408ecf3a6da0cb628c73afb5e9ce1253065"
+    },
+    "assets/originals/svarahi-co/images/products/pastel-kundan-necklace.webp": {
+      "size": 223088,
+      "sha256": "85a76fad767d989016b46e6259da6e4acdefe23d21f9e46f63964904c96c33c1"
+    },
+    "assets/originals/svarahi-co/images/products/pear-diamond-ring.webp": {
+      "size": 42758,
+      "sha256": "c5b48a6fc9f1e66d81a841099b6f0a0190b2466563d725a9656a62e78a2fe13c"
+    },
+    "assets/originals/svarahi-co/images/products/pink-sapphire-ring.webp": {
+      "size": 95030,
+      "sha256": "07579792bf139fba6a0974043bedf4220064c5738a93f3cc7ae98702be1f0366"
+    },
+    "assets/originals/svarahi-co/images/products/rose-gold-drops.webp": {
+      "size": 30072,
+      "sha256": "97aaaf23a666733be8fa6672a5373505964154bfc24e13e8743e5b8eaad66d76"
+    },
+    "assets/originals/svarahi-co/images/products/ruby-halo-earrings.webp": {
+      "size": 64986,
+      "sha256": "d0825dac8b0d437814050dcfdb8afb6231315bd6cd9326b10efe200a6cfa93ed"
+    },
+    "assets/originals/svarahi-co/images/products/ruby-kadas.webp": {
+      "size": 228902,
+      "sha256": "ed56a56c0923a2f3e37402717d061622459a6ca4a1841dad7b02578bfd5efa7a"
+    },
+    "assets/originals/svarahi-co/images/products/ruby-pearl-haar.webp": {
+      "size": 185522,
+      "sha256": "d23502212471bccd050c7f087ce61161c8daec566c7865d118b4063ceda31e95"
+    },
+    "assets/originals/svarahi-co/images/products/stone-set-bangles.webp": {
+      "size": 141414,
+      "sha256": "be32bc6bdeb64072c85d57f2599e608ea5f90aadd4bb94179c9c946a4cb90283"
+    },
+    "assets/originals/svarahi-co/images/products/temple-jhumkas.webp": {
+      "size": 121324,
+      "sha256": "298044dd5a2850edef9ca011eb06d8026a1acf281ea0b7fdb49d1dbabf89386f"
+    },
+    "assets/originals/svarahi-co/images/store-wide.webp": {
+      "size": 608034,
+      "sha256": "c58c8be8d13be9743c78b030caf37a0562b022495daee8b4419888fc165ba567"
+    },
+    "assets/originals/svarahi-co/logo/svarahi-full-light.png": {
+      "size": 66247,
+      "sha256": "7458b33e1d194aae326d62f6616f1aed28c27e4536b82dfa7c03863352f8fedb"
+    },
+    "assets/originals/svarahi-co/logo/svarahi-full.png": {
+      "size": 55986,
+      "sha256": "fa69997dfba9e538b55d16a8850efd4145c2a5ead36c40067d8841f9ff42e187"
+    },
+    "assets/originals/svarahi-co/logo/svarahi-header.png": {
+      "size": 29576,
+      "sha256": "5f23cad65dd16d79127118b0db19b61cbb26264a5acce228be46c89e811cbb60"
+    },
+    "assets/originals/svarahi-co/logo/svarahi-mark.png": {
+      "size": 31254,
+      "sha256": "9e701f5955dd034a5275b17cfb078f5f42c0182d8f7aca5f6abd5d0884ebb4ef"
+    },
+    "docs/assets/A-brand-asset-inventory.md": {
+      "size": 7328,
+      "sha256": "fa60d0032a85e3895c14ba7cf97b817aba1e2b64cb6785488a1d7adcf9f88339"
+    },
+    "docs/assets/B-instagram-content-catalogue.md": {
+      "size": 4610,
+      "sha256": "e8de9aa6d55507206f9b78bb615d1c398dd975f52871e666fda44d02596ed86f"
+    },
+    "docs/assets/C-product-image-mapping.md": {
+      "size": 5604,
+      "sha256": "20fe8af0ef5b51a19213dd911690e7f481767940280570be03ed40afc1f7434c"
+    },
+    "docs/assets/D-missing-asset-report.md": {
+      "size": 2638,
+      "sha256": "db0c67aaf84a8b8cd30db62ba0953fd943df9ef51330b2c715ae47fcab780379"
+    },
+    "docs/assets/E-asset-rights-register.md": {
+      "size": 9663,
+      "sha256": "0b7a2f37da09ce8c674e0d0e5cfe620dc9a7b7c9b9fa02479542843f0eabc882"
+    },
+    "docs/assets/F-visual-contact-sheet.png": {
+      "size": 3710444,
+      "sha256": "51c8952f89e8035425b439caf9ea11dcadbf9a9f808cc9933fb963901b8a91eb"
+    },
+    "docs/assets/H-integration-report.md": {
+      "size": 6899,
+      "sha256": "d551224d3e65fe41339197191a60e134034a45777c647009215cb7d719d15b34"
+    },
+    "docs/assets/README.md": {
+      "size": 1044,
+      "sha256": "6330e49af25dd319d0b98d48056e9f9175cbf60b65a49386c26dea61587a0c94"
+    },
+    "docs/screenshots/asset-integration/01-home-desktop.png": {
+      "size": 4584208,
+      "sha256": "4835662ac30e8294205239dd7962addd1ad326e3c7fd4ec4d6a486a8fdbf2f29"
+    },
+    "docs/screenshots/asset-integration/02-home-mobile.png": {
+      "size": 6967650,
+      "sha256": "51f961a0865e48bb435a4fc0ec46c8ebe2d447f2eda8b42a9d4bce95f74a98ed"
+    },
+    "docs/screenshots/asset-integration/03-collections-desktop.png": {
+      "size": 1389950,
+      "sha256": "ac8ad13b8ef33651939aba563a6bcc1ece7eaab4106b3949a84a97026d495d88"
+    },
+    "docs/screenshots/asset-integration/04-collections-mobile.png": {
+      "size": 4617723,
+      "sha256": "05f03fb2bbed77e11d22842f2aa58ed9eac7a36ecd48fb95780130446ce56709"
+    },
+    "docs/screenshots/asset-integration/05-product-detail-desktop.png": {
+      "size": 1471348,
+      "sha256": "5a2ef614e97902be48041b83ec445b0dc56d8d6c6e830b0dae12dabe470f9281"
+    },
+    "docs/screenshots/asset-integration/06-about-desktop.png": {
+      "size": 1223764,
+      "sha256": "e4d849574e97c7113912af21af33dbda81c05e469753a18bad6bf6f9ef98a02d"
+    },
+    "docs/screenshots/asset-integration/07-visit-desktop.png": {
+      "size": 991370,
+      "sha256": "5bada5840a6ca6fc87a4a87621a072bf190fa3cbcf68e11848d8e97a05821f03"
+    },
+    "docs/screenshots/asset-integration/08-instagram-section-desktop.png": {
+      "size": 915271,
+      "sha256": "36a0749917dfc81e57e73133605278b86a6486d79b68023dfdf6cd85b2ee46e1"
+    },
+    "docs/screenshots/asset-integration/09-instagram-section-mobile.png": {
+      "size": 789638,
+      "sha256": "0e2ddb613a22ad7967104bc05f5f0f786f1eab9b82f6d6289dd9493b7b2920d9"
+    },
+    "docs/screenshots/asset-integration/10-home-hero-desktop.png": {
+      "size": 1047389,
+      "sha256": "9c139b8dea1d7e7d30e0681f69869da981a70271cc718423309f71f36716b19b"
+    },
+    "docs/screenshots/phase-7/01-home-hero-desktop.png": {
+      "size": 1035888,
+      "sha256": "0b80f5e4078e93844f93d9ee9a88e5f03c100941a4fe5322468f9ccbbdc21781"
+    },
+    "docs/screenshots/phase-7/02-home-full-desktop.png": {
+      "size": 3033522,
+      "sha256": "587a90767ea2c4e247eb427e4f989d30ca84974731ee0e510f4cde69dbb76c54"
+    },
+    "docs/screenshots/phase-7/03-collections-desktop.png": {
+      "size": 797613,
+      "sha256": "781257b72a8cedee9de903ea570c13a181ab6621aa54f4628fac75d98832ebb9"
+    },
+    "docs/screenshots/phase-7/04-piece-detail-desktop.png": {
+      "size": 624610,
+      "sha256": "07921763ea56e47cb0fe1b07d14b7af8fe49e4a03a6aa1710f82bddaf4213da0"
+    },
+    "docs/screenshots/phase-7/05-about-desktop.png": {
+      "size": 1332409,
+      "sha256": "f508ebd030f487c446531730b45c34ded8482f12e41cd578a0f46d633bdb9b33"
+    },
+    "docs/screenshots/phase-7/06-visit-desktop.png": {
+      "size": 1028149,
+      "sha256": "dc4e1c5223cec2a6049b5b06c0179495d75f1bc9c5d7cc5fb678d62cb93f5e5a"
+    },
+    "docs/screenshots/phase-7/07-home-hero-mobile.png": {
+      "size": 1157287,
+      "sha256": "ec6af6a9dcd8cf47823f52f6e8a2290222e50303078a0fd7018f462d8d298e19"
+    },
+    "docs/screenshots/phase-7/08-mobile-menu.png": {
+      "size": 852440,
+      "sha256": "1cc7253e1fd1bc824b1d2addf643bb3cdc6feb86b6ceda5083c5c86caf59be92"
+    },
+    "docs/screenshots/phase-7/09-collections-mobile.png": {
+      "size": 150778,
+      "sha256": "62264b7a4f7db9131ef7e1f3b83e7b3e3c3045db7007a729b284166bf2287c77"
+    },
+    "docs/screenshots/phase-7/10-reduced-motion-hero.png": {
+      "size": 1065114,
+      "sha256": "a7a5733548dc6d6e52540290898b2887201a6848253ebd6956c5a75063e6bfcf"
+    },
+    "docs/screenshots/phase-7/11-qa-view-visit.png": {
+      "size": 863301,
+      "sha256": "f55c3bb5a5d42b2f38458b90390a4262510b96137cd4e820c32002d18b9882e2"
+    },
+    "docs/screenshots/phase-7/12-qa-register.png": {
+      "size": 779992,
+      "sha256": "425c2abf05900e61cefe0c371b667dc3af356bd9496fe01c58b0650c827c3f7b"
+    },
+    "eslint.config.mjs": {
+      "size": 465,
+      "sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493"
+    },
+    "next-env.d.ts": {
+      "size": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    "next.config.ts": {
+      "size": 595,
+      "sha256": "98fbf231306f39618258e0960d0e9d16da3200685ef5a59db33913e95828dfc4"
+    },
+    "package-lock.json": {
+      "size": 273965,
+      "sha256": "4bcaf8d95d46f991322a459dae76aa5af8a61f1f2c18d1a099b662b1946b26e4"
+    },
+    "package.json": {
+      "size": 929,
+      "sha256": "6018d8fc79046167831b3f15c0482cc9636742d2153228f312c026017009755a"
+    },
+    "PROTOTYPE_NOTES.md": {
+      "size": 4251,
+      "sha256": "f48cefcde0df3bae3d54248d1143efe5a15cded30dc1513d17d1efca3f5da68b"
+    },
+    "public/brand/logo/svarahi-full-240.png": {
+      "size": 17979,
+      "sha256": "224f969c10f9e9fe9efaf26d02718381dccdd66daba1ec68fff67f0efd157562"
+    },
+    "public/brand/logo/svarahi-full-240.webp": {
+      "size": 15222,
+      "sha256": "9825ee639d2d48d6560dc5a63b0760ac0825f623fdc74bcde32f7d1cb8247287"
+    },
+    "public/brand/logo/svarahi-full-519.png": {
+      "size": 49749,
+      "sha256": "aeca43b16c63bd0489e1e06e157f63dfa8843f27657dad10bfc87c30626d9720"
+    },
+    "public/brand/logo/svarahi-full-519.webp": {
+      "size": 39844,
+      "sha256": "90da5740573bccb2f9ecc394085503e28dcfdc19265a26010fab76fc878bea83"
+    },
+    "public/brand/logo/svarahi-full-light-240.png": {
+      "size": 21662,
+      "sha256": "de6ad9bcf7c81198535d7bbe257cd4a00a519d34fc0fbdcb7d7d315d410c8fe7"
+    },
+    "public/brand/logo/svarahi-full-light-240.webp": {
+      "size": 13192,
+      "sha256": "544590a48893ed60fb9367c02df4e391aeeb0a9d55caf1f28c1a593900f73054"
+    },
+    "public/brand/logo/svarahi-full-light-519.png": {
+      "size": 57246,
+      "sha256": "3d0594b6f222651ee905c635e93917c7e89d23ec6c8bcbee261f1b7177e4fdcd"
+    },
+    "public/brand/logo/svarahi-full-light-519.webp": {
+      "size": 34006,
+      "sha256": "c3f6cf2b54fe808c361ac61fb44b389c571b708a57e2eb0382725a34312787c3"
+    },
+    "public/brand/logo/svarahi-header-240.png": {
+      "size": 21608,
+      "sha256": "3b34330249adea4bf1b05e48be8accb8756b353b2837ce9dad99798645b2078f"
+    },
+    "public/brand/logo/svarahi-header-240.webp": {
+      "size": 17112,
+      "sha256": "f0364513a4d8477c897e3c0c44012e09edb4b8e4abee10fb26a8170a6d788ae2"
+    },
+    "public/brand/logo/svarahi-header-307.png": {
+      "size": 26196,
+      "sha256": "7e9e39e3a2ad7476f02401e680e873d89abe5483345620fb553840921fde9f7a"
+    },
+    "public/brand/logo/svarahi-header-307.webp": {
+      "size": 21972,
+      "sha256": "f2d7dd177091f0f29cd28db8615ada66c23b2689383a0f4be623d6586cf19f31"
+    },
+    "public/brand/logo/svarahi-lockup-dark.png": {
+      "size": 32663,
+      "sha256": "ae19c546dd9bbbbf9772d1eceab3d5c72dc7beb7baec3072c4aca123fb20453d"
+    },
+    "public/brand/logo/svarahi-lockup-light.png": {
+      "size": 57618,
+      "sha256": "81a511abe1f8eddea8ed65311c63b6e9fcb5467762546886881ccbfebc3c680d"
+    },
+    "public/brand/monogram/monogram-interim.svg": {
+      "size": 9851,
+      "sha256": "d17d48db23e80f0afbaf14af37f6746b73cf2a3ea79c5071ffb9212974e8eb58"
+    },
+    "public/brand/monogram/svarahi-mark-240.png": {
+      "size": 29078,
+      "sha256": "c389b070c8c7ebae121f6888a74814c4549806db7dec95d1ad7bce78e9ddd39f"
+    },
+    "public/brand/monogram/svarahi-mark-240.webp": {
+      "size": 21054,
+      "sha256": "0f0ca9b652b5685ffe2af917af67fdd7ff9490a148185421e9f823f15225eefd"
+    },
+    "public/campaigns/bridal/look-bridal-480.avif": {
+      "size": 17839,
+      "sha256": "af1818608a91cf14886462699f319a893d72643a259ed8dba6c77e6a2ce433a2"
+    },
+    "public/campaigns/bridal/look-bridal-480.webp": {
+      "size": 23642,
+      "sha256": "9213403fa5bbee49eddf6f390343c439fed0611c760d31288b9d7eba0f8f5a6a"
+    },
+    "public/campaigns/bridal/look-bridal-900.avif": {
+      "size": 37750,
+      "sha256": "867433a9e559aa75043d85438710afb3af8374f6c94cfb3602cf5eda1e1bb181"
+    },
+    "public/campaigns/bridal/look-bridal-900.webp": {
+      "size": 57066,
+      "sha256": "cc3430439e8537d95fe5133058b1ac143f657b0051f06dd26f96326d6abac6d5"
+    },
+    "public/campaigns/bridal/occasion-bridal-480.avif": {
+      "size": 48179,
+      "sha256": "9d1f73085bdc72ec1b1098b9eca15cd63e56cd37f721c36602634bd110a860a5"
+    },
+    "public/campaigns/bridal/occasion-bridal-480.webp": {
+      "size": 46988,
+      "sha256": "93d5035a7b0661f7d10da05c84d0dc1715d9a58ae8b7337ce0f53b0b03787151"
+    },
+    "public/campaigns/bridal/occasion-bridal-700.avif": {
+      "size": 83916,
+      "sha256": "ee17d473f88c8cb8fa7a0f7ee3b235071490b4dba1a78bf592b6d4f00b429313"
+    },
+    "public/campaigns/bridal/occasion-bridal-700.webp": {
+      "size": 96806,
+      "sha256": "d16e58edf29d7c3b4fd031edda81afe67b2b1130ae4f670ba72dabb4a0b04d27"
+    },
+    "public/campaigns/bridal/occasion-feature-480.avif": {
+      "size": 56112,
+      "sha256": "bc4a063b8134dec5f67433e809a778967b461c339a78458d7868ccf0e7d0fc17"
+    },
+    "public/campaigns/bridal/occasion-feature-480.webp": {
+      "size": 58116,
+      "sha256": "50c5f35984b423a5f0627844ec0fa49c2b92402c4a5660d32a07d7722d5c90e1"
+    },
+    "public/campaigns/bridal/occasion-feature-900.avif": {
+      "size": 188095,
+      "sha256": "44c8288becb0afbd6772d03dd7a6d2278419a553aaaf9217d8e4ae99d1fd1340"
+    },
+    "public/campaigns/bridal/occasion-feature-900.webp": {
+      "size": 219302,
+      "sha256": "ba48517cf939574891250fe63078dff184de51b5e219bea152e3d92c8450f588"
+    },
+    "public/campaigns/festive/contact-model-1200.avif": {
+      "size": 140500,
+      "sha256": "feab49cf90aac0f1858f30f30da8dad3c473507145668e6a80d51011bf18b6e6"
+    },
+    "public/campaigns/festive/contact-model-1200.webp": {
+      "size": 212474,
+      "sha256": "15075191cd426edd8f2241bb03fa92104ca02cee06bdd85389269b96ef21cebf"
+    },
+    "public/campaigns/festive/contact-model-480.avif": {
+      "size": 27302,
+      "sha256": "ce2f85e5caccb94d290ac6bd19b7f81d2207c64dd7ffd13609bcd3bfd68213e4"
+    },
+    "public/campaigns/festive/contact-model-480.webp": {
+      "size": 37636,
+      "sha256": "2dfc5f60d6330e7202cb4dd18441d6a9f2238b94c0eccc86c8a0a84a7ad9160b"
+    },
+    "public/campaigns/festive/contact-model-960.avif": {
+      "size": 80297,
+      "sha256": "16b07222f29be867c6a2023dfedfbf03bbe3bfdba597344d4ed79321af7ea93c"
+    },
+    "public/campaigns/festive/contact-model-960.webp": {
+      "size": 119924,
+      "sha256": "a6c34ad6698fe99803ec8d0ba444b0e98e706691ba4cc2c437b291f455fdc40a"
+    },
+    "public/campaigns/festive/occasion-festive-480.avif": {
+      "size": 13527,
+      "sha256": "77eabc03d8daa2801980177eb5da16254050cb692c779c75c52b0d60466bce4e"
+    },
+    "public/campaigns/festive/occasion-festive-480.webp": {
+      "size": 20620,
+      "sha256": "a096285ffb27a80c3529184ce5d535442bc2ef3d46ce6d504e0820da44895f8e"
+    },
+    "public/campaigns/festive/occasion-festive-700.avif": {
+      "size": 22960,
+      "sha256": "fc3d3decd1b4aed250aa278bbad56e536b13c28de816254b4a03414ff35fd54c"
+    },
+    "public/campaigns/festive/occasion-festive-700.webp": {
+      "size": 36498,
+      "sha256": "7b4eb20a1b2d3c26bea787ac11d69f401b8a1364ee9d7fa45e0e929eb72b12cf"
+    },
+    "public/campaigns/promotional/about-model-1200.avif": {
+      "size": 28431,
+      "sha256": "634c2664d26d0dd6794a488577f07c3e619510449c8ea168db8c3a671274359c"
+    },
+    "public/campaigns/promotional/about-model-1200.webp": {
+      "size": 55190,
+      "sha256": "bea9a46ec068183f6d32008e44fcee821ee0da15b3096f15f3e2c5c46a5b9b86"
+    },
+    "public/campaigns/promotional/about-model-480.avif": {
+      "size": 9560,
+      "sha256": "882dd116971e9b31fe5b9c7addb5c4eaa087299553f82005f9233312500b327e"
+    },
+    "public/campaigns/promotional/about-model-480.webp": {
+      "size": 16138,
+      "sha256": "2ab16b66cf4bcea5f0f2e0df489f8b1a43ba90e8b9b2b64a4e14ac97f7a574b0"
+    },
+    "public/campaigns/promotional/about-model-960.avif": {
+      "size": 20693,
+      "sha256": "a63cbb0e72928e6f6b10a0a823c8168e502d0a0057c3c9e155756cab95d17040"
+    },
+    "public/campaigns/promotional/about-model-960.webp": {
+      "size": 39074,
+      "sha256": "1953dc207d36286699e9a4825259c35705bab407f69a61cd4ffbfffe769ad601"
+    },
+    "public/campaigns/promotional/look-bangles-480.avif": {
+      "size": 19168,
+      "sha256": "4b10e790127cdd1aa1b8ddc1d09e848c7f060450c4e7db49ff7d186d4d42fc11"
+    },
+    "public/campaigns/promotional/look-bangles-480.webp": {
+      "size": 28820,
+      "sha256": "c0f1be7c1f0cf4dcfa67e791198581a9752a0533fa57a8b645b576c9678ee5ce"
+    },
+    "public/campaigns/promotional/look-bangles-900.avif": {
+      "size": 100796,
+      "sha256": "cb6d056b36d217219ac877e7705b7f0062853f9b4cc772cb18d2c1a0575e349f"
+    },
+    "public/campaigns/promotional/look-bangles-900.webp": {
+      "size": 149032,
+      "sha256": "0af07a5f45a4e38b005513123bc2985bb97401abffcc3c2c4f4b41e087fac1e3"
+    },
+    "public/campaigns/promotional/look-earrings-480.avif": {
+      "size": 8142,
+      "sha256": "9dd5145b5b2c70a1a365513afe48ded2194a9545f0bb4ae0fbf3b6e65289e489"
+    },
+    "public/campaigns/promotional/look-earrings-480.webp": {
+      "size": 13660,
+      "sha256": "ee8a79a43ffbc4bf783abfd4bf229a5d81744790817dd86ee5ec60b9f1405b22"
+    },
+    "public/campaigns/promotional/look-earrings-900.avif": {
+      "size": 21271,
+      "sha256": "192fcf3de5668d77c49552491b1d8d5c8cfacefc7bd287985af1b36cdec93a84"
+    },
+    "public/campaigns/promotional/look-earrings-900.webp": {
+      "size": 39258,
+      "sha256": "c48ec4b58c97ff7e47849be4426248fb686604991b275ecce2a9dff101272b73"
+    },
+    "public/campaigns/promotional/look-necklaces-480.avif": {
+      "size": 16155,
+      "sha256": "12cf812a746f18dcaa1cb35721d25aeae2ec7850c8df328543b1c24a396a007d"
+    },
+    "public/campaigns/promotional/look-necklaces-480.webp": {
+      "size": 22988,
+      "sha256": "f2b6032f3da18b928d6f41eed839f77ca697f30dfe15c364f28883b30548f8dd"
+    },
+    "public/campaigns/promotional/look-necklaces-900.avif": {
+      "size": 54707,
+      "sha256": "97c186eccde920cab19ea1a24004a6c765c19dbc86e58798beaa70509b768965"
+    },
+    "public/campaigns/promotional/look-necklaces-900.webp": {
+      "size": 80394,
+      "sha256": "f693a06e6a44221b65bde03421195b57f42bca99402924e338e218502b1dfdf7"
+    },
+    "public/campaigns/promotional/lookbook-1-480.avif": {
+      "size": 15480,
+      "sha256": "44569476e953db114636e2664f46cdba370f76751abd5be803c9455cac701309"
+    },
+    "public/campaigns/promotional/lookbook-1-480.webp": {
+      "size": 23602,
+      "sha256": "417884bbe744bb0d559887e62d3be2a2a7a02c1bfe9fb60fa8fa52671acd5523"
+    },
+    "public/campaigns/promotional/lookbook-1-800.avif": {
+      "size": 36051,
+      "sha256": "970adb71764017741e50b32048eb3b27d90502ecd6e561497bdb276956f650ae"
+    },
+    "public/campaigns/promotional/lookbook-1-800.webp": {
+      "size": 58016,
+      "sha256": "2b7da6441ecf4297ea4a28a6db4964940ef17fb0b0f7a8f70f5411274ddf7655"
+    },
+    "public/campaigns/promotional/lookbook-2-480.avif": {
+      "size": 9000,
+      "sha256": "69cb805ff5e558ee68c1d2b55849be5859bfcf4178235b4616c3d1dc2ad65bbd"
+    },
+    "public/campaigns/promotional/lookbook-2-480.webp": {
+      "size": 13892,
+      "sha256": "873aa61c304df6a1e4939d95ef602eb9a56dfad53c98b66d5c1713476cc8b4f0"
+    },
+    "public/campaigns/promotional/lookbook-2-800.avif": {
+      "size": 16341,
+      "sha256": "236e312f00d058def6d5d35ef0b6092e1a0bcdcdeefad4bec4e968db0da81832"
+    },
+    "public/campaigns/promotional/lookbook-2-800.webp": {
+      "size": 28286,
+      "sha256": "8a875e103e5b15dbf6e6ae2c3ed46efa8fe1fdf4ec10cf6254e94ccc7aa56d78"
+    },
+    "public/campaigns/promotional/lookbook-3-480.avif": {
+      "size": 21904,
+      "sha256": "222699cc08c2817d3c30f66f1136d4459fef31c403e2a108d9d093088e8e40e0"
+    },
+    "public/campaigns/promotional/lookbook-3-480.webp": {
+      "size": 29172,
+      "sha256": "5c8317f8c763769b075f4cc4c83720fecf4c066860a798acc0ca64eedbfb2155"
+    },
+    "public/campaigns/promotional/lookbook-3-800.avif": {
+      "size": 50252,
+      "sha256": "a4cea8c5fbbd64bd1fb8f49e6cb5e455eed2cb9353d1b30f897133bb58f3bec3"
+    },
+    "public/campaigns/promotional/lookbook-3-800.webp": {
+      "size": 67626,
+      "sha256": "66cd7622391571af6d52b9cd6ab72d94ebf26c5ff4ecc8348ee1d744b767b956"
+    },
+    "public/campaigns/promotional/lookbook-4-480.avif": {
+      "size": 4850,
+      "sha256": "d15b83b4cf344ff8f23630602b6a6d29e99323709d11100616e62a3e4bbed702"
+    },
+    "public/campaigns/promotional/lookbook-4-480.webp": {
+      "size": 8760,
+      "sha256": "e77141695f2b18eeeb5245f0abfef8a45fb24d6ef0ba07cc1d2be2e4ce753104"
+    },
+    "public/campaigns/promotional/lookbook-4-800.avif": {
+      "size": 8878,
+      "sha256": "51c672b0109ded5408e9dd95eacbd869703b1c8b798d35081d6e4df166e9dbd2"
+    },
+    "public/campaigns/promotional/lookbook-4-800.webp": {
+      "size": 18282,
+      "sha256": "dfacb7478f585d7fa49a85b66076843696d6607b308cb9b3034869acc07dbc9d"
+    },
+    "public/campaigns/promotional/lookbook-5-480.avif": {
+      "size": 9298,
+      "sha256": "82911e708d16c67699d70f7965cb417bede356b0961b02971b2bb7977b00eea6"
+    },
+    "public/campaigns/promotional/lookbook-5-480.webp": {
+      "size": 14616,
+      "sha256": "182ccbbda6abcdea4dabb307e36ce95e536e27b2ba10c32f70509a6f3ce9ef61"
+    },
+    "public/campaigns/promotional/lookbook-5-800.avif": {
+      "size": 20467,
+      "sha256": "dfeb3f9999d88c68e9cdb6ffa505b8f91c4946787e2b3f207a8b61ecbdb26b42"
+    },
+    "public/campaigns/promotional/lookbook-5-800.webp": {
+      "size": 33884,
+      "sha256": "f26e17fe24f228e48741698d3140b272ff96c58ed3bee5100a0c9d9e8d363146"
+    },
+    "public/campaigns/promotional/lookbook-6-480.avif": {
+      "size": 6491,
+      "sha256": "e7dbf8470a0096bfb0245c180d2adafbd44a8eea2b20d02af9d7885fa9cb0718"
+    },
+    "public/campaigns/promotional/lookbook-6-480.webp": {
+      "size": 10392,
+      "sha256": "492f0cb11be91dedac7addc9b1a0e05b7dceb8402f8591a778ed7fe7aaa8952d"
+    },
+    "public/campaigns/promotional/lookbook-6-800.avif": {
+      "size": 11680,
+      "sha256": "a69dbd0c8a776dcbbf08810c7ac932bbc878edbd6e6a6b182473c8f93e0e422c"
+    },
+    "public/campaigns/promotional/lookbook-6-800.webp": {
+      "size": 20718,
+      "sha256": "e9b3472350dbbd450ade90b5b7a05e7fc253b21fcf2c2da3d4cc7ff01fc97d89"
+    },
+    "public/campaigns/promotional/occasion-diamonds-480.avif": {
+      "size": 10369,
+      "sha256": "5f691eea36bdd78622c7ce8b86bdac8c3c6f4bc1b65b23b424c2d4f4cd0f8c54"
+    },
+    "public/campaigns/promotional/occasion-diamonds-480.webp": {
+      "size": 15956,
+      "sha256": "d2e4464159f4ba3c9a51238dc524ad9efd9c786fb83f9657f0c7d31a14a43e71"
+    },
+    "public/campaigns/promotional/occasion-diamonds-700.avif": {
+      "size": 19326,
+      "sha256": "b034eef6755e79a349a30203d23898ebfe9115a4bb84247f222ffd30770ae174"
+    },
+    "public/campaigns/promotional/occasion-diamonds-700.webp": {
+      "size": 31420,
+      "sha256": "1ba8481575d6603fb5c3362319bcdc33f56e72254465e24ad186d89d4589c916"
+    },
+    "public/campaigns/promotional/occasion-everyday-480.avif": {
+      "size": 10018,
+      "sha256": "3c0185bea9ccc3676b1ed707b0fd597c3f8ea7e7f947f01a385447e4dcd2cae2"
+    },
+    "public/campaigns/promotional/occasion-everyday-480.webp": {
+      "size": 19702,
+      "sha256": "70d83e34d96596aec923171cde22b830065b3e82cd50a8993c35685154be13df"
+    },
+    "public/campaigns/promotional/occasion-everyday-700.avif": {
+      "size": 34004,
+      "sha256": "ee04e64c2eb698cf6718a06391a5dba2ec9ffa00e6762c5208a0bb8cdd59e2eb"
+    },
+    "public/campaigns/promotional/occasion-everyday-700.webp": {
+      "size": 72420,
+      "sha256": "02c912ccd369d8aedc81fe4fd6dd6be88c5064f09f3833703389de382e67700b"
+    },
+    "public/graphics/backgrounds/store-wide-1600.avif": {
+      "size": 172439,
+      "sha256": "005c06f1f9f53a6abdaf84ebc1e52e46b7ddef71f9fd0270ae87199a72809190"
+    },
+    "public/graphics/backgrounds/store-wide-1600.webp": {
+      "size": 229818,
+      "sha256": "3003c98956727c999945ce781147f9df15a7fba888cf10a10cf604555d0262dd"
+    },
+    "public/graphics/backgrounds/store-wide-480.avif": {
+      "size": 21228,
+      "sha256": "6cd40734f6c01cdfd1ffc31f3e02911d1949719f1e6f881e00924740b168e2f9"
+    },
+    "public/graphics/backgrounds/store-wide-480.webp": {
+      "size": 26880,
+      "sha256": "c99fac56b41010703b66096aabce394e6fe7261ab24759b6638b901ab05e51a9"
+    },
+    "public/graphics/backgrounds/store-wide-960.avif": {
+      "size": 73304,
+      "sha256": "e173a2a139d7b7fa6863985c1e19005f2037718ed1618ee9643af43f45aa3d19"
+    },
+    "public/graphics/backgrounds/store-wide-960.webp": {
+      "size": 96856,
+      "sha256": "8f0fbe9dbcc0e96f617dff10163ace72b7b4b63da50662bfd0aa8edae2104733"
+    },
+    "public/graphics/hero/hero-model-1600.avif": {
+      "size": 73336,
+      "sha256": "74546a24b55b5edbe934f4d9abac78145d21ed7599d2337c3c2e2f88e8431091"
+    },
+    "public/graphics/hero/hero-model-1600.webp": {
+      "size": 109330,
+      "sha256": "d31735a50cebc7e373e0db65b71223a1ccaa529e816d5bca2aff0b8c526ce67d"
+    },
+    "public/graphics/hero/hero-model-480.avif": {
+      "size": 15916,
+      "sha256": "a9fcba3c17bc72c3ce63242209965afc4fcf2266027d053c9c865c028f4759d4"
+    },
+    "public/graphics/hero/hero-model-480.webp": {
+      "size": 18932,
+      "sha256": "90e58da26bb87f8133fdaf5f3172ace3b405934d23f1dc0e53db26a653cc0796"
+    },
+    "public/graphics/hero/hero-model-960.avif": {
+      "size": 37933,
+      "sha256": "fa5c26d39f776eb86d423dd646d0b0dee41faf7949afbbf556c7fe2c055e5373"
+    },
+    "public/graphics/hero/hero-model-960.webp": {
+      "size": 52382,
+      "sha256": "937d64d73f67772200a8f3ed3a7643289ad58e83ec076932d43ef7e08a1ca292"
+    },
+    "public/graphics/hero/hero-wide-1600.avif": {
+      "size": 65044,
+      "sha256": "291399187493319bd9183ab793ebb9c189244c24ca2d5c6a19bb1658ae703a58"
+    },
+    "public/graphics/hero/hero-wide-1600.webp": {
+      "size": 86178,
+      "sha256": "646b272a4a6439b5bc39feb9ab2484c2abb3e1a31cf8444ca09f4a38b1952c97"
+    },
+    "public/graphics/hero/hero-wide-480.avif": {
+      "size": 10752,
+      "sha256": "1357df31c1c931a2d61cf4ddad0ffdab256453f6cc056cd546e6987a93f9f3dd"
+    },
+    "public/graphics/hero/hero-wide-480.webp": {
+      "size": 12780,
+      "sha256": "3158a37493e1dd813d15010100016f770ad70b9112363d5be0103a4bce1da725"
+    },
+    "public/graphics/hero/hero-wide-960.avif": {
+      "size": 31762,
+      "sha256": "58fe2483de670647839ff70774ceb21d3ff1546e99f249dcc5a8398eb85dc258"
+    },
+    "public/graphics/hero/hero-wide-960.webp": {
+      "size": 39808,
+      "sha256": "721ca70da9310cb76e85644fd1bde46f9166b0261de252c18bd601e76b780ba1"
+    },
+    "public/graphics/hero/monogram-poster.png": {
+      "size": 116272,
+      "sha256": "b52ade04bacc5675b8265e26e7b4115c4c6a30fb54b1bbc8465314f2cc881c48"
+    },
+    "public/jewellery/bangles-bracelets/engraved-bangles-480.avif": {
+      "size": 30127,
+      "sha256": "7527151a2b36ffcd356ed024fea4b9389f08bacc81c89f979912971068dc7ff1"
+    },
+    "public/jewellery/bangles-bracelets/engraved-bangles-480.webp": {
+      "size": 35486,
+      "sha256": "f5a95f1d9115f22d32a22666994c23b6bdbba3611fd7932338e3e064ebb9c72e"
+    },
+    "public/jewellery/bangles-bracelets/engraved-bangles-900.avif": {
+      "size": 77504,
+      "sha256": "c74a30e04eb30dc64d85b692da7f32ccbe56407aaf44d8d8e0663e0c3d266944"
+    },
+    "public/jewellery/bangles-bracelets/engraved-bangles-900.webp": {
+      "size": 103068,
+      "sha256": "b7e43c1b056785c676a0da95754030e90346c035d6c8ef74abb590dcacdf2647"
+    },
+    "public/jewellery/bangles-bracelets/filigree-bracelet-480.avif": {
+      "size": 13639,
+      "sha256": "7925e5ee2cfb1ed56b4a44bf5fa95091141e9e1114af11cfbb47f433407b7cb0"
+    },
+    "public/jewellery/bangles-bracelets/filigree-bracelet-480.webp": {
+      "size": 17588,
+      "sha256": "807eabde512e6242bffb83dc8575b6d97ba389c47ef004b23a642a6ec7e2dec0"
+    },
+    "public/jewellery/bangles-bracelets/filigree-bracelet-900.avif": {
+      "size": 33026,
+      "sha256": "dc661d8246c0f4593441e89206b4c51ef37dc9bafe73148c37da453688ae6973"
+    },
+    "public/jewellery/bangles-bracelets/filigree-bracelet-900.webp": {
+      "size": 48270,
+      "sha256": "9979be317489fcaad74280fbe2e33a7260af589bc6c220aa8b7ca3b80dd457c1"
+    },
+    "public/jewellery/bangles-bracelets/ruby-kadas-480.avif": {
+      "size": 61188,
+      "sha256": "9a4848070e5fc297dc2c7935bc9e1e19d8ac98758f63a623a8b83f09199090c6"
+    },
+    "public/jewellery/bangles-bracelets/ruby-kadas-480.webp": {
+      "size": 58640,
+      "sha256": "e7f91091b0a120d88d1af22e483a37c2156dce4c3b3114e2d1d0142c8a01f374"
+    },
+    "public/jewellery/bangles-bracelets/ruby-kadas-900.avif": {
+      "size": 148018,
+      "sha256": "e4f7d2efa370f16458d504a0ce7e324a74deea29adecfc97446227e60adf41b0"
+    },
+    "public/jewellery/bangles-bracelets/ruby-kadas-900.webp": {
+      "size": 169436,
+      "sha256": "a6a563033823f9653c967892e499d7edc7fb7f2a59077c5124345fb45556969a"
+    },
+    "public/jewellery/bangles-bracelets/stone-set-bangles-480.avif": {
+      "size": 28813,
+      "sha256": "bff64418bec47745cd69e7808327066e164834148d0d01ed5471f7f8e927c261"
+    },
+    "public/jewellery/bangles-bracelets/stone-set-bangles-480.webp": {
+      "size": 34640,
+      "sha256": "e2c62c7fb97c88ed950fdc8ead882abae45715956e1c089d9530ffdb9b3baeb4"
+    },
+    "public/jewellery/bangles-bracelets/stone-set-bangles-900.avif": {
+      "size": 63768,
+      "sha256": "43413ff0a34bed1c627d3f17ed60192b232133d7a663b0158249e2da403d4086"
+    },
+    "public/jewellery/bangles-bracelets/stone-set-bangles-900.webp": {
+      "size": 89524,
+      "sha256": "adac0c5bc3f91619c3ff84159be3d0ee56e438a1978f29d4a16ab60698ba3a17"
+    },
+    "public/jewellery/bridal/bridal-ensemble-480.avif": {
+      "size": 23870,
+      "sha256": "c4a159aa0e1351eb5c9f7c3f6533387f9e09514fd021cca5e73cf4206836fa5e"
+    },
+    "public/jewellery/bridal/bridal-ensemble-480.webp": {
+      "size": 29522,
+      "sha256": "9b5d662098c14f1aff999dee38b36ae80a6659b430801da1510224d04213e509"
+    },
+    "public/jewellery/bridal/bridal-ensemble-900.avif": {
+      "size": 52937,
+      "sha256": "ea45d28707c3c749dc1fdb21152533bde25fdf1e18777655fd7c437d8109ddca"
+    },
+    "public/jewellery/bridal/bridal-ensemble-900.webp": {
+      "size": 76866,
+      "sha256": "7fcf8b0ddb1ff202ff4e365ad5f151670f22bc7b3cb6ba39598fa201a66be913"
+    },
+    "public/jewellery/bridal/kemp-bridal-set-480.avif": {
+      "size": 24728,
+      "sha256": "32fecfd19e78d501f2b93049f9d088b0bef79507367057201065a60eebba78b7"
+    },
+    "public/jewellery/bridal/kemp-bridal-set-480.webp": {
+      "size": 32012,
+      "sha256": "c29bc5a8d0cfaeb423fbe3584dcd802619dcf4f9c455ab08374b71c59e52fdbb"
+    },
+    "public/jewellery/bridal/kemp-bridal-set-900.avif": {
+      "size": 56601,
+      "sha256": "954f8aa46e0768ef7758d9e3da8e97e3b1ce31059c5fed2ff1f360bf750f958e"
+    },
+    "public/jewellery/bridal/kemp-bridal-set-900.webp": {
+      "size": 81882,
+      "sha256": "e2aa177fb1a07ee7f619d7b0353b27b6a95845e3822022f404abf05ad6e6bfa2"
+    },
+    "public/jewellery/chains/curb-chain-480.avif": {
+      "size": 13139,
+      "sha256": "8212a1aa777bfd2328875430594e003fc035be3d10654ca9aff2ab7888dac0f2"
+    },
+    "public/jewellery/chains/curb-chain-480.webp": {
+      "size": 14404,
+      "sha256": "45d1a50553aca4921172ee98e8dd3414aabba93e3a63e815c6591daa093d437a"
+    },
+    "public/jewellery/chains/curb-chain-900.avif": {
+      "size": 27329,
+      "sha256": "a0269fa78aadb060c9c4ee3263b59afef6e748e48b7cc2cdcd2ad9f05d13b533"
+    },
+    "public/jewellery/chains/curb-chain-900.webp": {
+      "size": 37138,
+      "sha256": "cba70b8845c20644804d14f3745bd50dfb40144e0154f825a4dea95fed1cebbc"
+    },
+    "public/jewellery/chains/oval-loop-chain-480.avif": {
+      "size": 19826,
+      "sha256": "17fea2e71802377397817205afbc419243516400c4ae7201c81d3d65114fdf99"
+    },
+    "public/jewellery/chains/oval-loop-chain-480.webp": {
+      "size": 29836,
+      "sha256": "3154f8deac54e02342812955d4aa25fd33fc25dd8668e04316ebb19d8c0d0244"
+    },
+    "public/jewellery/chains/oval-loop-chain-900.avif": {
+      "size": 54758,
+      "sha256": "e3c4d48daa47a62601bd8251c8f9f6459b59a73d50b6a719bea25430f82ef503"
+    },
+    "public/jewellery/chains/oval-loop-chain-900.webp": {
+      "size": 88772,
+      "sha256": "c1f774bc53bcd1d74af52bcb71e725391339d563a8ae0bec1562042cfaba8e8e"
+    },
+    "public/jewellery/earrings/diamond-studs-480.avif": {
+      "size": 15704,
+      "sha256": "3f07fa4f7ec9d1b4f46f0b003885af399184e30e69e2bc076a284935fe6948b2"
+    },
+    "public/jewellery/earrings/diamond-studs-480.webp": {
+      "size": 18582,
+      "sha256": "04d3fb0d0bb97d632cde0875bbee82205b369a0a35933d3005c90b4fd526c0b2"
+    },
+    "public/jewellery/earrings/diamond-studs-900.avif": {
+      "size": 42606,
+      "sha256": "2b2dffe0b00e616911df50382b3c78cf651aafb11bd657ebe0ddef53021fa55d"
+    },
+    "public/jewellery/earrings/diamond-studs-900.webp": {
+      "size": 54428,
+      "sha256": "b20d758e8959604f6980a5c74d37ea14ac23590010e2c89571c0abce95d4e924"
+    },
+    "public/jewellery/earrings/rose-gold-drops-480.avif": {
+      "size": 4910,
+      "sha256": "203ab419cde7aa89eafed2d0f15e810f1f7677d0ea0dd1289e978f08196c1274"
+    },
+    "public/jewellery/earrings/rose-gold-drops-480.webp": {
+      "size": 6940,
+      "sha256": "b4de3208525f45bd4ef2226d1787b1f652c21ee8559baa0e934010d34f4faede"
+    },
+    "public/jewellery/earrings/rose-gold-drops-900.avif": {
+      "size": 10473,
+      "sha256": "0411934c7f6bbdd05a7a7dae58b02f41edecf25a98f816f37da0f7e96bb80951"
+    },
+    "public/jewellery/earrings/rose-gold-drops-900.webp": {
+      "size": 17276,
+      "sha256": "da830cf9c5f9ea54337423d6e82e6b2ee18feb0a5a58239334258c616ff0dfa1"
+    },
+    "public/jewellery/earrings/ruby-halo-earrings-480.avif": {
+      "size": 12015,
+      "sha256": "444403be13040fdb26a3aa3f43b2cbecb2a0407ac441f8b51569b678f93f547f"
+    },
+    "public/jewellery/earrings/ruby-halo-earrings-480.webp": {
+      "size": 15290,
+      "sha256": "8041bd55fedcb79e8b780b6295d7b13178a8288726f3f8808c26370ec69099af"
+    },
+    "public/jewellery/earrings/ruby-halo-earrings-900.avif": {
+      "size": 29162,
+      "sha256": "112df7104b281457ef5106981717eae9c410a25b7ed1f28c9c9c098a8a5859b9"
+    },
+    "public/jewellery/earrings/ruby-halo-earrings-900.webp": {
+      "size": 40672,
+      "sha256": "6eed4e623021a29733482b23760f5a717729e0273d2e69fb5fb1a433beb3482c"
+    },
+    "public/jewellery/earrings/temple-jhumkas-480.avif": {
+      "size": 30424,
+      "sha256": "a324ae9deecdcc62d5da32746c4404c26734f90268c7de7eb8886d2890fc0f05"
+    },
+    "public/jewellery/earrings/temple-jhumkas-480.webp": {
+      "size": 35678,
+      "sha256": "eb8a6e8c4d4c9f01e3feab44f67f787608da12c52d41604261ff8215ec7240b1"
+    },
+    "public/jewellery/earrings/temple-jhumkas-900.avif": {
+      "size": 60829,
+      "sha256": "0b734f7396373b5e54d7ad76cfcbdcb2ed1c526f80d174a96e0e098677c8ef0b"
+    },
+    "public/jewellery/earrings/temple-jhumkas-900.webp": {
+      "size": 85748,
+      "sha256": "4b2b3bdd528f310a74db4f6b03bea2400d62e281fdb0cb749516de46cfb998c4"
+    },
+    "public/jewellery/necklaces/gold-coin-necklace-480.avif": {
+      "size": 21011,
+      "sha256": "861bb96ab6cb920b7b3f3cce4be48e00b70b103627225ccd14f959375dd92b9a"
+    },
+    "public/jewellery/necklaces/gold-coin-necklace-480.webp": {
+      "size": 22656,
+      "sha256": "46c6e3a4cdf82973ae5c214bfc42a4e954b802ea8e682766c470fb2486ed3ca9"
+    },
+    "public/jewellery/necklaces/gold-coin-necklace-900.avif": {
+      "size": 44579,
+      "sha256": "2c55308c0bf98fd8aebd8f0f3d16725597d861038ad7d3d5235b2e91f7d4bd32"
+    },
+    "public/jewellery/necklaces/gold-coin-necklace-900.webp": {
+      "size": 60538,
+      "sha256": "e7dce6ecb9bec31f8434307d6d486f369185e60483adb2045d3940893fe45328"
+    },
+    "public/jewellery/necklaces/kundan-necklace-set-480.avif": {
+      "size": 13306,
+      "sha256": "83132eb44341864750b1dc41cff41716e9628633a6b70117920c663792379ebc"
+    },
+    "public/jewellery/necklaces/kundan-necklace-set-480.webp": {
+      "size": 15982,
+      "sha256": "d2940f1218622d5e25cd673b9e5f76d182addc32011f35a69054a878db8bb470"
+    },
+    "public/jewellery/necklaces/kundan-necklace-set-900.avif": {
+      "size": 37033,
+      "sha256": "4ba88b16a9d39ebe55b3f0d8a6bb4ea16a6f33ec265ea44cbc219b459f3fc9e4"
+    },
+    "public/jewellery/necklaces/kundan-necklace-set-900.webp": {
+      "size": 46604,
+      "sha256": "1589fc34e2ada2a5d1bf08e75c6cebbd0e8f5c532916a070df7fb28a3304e82b"
+    },
+    "public/jewellery/necklaces/oxidised-silver-set-480.avif": {
+      "size": 36097,
+      "sha256": "e899faea7e50de5bb86cdcd6735ee6f4e82768bf7710aabd3029c17dc9f065c1"
+    },
+    "public/jewellery/necklaces/oxidised-silver-set-480.webp": {
+      "size": 44286,
+      "sha256": "cfb71da8f3421cbc9773130214b1f9c0dafb8291665eb9ace55d401abc550d46"
+    },
+    "public/jewellery/necklaces/oxidised-silver-set-900.avif": {
+      "size": 130232,
+      "sha256": "75e8936c1e0ebd6a4c781f54b05642be3f42fa91d84f26f0332c0250a6a34851"
+    },
+    "public/jewellery/necklaces/oxidised-silver-set-900.webp": {
+      "size": 164350,
+      "sha256": "56374b09969cac8e489c6537b5c8985411d8d80c6eb7741f90d12bac614ed444"
+    },
+    "public/jewellery/necklaces/pastel-kundan-necklace-480.avif": {
+      "size": 32637,
+      "sha256": "63b23c30a82a7d7d2c44f2a29d1b93c88b43f3c128d7da28f82a66c128eb0aee"
+    },
+    "public/jewellery/necklaces/pastel-kundan-necklace-480.webp": {
+      "size": 41878,
+      "sha256": "097c2f74ac754166a2d5d41d03a4feb3a67d27f789cfd3eae60d413294844901"
+    },
+    "public/jewellery/necklaces/pastel-kundan-necklace-900.avif": {
+      "size": 106667,
+      "sha256": "047ae02eb7d1a9cba01ff6d883a8aa78b377f23e5155a11c191de86cafe8e89e"
+    },
+    "public/jewellery/necklaces/pastel-kundan-necklace-900.webp": {
+      "size": 143930,
+      "sha256": "838c3ed5f899650bdfe81e7c2a9b9969626f8730e76dc494c912cb3363c98332"
+    },
+    "public/jewellery/necklaces/ruby-pearl-haar-480.avif": {
+      "size": 24802,
+      "sha256": "ae93cae5a11f87b7d9cbb9db51b3190889ee7386eee7d6eb64c5c3e15acf46aa"
+    },
+    "public/jewellery/necklaces/ruby-pearl-haar-480.webp": {
+      "size": 28672,
+      "sha256": "5aee24ade9284425a97b695dcfd0b44bcb128ad95582a82534b16867741c1c0e"
+    },
+    "public/jewellery/necklaces/ruby-pearl-haar-900.avif": {
+      "size": 76068,
+      "sha256": "9cfc7901c43277e7f8601590c38f12de8478270e271eb37932619ef3dff94527"
+    },
+    "public/jewellery/necklaces/ruby-pearl-haar-900.webp": {
+      "size": 97208,
+      "sha256": "b00cfb5d1587b1bcedfc895e838e46a25dbf973d654f1fe707fea75228e53bc1"
+    },
+    "public/jewellery/pendants/bar-pendant-480.avif": {
+      "size": 5400,
+      "sha256": "a7b2070ab93a9415740ae37f64c0b6643c6b1a5093b14e4a68a2c1476b3cb21e"
+    },
+    "public/jewellery/pendants/bar-pendant-480.webp": {
+      "size": 8652,
+      "sha256": "c2aa1c1e35fba985ebdce9652be63c32061771b5f184de77881609dfd9e5bd41"
+    },
+    "public/jewellery/pendants/bar-pendant-900.avif": {
+      "size": 15329,
+      "sha256": "42b6051e815f9fe1149e270e632ce4faf2341c3fc767b0e3af4f4eb53f4640db"
+    },
+    "public/jewellery/pendants/bar-pendant-900.webp": {
+      "size": 27274,
+      "sha256": "cc5c9efa88913bf79a67446f2d3bd0543b5a659074c13c07284d15ced0591c64"
+    },
+    "public/jewellery/pendants/circle-pendant-480.avif": {
+      "size": 12086,
+      "sha256": "15b7206ea1fd21559d7da2bd627941087a330927d7de22851b55b1a30a7c0203"
+    },
+    "public/jewellery/pendants/circle-pendant-480.webp": {
+      "size": 14370,
+      "sha256": "e70d7bf868ea3eb4992b2da98294c8840fc907f942c45e13fba194bcc878375d"
+    },
+    "public/jewellery/pendants/circle-pendant-900.avif": {
+      "size": 25861,
+      "sha256": "4eacc0f91aeefc81701dbde3f0e935dbb3ac3b6282aebe6f48e79fd750c92a04"
+    },
+    "public/jewellery/pendants/circle-pendant-900.webp": {
+      "size": 36900,
+      "sha256": "4877f8d7c6026fd430481a48f4ebf9cecccd49b383790cc1f1d00c165965d2fd"
+    },
+    "public/jewellery/rings/diamond-bands-480.avif": {
+      "size": 11496,
+      "sha256": "fbdc8652b95f122c3ef7aba55d4778cfc0ea6e1061b913e77bdffe62ff0edc8e"
+    },
+    "public/jewellery/rings/diamond-bands-480.webp": {
+      "size": 15660,
+      "sha256": "5ba88682ac90fac5f530497bff0bc5936468623d89c6492fd3d42396bf372ed1"
+    },
+    "public/jewellery/rings/diamond-bands-900.avif": {
+      "size": 29936,
+      "sha256": "64e467ccbcf1caf8e6b5bf07b716adfac116f917978bf1328502202652fbb379"
+    },
+    "public/jewellery/rings/diamond-bands-900.webp": {
+      "size": 44784,
+      "sha256": "deba398d7a0e484911a613466b28752582359ee3fdf3b27e3191c38fe11fe898"
+    },
+    "public/jewellery/rings/halo-solitaire-480.avif": {
+      "size": 14032,
+      "sha256": "748ecf1a073dd00fbd318ff4378d875222ed6435b7ea947a3b905aa1573a28e2"
+    },
+    "public/jewellery/rings/halo-solitaire-480.webp": {
+      "size": 18214,
+      "sha256": "01a363015534da9f9105860a8feaba087baa078af3c9face480ccd5bde5b1aa9"
+    },
+    "public/jewellery/rings/halo-solitaire-900.avif": {
+      "size": 37868,
+      "sha256": "8a23d53d21b259bf6f51a1416739d5d115f26342e13f6db8c22611d21de4036a"
+    },
+    "public/jewellery/rings/halo-solitaire-900.webp": {
+      "size": 51594,
+      "sha256": "54d61c22e616953edb777f7f5416ff4656e3f50bd17080aeaec94221fe4c89ac"
+    },
+    "public/jewellery/rings/pear-diamond-ring-480.avif": {
+      "size": 7161,
+      "sha256": "bee3d3f1f5a448b8b91d5add1724d33d75f5fcfd905148f6cadf63f606e88883"
+    },
+    "public/jewellery/rings/pear-diamond-ring-480.webp": {
+      "size": 8954,
+      "sha256": "f9d885b5e6d357ae9e77efbc9e02007e7f42389beaea004c39f946c533c2595b"
+    },
+    "public/jewellery/rings/pear-diamond-ring-900.avif": {
+      "size": 20030,
+      "sha256": "07eb09cab01638a47a07650ed2436324c60a2e05bbbcf70fafe1d8a328aee90a"
+    },
+    "public/jewellery/rings/pear-diamond-ring-900.webp": {
+      "size": 27814,
+      "sha256": "703c2ef8057ae9f7aeab6a688d3f9de6c7ce89247c2bafa01ad9be209ce8d445"
+    },
+    "public/jewellery/rings/pink-sapphire-ring-480.avif": {
+      "size": 11633,
+      "sha256": "7bec3e598d3ce40c0416ca72c648004edf9afca925967dfae30bb1333ea27a1b"
+    },
+    "public/jewellery/rings/pink-sapphire-ring-480.webp": {
+      "size": 15096,
+      "sha256": "d9e9a0e88e4a0267a5c9b90b1b745dfffae9794e04759dda275aaba0e00212a1"
+    },
+    "public/jewellery/rings/pink-sapphire-ring-900.avif": {
+      "size": 30915,
+      "sha256": "813293e86392bb85bae09d41291d0c3dc86e6abee5ffb9f106254e9d6d4d0d23"
+    },
+    "public/jewellery/rings/pink-sapphire-ring-900.webp": {
+      "size": 49592,
+      "sha256": "3a5525cac539caff16c8c1d28d84adf145ed894cdcffff6c2b8673dc1c5d3cd5"
+    },
+    "README.md": {
+      "size": 1450,
+      "sha256": "60b55ff7df79af72590f9524208e46642bc32bdc175cdad41349681c0e2f958f"
+    },
+    "scripts/asset-report.mjs": {
+      "size": 6467,
+      "sha256": "47fdc5a4fe2c0aca72d7d6865bbb21b7655e4dd0c4ca0ba94fa4981946f058ea"
+    },
+    "scripts/optimize-images.mjs": {
+      "size": 2641,
+      "sha256": "984416063587c25027da68f21f7446f6e9e5f4d5ae48faf398809df31ab815fe"
+    },
+    "scripts/preview.mjs": {
+      "size": 1743,
+      "sha256": "27ac29f5da8bf767ae57682be69f27c019ccc6bf166fe4098ebae71037cdb239"
+    },
+    "scripts/validate-assets.mjs": {
+      "size": 4127,
+      "sha256": "82bfb857f99048f0b8367f0a8adeacf450b6130919c66493546256085eba9901"
+    },
+    "src/app/about/page.tsx": {
+      "size": 10163,
+      "sha256": "f5a3afd3e97afb9af277d98613235e60980536b156471c36be401a53209c580f"
+    },
+    "src/app/collections/page.tsx": {
+      "size": 762,
+      "sha256": "8b5aad04d4294a1f66a73acc9436fb3a317b16021cd3ac806578b44ff389d8bb"
+    },
+    "src/app/collections/[category]/page.tsx": {
+      "size": 1504,
+      "sha256": "4f612a9d13a91a0d75238b656ea9b0abbc0c65a57c7497b71039b1b2b4a534f8"
+    },
+    "src/app/contact/page.tsx": {
+      "size": 4252,
+      "sha256": "13f5d2401452ac164237e8c2862cee6b67516cbab99c60af3f9d4cf008c922db"
+    },
+    "src/app/faq/page.tsx": {
+      "size": 2090,
+      "sha256": "504013addd0dec2eb0c5c68a2479c337c5a27bd69e3880b186faf005ca010219"
+    },
+    "src/app/favicon.ico": {
+      "size": 15086,
+      "sha256": "c28fdd2a4f31e2dc64f653962286da5c82a4cdfc518b242d32812c624e9a19a4"
+    },
+    "src/app/globals.css": {
+      "size": 8185,
+      "sha256": "d4da34b9940821c363379249bf7b7f907ffb98490dbe2be63a93e74845d69349"
+    },
+    "src/app/layout.tsx": {
+      "size": 1987,
+      "sha256": "5915726f0066c001262501ba74d62fded03c8705f5bc55ea62aad49699887954"
+    },
+    "src/app/not-found.tsx": {
+      "size": 842,
+      "sha256": "0949b0f998e4bada100479502cc7016fe19166c56ba1fb2cce8db809a07835e8"
+    },
+    "src/app/page.tsx": {
+      "size": 504,
+      "sha256": "46a71a6843c39c52e922d3595aeae667ea0a73bc28a3fbf6ee0bf8433faf7d40"
+    },
+    "src/app/pieces/[slug]/page.tsx": {
+      "size": 7214,
+      "sha256": "c969a30b70eb575e566b396adcfb5ad9395b8e1220e7b15e65098994a2305249"
+    },
+    "src/app/policies/[slug]/page.tsx": {
+      "size": 2710,
+      "sha256": "01ebb77987f653e823b4d1e6874daa1266dde532670ae3021e7798ebb1b55c60"
+    },
+    "src/app/qa/assets/page.tsx": {
+      "size": 6913,
+      "sha256": "2e4a579999d0f240e1b3c4bdb534cd0668260a1ba7dbccff97ca9463c4a6c874"
+    },
+    "src/app/qa/page.tsx": {
+      "size": 7962,
+      "sha256": "07f7ba82b9d6cb163ec6833868d56bdb3074f4ac70aaed507b42c68c4f813924"
+    },
+    "src/app/qa/poster/page.tsx": {
+      "size": 563,
+      "sha256": "1b1986adc9f08d2ccc65559253507ba1d92ef42f5f5d07383744e973a104ed8f"
+    },
+    "src/app/qa/poster/poster-stage.tsx": {
+      "size": 770,
+      "sha256": "bf2265d5d27ce25587626cbe041285f8697746fc23f1ec10051ab636460ab13c"
+    },
+    "src/app/template.tsx": {
+      "size": 202,
+      "sha256": "3a10f920ec03e3c711cc8e09a4abb9733d98a29c6d9b5be845f50e18b315ae58"
+    },
+    "src/app/visit/page.tsx": {
+      "size": 5506,
+      "sha256": "54e57ab557eade5219b8202cec82bd58cdf8c565999d691f438aeadae669e369"
+    },
+    "src/components/action-bar.tsx": {
+      "size": 2287,
+      "sha256": "efb095ce069abdd3c023350a6a08ad5cfe0d94f07ac8c5f9a9ca080f94126c53"
+    },
+    "src/components/collection-browser.tsx": {
+      "size": 4709,
+      "sha256": "f4e9725e3773f848aa8bd07305372074dbf26fb8f292e146d40c742a17668fb6"
+    },
+    "src/components/enquiry-form.tsx": {
+      "size": 7648,
+      "sha256": "403526293dba3393b920ed9f67029d63c825d58f75777b62ebea116ce2596f47"
+    },
+    "src/components/hero/hero-scene.tsx": {
+      "size": 6394,
+      "sha256": "b6aa50cc3b36073612da1a37a09f8d0413438128eb778866665b4442e21e1203"
+    },
+    "src/components/hero/hero.tsx": {
+      "size": 7793,
+      "sha256": "95ecb1186954581f875abaa987a29c44397c952bb590ee12da301f12fcde5980"
+    },
+    "src/components/home/sections.tsx": {
+      "size": 20590,
+      "sha256": "66df0700182978f26d295d61b8be417dd2d1cad8219e60ec5a13698420cf55c0"
+    },
+    "src/components/icons.tsx": {
+      "size": 2297,
+      "sha256": "261bd6e35d2389282a4dce3612850d1c6b52f9f8507e5cea07f9f09a43f4be98"
+    },
+    "src/components/instagram-embed.tsx": {
+      "size": 1591,
+      "sha256": "edcee11d0d65d1cedb018f230a3230a71cb22dbde7d8057457767d3cb605f808"
+    },
+    "src/components/instagram-strip.tsx": {
+      "size": 2383,
+      "sha256": "54c451356f4fa8cf9de5d57bd2324875b22a1b0c8ce6e8b46233199f6caaa104"
+    },
+    "src/components/logo.tsx": {
+      "size": 1378,
+      "sha256": "b2ec99bbc74c2a38202ab62760d08e5a605a30bffdb62546a4d7d2532d80b039"
+    },
+    "src/components/map-embed.tsx": {
+      "size": 1905,
+      "sha256": "e68f1e2e4f19d3fa2283709c3634a9637858865b2b0c04b7813c92eab9cb5340"
+    },
+    "src/components/motif.tsx": {
+      "size": 1807,
+      "sha256": "88764e15c41263be3ffe28b2302b4e23cda1298a0478799a5d364da6a5f3c2ba"
+    },
+    "src/components/page-header.tsx": {
+      "size": 2892,
+      "sha256": "b02675a27d886b051fd0e1112196f3a2b5f3dc506ca9758b6088209bde95a72e"
+    },
+    "src/components/pending.tsx": {
+      "size": 2811,
+      "sha256": "73f0f21e8ea7efeb6f6054825951d8749bfc0df131cb2e9311c692976a474a2e"
+    },
+    "src/components/picture.tsx": {
+      "size": 2171,
+      "sha256": "66a901165e04cf79aadb68a7c9d78a033e4b44049d3c5a5e316729b04a9c2cec"
+    },
+    "src/components/piece-card.tsx": {
+      "size": 2814,
+      "sha256": "3667300c0a1b7640e67a2c576647a7fa48b934f62aa769114978da4f8f732e1f"
+    },
+    "src/components/piece-gallery.tsx": {
+      "size": 5916,
+      "sha256": "c0051858aac516421d1395e50ca3257e619b38482af867d5dcd318b36202f4a7"
+    },
+    "src/components/piece-image.tsx": {
+      "size": 1636,
+      "sha256": "5c4c5b9717cc1b797e70aaa1108076fce875cc10f6be4bb58a44af10b2990e90"
+    },
+    "src/components/qa-mode.tsx": {
+      "size": 2547,
+      "sha256": "de31bd50cd91beb66b39027e47e6939784cad63cae041fdc5f22001bf6fff0b4"
+    },
+    "src/components/reveal-observer.tsx": {
+      "size": 1977,
+      "sha256": "5ae6051db38938d4bb2d154fa96afb8035449088c5e31ff204f1f5cc25755636"
+    },
+    "src/components/section-head.tsx": {
+      "size": 1078,
+      "sha256": "ecb581f19b603837cd906e6820ea19b11adcf186617080e407a7456869bf0d91"
+    },
+    "src/components/site-footer.tsx": {
+      "size": 4618,
+      "sha256": "0f0856c7e82eaa21d496a401f38375962d0bdc3025c17cab09805d7718b02f64"
+    },
+    "src/components/site-header.tsx": {
+      "size": 7526,
+      "sha256": "e6ae645b17b64b3db1923c47e743085ac92be651adf2d9df31f81aa693d234a4"
+    },
+    "src/components/store-hours.tsx": {
+      "size": 961,
+      "sha256": "1575bb52f62e32e344c7d8f6b8f7bb17b786d2cc858f0ceb1b0fbc3680c0129e"
+    },
+    "src/components/use-image-failed.ts": {
+      "size": 604,
+      "sha256": "b3bcf867f46a9c1a0c09de48700a2893753978465f08fada718ae818c846e4ba"
+    },
+    "src/content/brand.ts": {
+      "size": 1223,
+      "sha256": "dc549044d9eb1f4e2916d7e3305c0cb127a6eeb98eb7474101065f8ad9fbc74b"
+    },
+    "src/content/business.ts": {
+      "size": 3877,
+      "sha256": "8c4637762365383345231b3503e5e940154bd2f68af19e995ff9bda607fce09f"
+    },
+    "src/content/catalogue.ts": {
+      "size": 4362,
+      "sha256": "7562b5bc7395f7b051c2ce6cfb88fe57fe233d4a022b8a2e424b82bda4b5a2e4"
+    },
+    "src/content/instagram.ts": {
+      "size": 6784,
+      "sha256": "37cfde57da33897070b755584ca7cf402766e5abdf06dac68d94ec11f171da6e"
+    },
+    "src/content/media-registry.json": {
+      "size": 20710,
+      "sha256": "439b24366b5fb6f254838a39bae68898ccd86a130230840b2f9fe90805673cfb"
+    },
+    "src/content/media-variants.json": {
+      "size": 22206,
+      "sha256": "1702c3bad670bfc22e6dbaf5c5d8d7924c8ce56e86673d6052a397ed51e65a1b"
+    },
+    "src/content/media.ts": {
+      "size": 2457,
+      "sha256": "f95195e54f2c6f0975c473826a13138678581712ccffb29d15948a75a627d6cf"
+    },
+    "src/content/pages.ts": {
+      "size": 4164,
+      "sha256": "36cdfa5f967a09be8551c290271582108ab87a120ed0f7677634006f6c6cccf9"
+    },
+    "src/content/policies.ts": {
+      "size": 11069,
+      "sha256": "d746311be66728a6cff2c459969e9b2fd9970d764c24a90bc3a203b67c7c0a26"
+    },
+    "src/content/types.ts": {
+      "size": 2016,
+      "sha256": "b4360bf3b40f719d157cf6aaeacbb77b4a94ff7febe95999be213a0de0fda99a"
+    },
+    "tsconfig.json": {
+      "size": 670,
+      "sha256": "5c51df4c59f4510d8c7dadf07a5c32132228826a3b331da5e286207b4df7ef9c"
+    },
+    "tsconfig.tsbuildinfo": {
+      "size": 290946,
+      "sha256": "07ee4807e71518d7a934c2350ea9491e533cb31a1c29a47cbbe8c61ecdbf39f1"
+    }
+  }
+}
