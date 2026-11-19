@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
 import "./globals.css";
+import { INDEXABLE, SITE_URL } from "@/lib/site";
+import { WebVitals } from "@/components/site/web-vitals";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -12,13 +14,19 @@ const cormorant = Cormorant_Garamond({
 const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope", display: "swap" });
 
 export const metadata: Metadata = {
-  title: { default: "Svarahi — Flagship v2 (in development)", template: "%s · Svarahi v2" },
-  description: "Svarahi flagship website v2 — development build, not published.",
-  // Development build: never index until the owner approves launch.
-  robots: { index: false, follow: false },
+  metadataBase: new URL(SITE_URL),
+  title: { default: "Svarahi — Jewellery straight from manufacturers · Jayanagar, Bengaluru", template: "%s · Svarahi" },
+  description: "Temple, bridal and everyday gold jewellery at Svarahi's showroom in Jayanagar, Bengaluru. Explore the collections, build a trial tray and plan a visit.",
+  applicationName: "Svarahi",
+  alternates: { canonical: "/" },
+  openGraph: { type: "website", siteName: "Svarahi", locale: "en_IN", url: "/" },
+  twitter: { card: "summary_large_image" },
+  formatDetection: { telephone: false, email: false, address: false },
+  // Development build: never index until the owner approves launch (src/lib/site.ts).
+  robots: INDEXABLE ? { index: true, follow: true } : { index: false, follow: false },
 };
 
-export const viewport: Viewport = { themeColor: "#140608" };
+export const viewport: Viewport = { themeColor: "#140608", colorScheme: "dark" };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -28,6 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Skip to content
         </a>
         {children}
+        <WebVitals />
       </body>
     </html>
   );

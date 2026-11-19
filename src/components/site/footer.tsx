@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { business } from "@/content/business";
 import manifest from "@/content/asset-manifest.json";
 
@@ -10,13 +11,18 @@ export function Footer() {
         <div>
           <p className="font-display text-2xl tracking-[0.3em] text-ivory">SVARAHI</p>
           <p className="mt-3">{business.positioning}. Jayanagar, Bengaluru.</p>
-          <a href={business.instagram} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block hover:text-gold-soft">Instagram @svarahijewels ↗</a>
+          <a href={business.instagram} target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex min-h-11 items-center hover:text-gold-soft">Instagram @svarahijewels ↗</a>
+          <nav aria-label="Footer" className="mt-4 flex flex-wrap gap-x-5 text-[0.68rem] font-semibold uppercase tracking-[0.18em]">
+            {[["/collections", "Collections"], ["/bridal", "Bridal"], ["/counter", "The counter"], ["/craft", "Craft"], ["/reels", "Reels"], ["/visit", "Visit"], ["/gold", "Svarahi Gold"]].map(([h, l]) => (
+              <Link key={h} href={h} className="inline-flex min-h-11 items-center hover:text-gold-soft">{l}</Link>
+            ))}
+          </nav>
         </div>
         <div>
           <p className="eyebrow text-gold-soft">About the imagery</p>
           <p className="mt-3 leading-relaxed">
-            Photographs on this page are licensed editorial imagery, showroom inspiration or AI-generated editorial concepts. None shows Svarahi&apos;s
-            actual jewellery, customers or showroom. Ask us on WhatsApp for photographs of current pieces.
+            Photographs hosted on this site are licensed editorial imagery, showroom inspiration or AI-generated editorial concepts. None shows Svarahi&apos;s
+            actual jewellery, customers or showroom. Instagram posts and reels are Svarahi&apos;s own, shown through Instagram&apos;s official embed. Ask us on WhatsApp for photographs of current pieces.
           </p>
         </div>
         <div>
@@ -24,7 +30,7 @@ export function Footer() {
           <p className="mt-3 leading-relaxed">Unsplash: {credits.map((c) => `@${c}`).join(", ")}.</p>
         </div>
       </div>
-      <p className="shell mt-12 text-[11px] text-ivory/35">Development build — not published. © 2026 Svarahi, Bengaluru.</p>
+      <p className="shell mt-12 text-[11px] text-ivory/60">Development build — not published. © 2026 Svarahi, Bengaluru.</p>
     </footer>
   );
 }

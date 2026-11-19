@@ -1,0 +1,1565 @@
+[
+ {
+  "mode": "desktop",
+  "route": "/",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 2,
+    "sample": [
+     ".\\!bg-transparent ::   Element has insufficient color contrast of 3.95 (foreground color: #817976, background color: #fbf6ee, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1",
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Svarahi — Flagship v2 (in development)",
+  "desc": 63,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/collections",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 10,
+    "sample": [
+     "a[href$=\"necklaces\"] > .pt-3.border-t.border-gold\\/25 > .text-ivory\\/45.mt-2.text-\\[10px\\] ::   Element has insufficient color contrast of 4.24 (foreground color: #7c726f, background color: #140608, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+     "a[href$=\"temple-antique\"] > .pt-3.border-t.border-gold\\/25 > .text-ivory\\/45.mt-2.text-\\[10px\\] ::   Element has insufficient color contrast of 4.24 (foreground color: #7c726f, background color: #140608, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+     "a[href$=\"earrings\"] > .pt-3.border-t.border-gold\\/25 > .text-ivory\\/45.mt-2.text-\\[10px\\] ::   Element has insufficient color contrast of 4.24 (foreground color: #7c726f, background color: #140608, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Collections · Svarahi v2",
+  "desc": 151,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/collections/necklaces",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Necklaces & Haram Sets · Svarahi v2",
+  "desc": 138,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/collections/temple-antique",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Temple & Antique · Svarahi v2",
+  "desc": 150,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/collections/earrings",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Earrings & Jhumkas · Svarahi v2",
+  "desc": 133,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/collections/bangles",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Bangles & Bracelets · Svarahi v2",
+  "desc": 140,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/collections/rings",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Rings · Svarahi v2",
+  "desc": 125,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/collections/pendants",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Pendants · Svarahi v2",
+  "desc": 127,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/collections/chains",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Chains · Svarahi v2",
+  "desc": 120,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/collections/bridal",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Bridal Collections · Svarahi v2",
+  "desc": 133,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/pieces/sv-n01",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Ruby and Pearl Haar (SV-N01) · Svarahi v2",
+  "desc": 123,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/pieces/sv-n02",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Gold Coin Necklace (SV-N02) · Svarahi v2",
+  "desc": 122,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/pieces/sv-b01",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Ruby-set Kadas (SV-B01) · Svarahi v2",
+  "desc": 118,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/pieces/sv-s01",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Kemp Bridal Set (SV-S01) · Svarahi v2",
+  "desc": 119,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/pieces/sv-r01",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Pear Diamond Ring (SV-R01) · Svarahi v2",
+  "desc": 121,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/pieces/sv-e01",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Temple Jhumka Set (SV-E01) · Svarahi v2",
+  "desc": 121,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/counter",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "The virtual counter · Svarahi v2",
+  "desc": 150,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/craft",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 2,
+    "sample": [
+     ".text-xs.text-ivory\\/45.tracking-\\[0\\.16em\\] ::   Element has insufficient color contrast of 4.2 (foreground color: #847373, background color: #23080e, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Craftsmanship · Svarahi v2",
+  "desc": 150,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/reels",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   },
+   {
+    "id": "link-in-text-block",
+    "impact": "serious",
+    "help": "Links must be distinguishable without relying on color",
+    "n": 1,
+    "sample": [
+     ".underline-offset-4.hover\\:underline[href$=\"collections\"] ::   The link has insufficient color contrast of 1.96:1 with the surrounding text. (Minimum contrast is 3:1, link text: #ead2a0, surrounding text: #9f9692)"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Reels · Svarahi v2",
+  "desc": 130,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/bridal",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Bridal & heritage · Svarahi v2",
+  "desc": 136,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/visit",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 5,
+    "sample": [
+     "label[for=\"_R_hklubtb_-name\"] > .normal-case.tracking-normal.text-ivory\\/40 ::   Element has insufficient color contrast of 3.56 (foreground color: #706664, background color: #140608, font size: 7.4pt (9.92px), font weight: normal). Expected contrast ratio of 4.5:1",
+     "label[for=\"_R_hklubtb_-date\"] > .normal-case.tracking-normal.text-ivory\\/40 ::   Element has insufficient color contrast of 3.56 (foreground color: #706664, background color: #140608, font size: 7.4pt (9.92px), font weight: normal). Expected contrast ratio of 4.5:1",
+     "label[for=\"_R_hklubtb_-notes\"] > .normal-case.tracking-normal.text-ivory\\/40 ::   Element has insufficient color contrast of 3.56 (foreground color: #706664, background color: #140608, font size: 7.4pt (9.92px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Visit the showroom · Svarahi v2",
+  "desc": 142,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "desktop",
+  "route": "/gold",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [],
+  "smallCount": 0,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Svarahi Gold · Svarahi v2",
+  "desc": 143,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 2,
+    "sample": [
+     ".\\!bg-transparent ::   Element has insufficient color contrast of 3.95 (foreground color: #817976, background color: #fbf6ee, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1",
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16",
+   "a[Reels] 42×16",
+   "a[Visit] 36×16",
+   "a[Svarahi Gold] 100×16"
+  ],
+  "smallCount": 9,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Svarahi — Flagship v2 (in development)",
+  "desc": 63,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/collections",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 10,
+    "sample": [
+     "a[href$=\"necklaces\"] > .pt-3.border-t.border-gold\\/25 > .text-ivory\\/45.mt-2.text-\\[10px\\] ::   Element has insufficient color contrast of 4.24 (foreground color: #7c726f, background color: #140608, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+     "a[href$=\"temple-antique\"] > .pt-3.border-t.border-gold\\/25 > .text-ivory\\/45.mt-2.text-\\[10px\\] ::   Element has insufficient color contrast of 4.24 (foreground color: #7c726f, background color: #140608, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+     "a[href$=\"earrings\"] > .pt-3.border-t.border-gold\\/25 > .text-ivory\\/45.mt-2.text-\\[10px\\] ::   Element has insufficient color contrast of 4.24 (foreground color: #7c726f, background color: #140608, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   },
+   {
+    "id": "target-size",
+    "impact": "serious",
+    "help": "All touch targets must be 24px large, or leave sufficient space",
+    "n": 46,
+    "sample": [
+     "li:nth-child(1) > article > .gap-y-1.flex-wrap.gap-x-4 > .hover\\:underline[target=\"_blank\"][rel=\"noopener noreferrer\"] ::   Target has insufficient size (71.7px by 15.8px, should be at least 24px by 24px)",
+     "li:nth-child(1) > article > .gap-y-1.flex-wrap.gap-x-4 > .text-ivory\\/60 ::   Target has insufficient size (86.9px by 15.8px, should be at least 24px by 24px)",
+     "li:nth-child(2) > article > .gap-y-1.flex-wrap.gap-x-4 > .hover\\:underline[target=\"_blank\"][rel=\"noopener noreferrer\"] ::   Target has insufficient size (71.7px by 15.8px, should be at least 24px by 24px)"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "button[Temple & kemp] 83×18",
+   "button[Kundan] 42×18",
+   "button[Diamond] 49×18",
+   "button[Gemstone & pearl] 98×18",
+   "button[Gold] 25×18",
+   "button[Silver] 30×18",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20"
+  ],
+  "smallCount": 63,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Collections · Svarahi v2",
+  "desc": 151,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/collections/necklaces",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Post ↗] 45×14",
+   "a[Reel ↗] 42×14",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16"
+  ],
+  "smallCount": 25,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Necklaces & Haram Sets · Svarahi v2",
+  "desc": 138,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/collections/temple-antique",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Post ↗] 45×14",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16"
+  ],
+  "smallCount": 19,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Temple & Antique · Svarahi v2",
+  "desc": 150,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/collections/earrings",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Post ↗] 45×14",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16"
+  ],
+  "smallCount": 22,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Earrings & Jhumkas · Svarahi v2",
+  "desc": 133,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/collections/bangles",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Post ↗] 45×14",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16"
+  ],
+  "smallCount": 22,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Bangles & Bracelets · Svarahi v2",
+  "desc": 140,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/collections/rings",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Post ↗] 45×14",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16"
+  ],
+  "smallCount": 21,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Rings · Svarahi v2",
+  "desc": 125,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/collections/pendants",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16",
+   "a[Reels] 42×16"
+  ],
+  "smallCount": 16,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Pendants · Svarahi v2",
+  "desc": 127,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/collections/chains",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16",
+   "a[Reels] 42×16"
+  ],
+  "smallCount": 16,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Chains · Svarahi v2",
+  "desc": 120,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/collections/bridal",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Reel ↗] 42×14",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16"
+  ],
+  "smallCount": 17,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Bridal Collections · Svarahi v2",
+  "desc": 133,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/pieces/sv-n01",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Necklaces & Haram Sets] 128×17",
+   "a[← Bridal Ensemble] 120×20",
+   "a[Gold Coin Necklace →] 142×20",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16"
+  ],
+  "smallCount": 27,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Ruby and Pearl Haar (SV-N01) · Svarahi v2",
+  "desc": 123,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/pieces/sv-n02",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Necklaces & Haram Sets] 128×17",
+   "a[← Ruby and Pearl Haar] 145×20",
+   "a[Kundan Necklace Set →] 153×20",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16"
+  ],
+  "smallCount": 27,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Gold Coin Necklace (SV-N02) · Svarahi v2",
+  "desc": 122,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/pieces/sv-b01",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Bangles & Bracelets] 105×17",
+   "a[← Rose Gold Drops] 123×20",
+   "a[Stone-set Bangles →] 138×20",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16"
+  ],
+  "smallCount": 27,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Ruby-set Kadas (SV-B01) · Svarahi v2",
+  "desc": 118,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/pieces/sv-s01",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Bridal Collections] 93×17",
+   "a[← Oval Loop Chain] 120×20",
+   "a[Bridal Ensemble →] 120×20",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16"
+  ],
+  "smallCount": 19,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Kemp Bridal Set (SV-S01) · Svarahi v2",
+  "desc": 119,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/pieces/sv-r01",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Rings] 30×17",
+   "a[← Filigree Bracelet] 120×20",
+   "a[Halo Solitaire Ring →] 134×20",
+   "a[All Rings →] 93×17",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16"
+  ],
+  "smallCount": 24,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Pear Diamond Ring (SV-R01) · Svarahi v2",
+  "desc": 121,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/pieces/sv-e01",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Collections] 61×17",
+   "a[Earrings & Jhumkas] 103×17",
+   "a[← Oxidised Silver Set] 136×20",
+   "a[Ruby Halo Earrings →] 137×20",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16"
+  ],
+  "smallCount": 23,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Temple Jhumka Set (SV-E01) · Svarahi v2",
+  "desc": 121,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/counter",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Details] 55×16",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16",
+   "a[Reels] 42×16",
+   "a[Visit] 36×16",
+   "a[Svarahi Gold] 100×16"
+  ],
+  "smallCount": 15,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "The virtual counter · Svarahi v2",
+  "desc": 150,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/craft",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 3,
+    "sample": [
+     ".text-ivory\\/45.tracking-\\[0\\.16em\\].text-\\[10px\\] ::   Element has insufficient color contrast of 4.24 (foreground color: #7c726f, background color: #140608, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+     ".text-xs.text-ivory\\/45.tracking-\\[0\\.16em\\] ::   Element has insufficient color contrast of 4.2 (foreground color: #847373, background color: #23080e, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Post ↗] 45×14",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16",
+   "a[Reels] 42×16",
+   "a[Visit] 36×16",
+   "a[Svarahi Gold] 100×16"
+  ],
+  "smallCount": 14,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Craftsmanship · Svarahi v2",
+  "desc": 150,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/reels",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   },
+   {
+    "id": "link-in-text-block",
+    "impact": "serious",
+    "help": "Links must be distinguishable without relying on color",
+    "n": 1,
+    "sample": [
+     ".underline-offset-4.hover\\:underline[href$=\"collections\"] ::   The link has insufficient color contrast of 1.96:1 with the surrounding text. (Minimum contrast is 3:1, link text: #ead2a0, surrounding text: #9f9692)"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16",
+   "a[Reels] 42×16",
+   "a[Visit] 36×16",
+   "a[Svarahi Gold] 100×16"
+  ],
+  "smallCount": 11,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Reels · Svarahi v2",
+  "desc": 130,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/bridal",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   },
+   {
+    "id": "target-size",
+    "impact": "serious",
+    "help": "All touch targets must be 24px large, or leave sufficient space",
+    "n": 16,
+    "sample": [
+     "article:nth-child(1) > .gap-x-4.gap-y-1.flex-wrap > .hover\\:underline.text-\\[0\\.66rem\\][target=\"_blank\"] ::   Target has insufficient size (71.7px by 15.8px, should be at least 24px by 24px)",
+     "article:nth-child(1) > .gap-x-4.gap-y-1.flex-wrap > .text-ivory\\/60 ::   Target has insufficient size (86.9px by 15.8px, should be at least 24px by 24px)",
+     "article:nth-child(2) > .gap-x-4.gap-y-1.flex-wrap > .hover\\:underline.text-\\[0\\.66rem\\][target=\"_blank\"] ::   Target has insufficient size (71.7px by 15.8px, should be at least 24px by 24px)"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Enquire ↗] 72×16",
+   "button[+ Trial tray] 87×16",
+   "a[Reel ↗] 42×14",
+   "a[Plan your visit →] 358×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16",
+   "a[Reels] 42×16"
+  ],
+  "smallCount": 29,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Bridal & heritage · Svarahi v2",
+  "desc": 136,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/visit",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 5,
+    "sample": [
+     "label[for=\"_R_hklubtb_-name\"] > .normal-case.tracking-normal.text-ivory\\/40 ::   Element has insufficient color contrast of 3.56 (foreground color: #706664, background color: #140608, font size: 7.4pt (9.92px), font weight: normal). Expected contrast ratio of 4.5:1",
+     "label[for=\"_R_hklubtb_-date\"] > .normal-case.tracking-normal.text-ivory\\/40 ::   Element has insufficient color contrast of 3.56 (foreground color: #706664, background color: #140608, font size: 7.4pt (9.92px), font weight: normal). Expected contrast ratio of 4.5:1",
+     "label[for=\"_R_hklubtb_-notes\"] > .normal-case.tracking-normal.text-ivory\\/40 ::   Element has insufficient color contrast of 3.56 (foreground color: #706664, background color: #140608, font size: 7.4pt (9.92px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16",
+   "a[Reels] 42×16",
+   "a[Visit] 36×16",
+   "a[Svarahi Gold] 100×16"
+  ],
+  "smallCount": 10,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Visit the showroom · Svarahi v2",
+  "desc": 142,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ },
+ {
+  "mode": "mobile",
+  "route": "/gold",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "sample": [
+     ".mt-12 ::   Element has insufficient color contrast of 2.98 (foreground color: #655a58, background color: #140608, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ],
+  "small": [
+   "a[Skip to content] 1×1",
+   "a[Home] 31×17",
+   "a[Instagram @svarahijewels ↗] 180×20",
+   "a[Collections] 95×16",
+   "a[Bridal] 49×16",
+   "a[The counter] 96×16",
+   "a[Craft] 44×16",
+   "a[Reels] 42×16",
+   "a[Visit] 36×16",
+   "a[Svarahi Gold] 100×16"
+  ],
+  "smallCount": 10,
+  "noDims": 0,
+  "noAlt": 0,
+  "eagerBelow": 0,
+  "headingSkips": 0,
+  "lang": "en-IN",
+  "title": "Svarahi Gold · Svarahi v2",
+  "desc": 143,
+  "og": false,
+  "canonical": null,
+  "skipLink": true,
+  "main": 1
+ }
+]

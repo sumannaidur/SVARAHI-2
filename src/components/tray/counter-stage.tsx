@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion, type PanInfo } from "framer-motion";
-import { useEffect, useRef, useState, type PointerEvent } from "react";
+import { useEffect, useRef, useState, useTransition, type KeyboardEvent, type PointerEvent } from "react";
 import { wa } from "@/content/business";
 import { categories, getPieceByCode, piecesIn, trayMessage, type CategorySlug, type Piece } from "@/content/catalogue";
 import { captionFor, publicAsset } from "@/lib/assets";
@@ -27,6 +27,23 @@ export function CounterStage({ initial = "bangles" as CategorySlug }) {
   const root = useRef<HTMLDivElement>(null);
   const trayZone = useRef<HTMLDivElement>(null);
   const [tab, setTab] = useState<CategorySlug>(initial);
+  // Phase 11 (INP): the tab highlight updates immediately; laying out the new pieces is a transition.
+  const [picked, setPicked] = useState<CategorySlug>(initial);
+  const [pending, startTab] = useTransition();
+  const tablist = useRef<HTMLDivElement>(null);
+  const choose = (slug: CategorySlug) => {
+    setPicked(slug);
+    startTab(() => setTab(slug));
+  };
+  const onTabKey = (e: KeyboardEvent<HTMLButtonElement>) => {
+    const i = categories.findIndex((c) => c.slug === picked);
+    const next = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: categories.length - 1 }[e.key];
+    if (next === undefined) return;
+    e.preventDefault();
+    const c = categories[(next + categories.length) % categories.length];
+    choose(c.slug);
+    tablist.current?.querySelector<HTMLButtonElement>(`[data-tab="${c.slug}"]`)?.focus();
+  };
   const [fine, setFine] = useState(false);
   const [over, setOver] = useState(false);
   const [dragging, setDragging] = useState(false);
@@ -83,16 +100,19 @@ export function CounterStage({ initial = "bangles" as CategorySlug }) {
       {/* Sized so the display and the tray share one viewport (drag needs both visible). */}
       <div className="relative flex flex-col">
         {/* collection tabs */}
-        <div role="tablist" aria-label="Choose a collection to lay out" className="shell flex gap-2 overflow-x-auto pt-6 [scrollbar-width:none] lg:flex-wrap lg:justify-center">
+        <div ref={tablist} role="tablist" aria-label="Choose a collection to lay out" className="shell flex gap-2 overflow-x-auto pt-6 [scrollbar-width:none] lg:flex-wrap lg:justify-center">
           {categories.map((c) => (
             <button
               key={c.slug}
               role="tab"
               type="button"
-              aria-selected={tab === c.slug}
+              data-tab={c.slug}
+              aria-selected={picked === c.slug}
+              tabIndex={picked === c.slug ? 0 : -1}
               aria-controls="counter-display"
-              onClick={() => setTab(c.slug)}
-              className={`shrink-0 whitespace-nowrap border px-3.5 py-2 text-[12px] backdrop-blur-sm transition-colors ${tab === c.slug ? "border-gold-soft bg-gold-soft text-velvet" : "border-gold/35 bg-velvet/40 text-ivory/80 hover:border-gold-soft"}`}
+              onClick={() => choose(c.slug)}
+              onKeyDown={onTabKey}
+              className={`inline-flex min-h-11 shrink-0 items-center whitespace-nowrap border px-3.5 text-[12px] backdrop-blur-sm transition-colors ${picked === c.slug ? "border-gold-soft bg-gold-soft text-velvet" : "border-gold/35 bg-velvet/40 text-ivory/80 hover:border-gold-soft"}`}
             >
               {c.name}
             </button>
@@ -100,7 +120,7 @@ export function CounterStage({ initial = "bangles" as CategorySlug }) {
         </div>
 
         {/* the counter display */}
-        <div id="counter-display" role="tabpanel" aria-label={`${categories.find((c) => c.slug === tab)?.name} on the counter`} className="shell relative z-20 flex flex-1 items-end py-10 lg:py-8">
+        <div id="counter-display" role="tabpanel" aria-busy={pending} aria-label={`${categories.find((c) => c.slug === tab)?.name} on the counter`} className={`shell relative z-20 flex flex-1 items-end py-10 transition-opacity lg:py-8 ${pending ? "opacity-60" : ""}`}>
           <ul className="grid w-full grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 lg:flex lg:items-end lg:justify-center lg:gap-8" style={{ perspective: "1200px" }}>
             {list.map((p) => (
               <li key={p.code} data-enter className="lg:w-[clamp(140px,min(12vw,calc((100svh-480px)*0.8)),190px)]">
@@ -120,10 +140,10 @@ export function CounterStage({ initial = "bangles" as CategorySlug }) {
                 </motion.div>
                 <div className="mx-auto mt-3 w-fit bg-velvet/70 px-3 py-2 text-center backdrop-blur-sm">
                   <p className="font-display text-[1.15rem] leading-tight">{p.name}</p>
-                  <p className="text-[10px] tracking-[0.16em] text-ivory/50">{p.code}</p>
+                  <p className="text-[10px] tracking-[0.16em] text-ivory/60">{p.code}</p>
                   <div className="mt-2 flex items-center justify-center gap-4">
                     <PlaceOnTray piece={p} compact />
-                    <Link href={`/pieces/${p.slug}`} className="text-[0.66rem] font-semibold uppercase tracking-[0.18em] text-ivory/60 hover:text-gold-soft">Details</Link>
+                    <Link href={`/pieces/${p.slug}`} className="inline-flex min-h-11 items-center text-[0.66rem] font-semibold uppercase tracking-[0.18em] text-ivory/60 hover:text-gold-soft">Details</Link>
                   </div>
                 </div>
               </li>
@@ -163,20 +183,20 @@ export function CounterStage({ initial = "bangles" as CategorySlug }) {
                 })}
               </ul>
               <div className="flex gap-2 md:flex-col">
-                <a
-                  href={tray.length ? wa(trayMessage(tray)) : undefined}
-                  aria-disabled={!tray.length}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`btn btn-solid !min-h-[44px] flex-1 !px-4 ${tray.length ? "" : "pointer-events-none opacity-40"}`}
-                >
-                  Reserve trial
-                </a>
+                {tray.length ? (
+                  <a href={wa(trayMessage(tray))} target="_blank" rel="noopener noreferrer" className="btn btn-solid !min-h-[44px] flex-1 !px-4">
+                    Reserve trial
+                  </a>
+                ) : (
+                  <button type="button" disabled className="btn btn-solid !min-h-[44px] flex-1 cursor-not-allowed !px-4 opacity-40">
+                    Reserve trial
+                  </button>
+                )}
                 <button type="button" onClick={openTray} className="btn btn-line !min-h-[44px] flex-1 !px-4">Review</button>
               </div>
             </div>
           </div>
-          <p className="mt-3 text-center text-[10px] uppercase tracking-[0.16em] text-ivory/45">{captionFor(stage)} · piece images are style references or photographs to follow</p>
+          <p className="mt-3 text-center text-[10px] uppercase tracking-[0.16em] text-ivory/60">{captionFor(stage)} · piece images are style references or photographs to follow</p>
         </div>
       </div>
     </div>

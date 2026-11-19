@@ -41,7 +41,7 @@ export function CatalogueGrid() {
   const styles = Object.keys(STYLE_LABEL) as Style[];
 
   const chip = (on: boolean) =>
-    `shrink-0 whitespace-nowrap border px-3.5 py-2 text-[12px] transition-colors ${on ? "border-gold-soft bg-gold-soft text-velvet" : "border-gold/30 text-ivory/75 hover:border-gold-soft hover:text-gold-soft"}`;
+    `inline-flex min-h-11 shrink-0 items-center whitespace-nowrap border px-3.5 text-[12px] transition-colors ${on ? "border-gold-soft bg-gold-soft text-velvet" : "border-gold/30 text-ivory/75 hover:border-gold-soft hover:text-gold-soft"}`;
 
   return (
     <div>
@@ -53,13 +53,13 @@ export function CatalogueGrid() {
           ))}
         </div>
         <div role="group" aria-label="Filter by style" className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-[12px]">
-          <span className="eyebrow !text-[0.58rem] text-ivory/45">Style, from the piece name</span>
+          <span className="eyebrow !text-[0.58rem] text-ivory/60">Style, from the piece name</span>
           {styles.map((s) => (
-            <button key={s} type="button" aria-pressed={style === s} onClick={() => setStyle(style === s ? "all" : s)} className={`transition-colors ${style === s ? "text-gold-soft underline underline-offset-4" : "text-ivory/65 hover:text-gold-soft"}`}>
+            <button key={s} type="button" aria-pressed={style === s} onClick={() => setStyle(style === s ? "all" : s)} className={`inline-flex min-h-11 items-center transition-colors ${style === s ? "text-gold-soft underline underline-offset-4" : "text-ivory/65 hover:text-gold-soft"}`}>
               {STYLE_LABEL[s]}
             </button>
           ))}
-          <span className="ml-auto text-ivory/50" aria-live="polite">{list.length} {list.length === 1 ? "piece" : "pieces"}</span>
+          <span className="ml-auto text-ivory/60" aria-live="polite">{list.length} {list.length === 1 ? "piece" : "pieces"}</span>
         </div>
       </div>
 

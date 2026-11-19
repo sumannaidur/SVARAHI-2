@@ -60,12 +60,15 @@ export function PieceStage({ piece }: { piece: Piece }) {
               imgClassName="h-full w-full object-cover transition-transform duration-500 ease-[var(--ease-velvet)]"
               style={{ transform: zoom ? "scale(2.2)" : "scale(1)", transformOrigin: origin }}
             />
-            <span className="absolute bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap bg-velvet/80 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-ivory/85">
-              Style reference · not the actual piece
-            </span>
           </div>
         ) : (
           <PhotoToFollow piece={piece} large />
+        )}
+        {/* Outside the zoom button so the button's accessible name matches its visible content; the same disclosure is also read from the paragraph below. */}
+        {a && (
+          <span aria-hidden className="pointer-events-none absolute bottom-4 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap bg-velvet/80 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-ivory/85">
+            Style reference · not the actual piece
+          </span>
         )}
         <div aria-hidden data-stage-sweep className="pointer-events-none absolute inset-y-0 left-0 w-1/3 -translate-x-[150%] mix-blend-soft-light" style={{ background: "linear-gradient(100deg, transparent, rgb(255 230 180 / 0.5), transparent)" }} />
       </div>

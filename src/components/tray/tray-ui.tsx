@@ -67,7 +67,7 @@ export function PlaceOnTray({ piece, compact = false }: { piece: Piece; compact?
   };
   if (compact)
     return (
-      <button type="button" onClick={toggle} aria-pressed={on} className={`text-[0.66rem] font-semibold uppercase tracking-[0.18em] transition-colors ${on ? "text-gold-soft" : "text-ivory/60 hover:text-gold-soft"}`}>
+      <button type="button" onClick={toggle} aria-pressed={on} className={`inline-flex min-h-11 items-center text-[0.66rem] font-semibold uppercase tracking-[0.18em] transition-colors ${on ? "text-gold-soft" : "text-ivory/60 hover:text-gold-soft"}`}>
         {on ? "On your tray ✓" : "+ Trial tray"}
       </button>
     );
@@ -156,7 +156,7 @@ export function TrayDrawer() {
                   <TrayThumb piece={p} />
                   <div className="min-w-0 flex-1">
                     <Link href={`/pieces/${p.slug}`} onClick={() => setOpen(false)} className="font-display text-lg leading-tight hover:text-gold-soft">{p.name}</Link>
-                    <p className="text-[11px] tracking-[0.14em] text-ivory/50">{p.code}</p>
+                    <p className="text-[11px] tracking-[0.14em] text-ivory/60">{p.code}</p>
                   </div>
                   <button type="button" onClick={() => { removeFromTray(p.code); announce(`${p.name} removed from your tray.`); }} aria-label={`Remove ${p.name}`} className="text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-ivory/55 hover:text-gold-soft">
                     Remove
@@ -175,11 +175,12 @@ export function TrayDrawer() {
         {items.length > 0 && (
           <div className="space-y-3 border-t border-gold/20 px-6 py-5">
             <a href={wa(trayMessage(tray))} target="_blank" rel="noopener noreferrer" className="btn btn-solid w-full">Reserve a trial on WhatsApp</a>
+            <Link href="/visit#plan" onClick={() => setOpen(false)} className="btn btn-line w-full">Plan a visit with this tray</Link>
             <div className="grid grid-cols-2 gap-3">
               <a href={mail} className="btn btn-line !px-3">Email the tray</a>
               <button type="button" onClick={() => { clearTray(); announce("Tray cleared."); }} className="btn btn-line !px-3">Clear tray</button>
             </div>
-            <p className="text-[11px] leading-relaxed text-ivory/45">Saved only on this device. Nothing is sent until you choose WhatsApp or email. Prices and availability are confirmed in person.</p>
+            <p className="text-[11px] leading-relaxed text-ivory/60">Saved only on this device. Nothing is sent until you choose WhatsApp or email. Prices and availability are confirmed in person.</p>
           </div>
         )}
       </aside>

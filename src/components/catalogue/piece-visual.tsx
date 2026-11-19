@@ -32,7 +32,7 @@ export function PhotoToFollow({ piece, large = false }: { piece: Piece; large?: 
       {/* eslint-disable-next-line @next/next/no-img-element -- small decorative brand mark from the asset library */}
       <img src={`${mark.path}-${mark.widths[0]}.png`} alt="" aria-hidden width={240} height={240} loading="lazy" className={`${large ? "w-28" : "w-16"} opacity-25`} />
       <p className={`mt-5 font-display italic text-gold-soft/80 ${large ? "text-2xl" : "text-base"}`}>Photograph to follow</p>
-      <p className={`mt-1 tracking-[0.16em] text-ivory/45 ${large ? "text-xs" : "text-[10px]"}`}>{piece.code}</p>
+      <p className={`mt-1 tracking-[0.16em] text-ivory/60 ${large ? "text-xs" : "text-[10px]"}`}>{piece.code}</p>
     </div>
   );
 }

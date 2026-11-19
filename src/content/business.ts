@@ -10,6 +10,9 @@ export const business = {
   positioning: "Jewellery straight from manufacturers", // approved (claims: manufacturer-direct)
   voice: "Modern elegance. Traditional soul.", // Instagram bio
   address: ["1st Floor, Svarahi, 33rd Cross Road", "4th T Block East, Jayanagar", "Bengaluru, Karnataka 560041"],
+  landmark: "Beside Emmadi (Silver) / Rajalakshmi Jewellery", // Instagram captions, svarahigold.xyz
+  postal: { street: "1st Floor, 33rd Cross Road, 4th T Block East", locality: "Jayanagar, Bengaluru", region: "Karnataka", code: "560041", country: "IN" },
+  geo: { lat: 12.9260901, lng: 77.5875978 }, // Google Maps
   phone: { display: "+91 85500 00483", tel: "+918550000483" }, // svarahi.co
   whatsapp: "918550000483", // svarahigold.xyz lists this number for WhatsApp
   email: "svarahi.jewels@gmail.com",

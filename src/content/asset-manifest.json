@@ -1040,6 +1040,7 @@
       "path": "/assets/campaigns/bridal/hero-wide",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1073,6 +1074,7 @@
       "path": "/assets/campaigns/promotional/hero-model",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1106,6 +1108,7 @@
       "path": "/assets/models/festive/about-model",
       "widths": [
         640,
+        960,
         1200
       ],
       "formats": [
@@ -1138,6 +1141,7 @@
       "path": "/assets/models/festive/contact-model",
       "widths": [
         640,
+        960,
         1200
       ],
       "formats": [
@@ -1362,6 +1366,7 @@
       "path": "/assets/generated/approved-concepts/store-wide",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1519,6 +1524,7 @@
       "path": "/assets/models/bridal/bridal-red-choker",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1552,6 +1558,7 @@
       "path": "/assets/models/bridal/bridal-kundan-smile",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1585,6 +1592,7 @@
       "path": "/assets/models/bridal/bridal-red-veil",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1618,6 +1626,7 @@
       "path": "/assets/models/festive/festive-temple-haar",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1651,6 +1660,7 @@
       "path": "/assets/models/festive/festive-green-saree",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1684,6 +1694,7 @@
       "path": "/assets/models/bridal/bridal-kundan-choker",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1717,6 +1728,7 @@
       "path": "/assets/models/bridal/bridal-maang-tikka",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1750,6 +1762,7 @@
       "path": "/assets/models/bridal/bridal-gold-layers",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1783,6 +1796,7 @@
       "path": "/assets/craftsmanship/macro/macro-gold-necklace-black",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1816,6 +1830,7 @@
       "path": "/assets/craftsmanship/macro/macro-gold-chain-black",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1849,6 +1864,7 @@
       "path": "/assets/showroom/displays/display-jhumka-wall",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1882,6 +1898,7 @@
       "path": "/assets/craftsmanship/nakshi/nakshi-pendant-black",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1915,6 +1932,7 @@
       "path": "/assets/craftsmanship/gemstones/gem-emerald-ring-macro",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1948,6 +1966,7 @@
       "path": "/assets/models/everyday/everyday-jhumka-profile",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -1981,6 +2000,7 @@
       "path": "/assets/jewellery/bangles/bangle-wooden-box",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -2014,6 +2034,7 @@
       "path": "/assets/jewellery/bangles/bangles-stack-dark",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -2047,6 +2068,7 @@
       "path": "/assets/showroom/displays/display-gold-bracelets",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -2080,6 +2102,7 @@
       "path": "/assets/jewellery/bangles/bangles-stone-dark",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -2113,6 +2136,7 @@
       "path": "/assets/showroom/displays/display-warm-counter",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -2146,6 +2170,7 @@
       "path": "/assets/showroom/interiors/interior-modern-store",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -2179,6 +2204,7 @@
       "path": "/assets/showroom/counters/counter-dark-case",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -2212,6 +2238,7 @@
       "path": "/assets/showroom/displays/display-necklace-bust",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -2245,6 +2272,7 @@
       "path": "/assets/showroom/displays/display-gold-tray",
       "widths": [
         640,
+        960,
         1280,
         1920
       ],
@@ -2278,6 +2306,7 @@
       "path": "/assets/generated/nano-banana/web/hero-bridal-campaign",
       "widths": [
         640,
+        960,
         1280,
         1376
       ],
@@ -2503,6 +2532,7 @@
       "path": "/assets/generated/nano-banana/web/velvet-counter-stage-01",
       "widths": [
         640,
+        960,
         1280,
         1376
       ],
@@ -2536,6 +2566,7 @@
       "path": "/assets/generated/nano-banana/web/interior-concept-01",
       "widths": [
         640,
+        960,
         1280,
         1376
       ],
@@ -2601,6 +2632,7 @@
       "path": "/assets/generated/nano-banana/web/texture-oxblood-velvet-01",
       "widths": [
         640,
+        960,
         1024
       ],
       "formats": [
@@ -2633,6 +2665,7 @@
       "path": "/assets/generated/nano-banana/web/texture-brushed-gold-01",
       "widths": [
         640,
+        960,
         1024
       ],
       "formats": [
@@ -2665,6 +2698,7 @@
       "path": "/assets/generated/nano-banana/web/texture-ivory-silk-01",
       "widths": [
         640,
+        960,
         1024
       ],
       "formats": [

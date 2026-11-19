@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Svarahi Flagship v2 — Owner presentation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Manrope:wght@400;600&display=swap">
+<style>
+  :root {
+    --velvet: #140608; --oxblood: #3a0c16; --maroon: #5c1426; --gold: #d4a94f; --gold-soft: #ead2a0;
+    --ivory: #fbf6ee; --ink: #1e1214; --muted: rgb(251 246 238 / .68);
+    --serif: "Cormorant Garamond", Georgia, serif; --sans: Manrope, system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--velvet); color: var(--ivory); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+  a { color: var(--gold-soft); }
+  section { min-height: 100vh; scroll-snap-align: start; padding: clamp(28px, 5vw, 72px) clamp(16px, 5vw, 80px); display: flex; flex-direction: column; justify-content: center; position: relative; border-bottom: 1px solid rgb(212 169 79 / .15); }
+  .eyebrow { font-size: .72rem; font-weight: 600; letter-spacing: .28em; text-transform: uppercase; color: var(--gold-soft); margin: 0; }
+  h1, h2 { font-family: var(--serif); font-weight: 400; line-height: .98; letter-spacing: -.015em; margin: .35em 0 0; }
+  h1 { font-size: clamp(3rem, 8vw, 7.5rem); font-weight: 300; }
+  h2 { font-size: clamp(2.2rem, 4.6vw, 4.2rem); }
+  h3 { font-family: var(--serif); font-weight: 500; font-size: 1.6rem; margin: 0 0 .3em; }
+  p, li { line-height: 1.6; color: var(--muted); }
+  .lead { font-size: clamp(1.05rem, 1.6vw, 1.3rem); max-width: 46rem; }
+  .gold { color: var(--gold-soft); }
+  em.it { font-family: var(--serif); font-style: italic; color: var(--gold-soft); }
+  .cover { background: radial-gradient(70% 80% at 70% 20%, var(--oxblood), var(--velvet) 70%); }
+  .rule { width: 120px; height: 1px; background: var(--gold); margin: 28px 0; }
+  .meta { display: flex; flex-wrap: wrap; gap: 10px 28px; font-size: .85rem; color: var(--muted); }
+  .grid { display: grid; gap: clamp(16px, 2.5vw, 32px); }
+  .shots { display: grid; grid-template-columns: minmax(0, 3.2fr) minmax(0, 1fr); gap: clamp(12px, 2vw, 28px); align-items: start; margin-top: 28px; }
+  .shots img { width: 100%; height: auto; display: block; border: 1px solid rgb(212 169 79 / .3); background: #000; }
+  .shots figure { margin: 0; }
+  figcaption { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: rgb(251 246 238 / .6); margin-top: 8px; }
+  .exp { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2.2fr); gap: clamp(20px, 4vw, 56px); align-items: center; }
+  .exp ul { padding-left: 1.1em; margin: 14px 0 0; }
+  .note { border-left: 2px solid var(--gold); padding: 10px 16px; margin-top: 18px; font-size: .9rem; background: rgb(58 12 22 / .5); color: rgb(251 246 238 / .82); }
+  .route { font-family: ui-monospace, Consolas, monospace; font-size: .85rem; color: var(--gold-soft); }
+  .stats { grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); margin-top: 32px; }
+  .stat { border-top: 1px solid rgb(212 169 79 / .4); padding-top: 14px; }
+  .stat b { display: block; font-family: var(--serif); font-weight: 400; font-size: clamp(2.4rem, 4vw, 3.4rem); color: var(--ivory); line-height: 1; }
+  .stat span { font-size: .85rem; color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; margin-top: 24px; font-size: .92rem; }
+  th, td { text-align: left; padding: 10px 12px; border-top: 1px solid rgb(212 169 79 / .18); vertical-align: top; }
+  th { font-weight: 600; color: var(--gold-soft); font-size: .72rem; letter-spacing: .16em; text-transform: uppercase; }
+  td { color: rgb(251 246 238 / .82); }
+  .ivory { background: var(--ivory); color: var(--ink); }
+  .ivory p, .ivory li, .ivory td { color: rgb(30 18 20 / .78); }
+  .ivory .eyebrow, .ivory th { color: #8a1a2e; }
+  .ivory th, .ivory td { border-color: rgb(92 20 38 / .18); }
+  .check li { list-style: none; margin-left: -1.1em; padding-left: 1.8em; position: relative; }
+  .check li::before { content: ""; position: absolute; left: 0; top: .45em; width: 12px; height: 12px; border: 1.5px solid currentColor; opacity: .7; }
+  .pill { display: inline-block; font-size: .66rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; padding: 3px 8px; border: 1px solid currentColor; margin-left: 6px; vertical-align: 2px; }
+  .nav { position: fixed; right: 16px; bottom: 16px; display: flex; gap: 6px; z-index: 5; }
+  .nav button { width: 44px; height: 44px; background: rgb(20 6 8 / .85); color: var(--gold-soft); border: 1px solid rgb(212 169 79 / .5); font-size: 1.1rem; cursor: pointer; }
+  .nav button:focus-visible, a:focus-visible { outline: 1.5px solid var(--gold); outline-offset: 3px; }
+  .count { position: fixed; left: 16px; bottom: 22px; font-size: .7rem; letter-spacing: .2em; color: rgb(251 246 238 / .6); z-index: 5; }
+  @media (max-width: 860px) {
+    .exp, .shots { grid-template-columns: 1fr; }
+    .shots figure:last-child { max-width: 260px; }
+    html { scroll-snap-type: none; }
+    section { min-height: auto; }
+  }
+  @media print {
+    html { scroll-snap-type: none; }
+    section { min-height: auto; page-break-after: always; border: 0; }
+    .nav, .count { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<section class="cover" aria-label="Cover">
+  <p class="eyebrow">Svarahi · Flagship website v2 · Owner presentation</p>
+  <h1>Jewellery is the hero.<br><em class="it">The showroom is the destination.</em></h1>
+  <div class="rule"></div>
+  <p class="lead">A new, independent website for Svarahi, Jayanagar: built to create desire for the jewellery online and bring people to the counter in person.</p>
+  <div class="meta"><span>Prepared 19 November 2026</span><span>Development build · not published · not indexed</span><span>Nothing deployed · this work has committed and pushed nothing</span></div>
+</section>
+
+<section aria-labelledby="s-overview">
+  <p class="eyebrow">At a glance</p>
+  <h2 id="s-overview">What has been built</h2>
+  <p class="lead">Twelve phases, each reviewed and approved in turn. The site guides a visitor from discovery to a booked showroom visit, without ever pretending that a stock photograph is Svarahi's own jewellery.</p>
+  <div class="grid stats">
+    <div class="stat"><b>39</b><span>customer pages: 8 collections and 23 catalogued pieces</span></div>
+    <div class="stat"><b>9</b><span>signature experiences, from hero to bridal carousel</span></div>
+    <div class="stat"><b>144</b><span>automated checks, all passing</span></div>
+    <div class="stat"><b>100</b><span>Lighthouse accessibility, on every audited page</span></div>
+    <div class="stat"><b>0</b><span>changes to the original Phase 7 website</span></div>
+  </div>
+  <table aria-label="Site map">
+    <thead><tr><th>Page</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td class="route">/</td><td>Cinematic, jewellery-first homepage: journey, collections, counter, craft, visit</td></tr>
+      <tr><td class="route">/collections · /collections/[8] · /pieces/[23]</td><td>Discovery: filters, piece pages, WhatsApp enquiry, trial tray</td></tr>
+      <tr><td class="route">/counter</td><td>The virtual velvet counter and trial tray</td></tr>
+      <tr><td class="route">/craft · /reels · /bridal</td><td>Craftsmanship loupe, Instagram reels, bridal and heritage carousel</td></tr>
+      <tr><td class="route">/visit · /gold</td><td>Plan-a-visit concierge, and the bridge to the separate Svarahi Gold platform</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ===== Experiences ===== -->
+<section aria-labelledby="e1">
+  <div class="exp">
+    <div>
+      <p class="eyebrow">01 · Homepage</p>
+      <h2 id="e1">A cinematic first impression</h2>
+      <ul><li>Jewellery fills the screen, not the logo.</li><li>Scroll-driven scenes walk through discovering, understanding, experiencing and owning a piece.</li><li>WhatsApp, Visit and Directions are always one tap away on phones.</li></ul>
+      <p class="note">The hero image is an AI-generated editorial concept, labelled as such on the page. It is a placeholder until Svarahi's own photography is supplied.</p>
+    </div>
+    <div class="shots"><figure><img src="screens/01-home-desktop.png" alt="Homepage on desktop: model in maroon saree wearing a temple necklace, headline Jewellery straight from manufacturers" loading="lazy"><figcaption>Desktop</figcaption></figure><figure><img src="screens/01-home-mobile.png" alt="Homepage on a phone" loading="lazy"><figcaption>Phone</figcaption></figure></div>
+  </div>
+</section>
+
+<section aria-labelledby="e2">
+  <div class="exp">
+    <div>
+      <p class="eyebrow">02 · Collections &amp; discovery</p>
+      <h2 id="e2">A showroom, laid out</h2>
+      <ul><li>Eight collections, filters by collection and style, and a code for every piece (SV-N01…).</li><li>Every card has "Enquire" (a prefilled WhatsApp message) and "+ Trial tray".</li></ul>
+      <p class="note">Where Svarahi has no photograph of a piece yet, the page says "Photograph to follow" rather than showing someone else's jewellery.</p>
+    </div>
+    <div class="shots"><figure><img src="screens/02-collections-desktop.png" alt="Collections landing page on desktop" loading="lazy"><figcaption>Desktop</figcaption></figure><figure><img src="screens/03-category-bridal-mobile.png" alt="Bridal collection page on a phone" loading="lazy"><figcaption>Phone · Bridal collection</figcaption></figure></div>
+  </div>
+</section>
+
+<section aria-labelledby="e3">
+  <div class="exp">
+    <div>
+      <p class="eyebrow">03 · Piece page</p>
+      <h2 id="e3">Look closer, then ask</h2>
+      <ul><li>The image zooms in (by mouse, tap or keyboard).</li><li>The page shows the catalogue code, collection and style, plus WhatsApp, call and email enquiry and the trial tray.</li><li>A "You may also like" rail and next/previous browsing.</li></ul>
+      <p class="note">Images are labelled "Style reference · not the actual piece". No price, weight or purity is shown until Svarahi supplies verified details.</p>
+    </div>
+    <div class="shots"><figure><img src="screens/04-piece-zoom-desktop.png" alt="Ruby-set Kadas piece page with zoomed image" loading="lazy"><figcaption>Desktop · zoomed</figcaption></figure><figure><img src="screens/04-piece-zoom-mobile.png" alt="Piece page on a phone" loading="lazy"><figcaption>Phone</figcaption></figure></div>
+  </div>
+</section>
+
+<section aria-labelledby="e4">
+  <div class="exp">
+    <div>
+      <p class="eyebrow">04 · The virtual counter</p>
+      <h2 id="e4">Lay it out on velvet before you visit</h2>
+      <ul><li>Choose a collection and the pieces appear on a velvet counter.</li><li>Drag a piece onto the trial tray, or tap to add it (up to eight).</li><li>Send the tray on WhatsApp or by email, or plan a visit with it.</li></ul>
+      <p class="note">The tray is saved only on the visitor's device. Nothing is sent until they choose to, and there are no accounts and no checkout.</p>
+    </div>
+    <div class="shots"><figure><img src="screens/06-tray-drawer-desktop.png" alt="Trial tray drawer with three pieces and Reserve a trial on WhatsApp" loading="lazy"><figcaption>Desktop · trial tray</figcaption></figure><figure><img src="screens/05-counter-tray-mobile.png" alt="Virtual counter on a phone with pieces on the tray" loading="lazy"><figcaption>Phone · counter</figcaption></figure></div>
+  </div>
+</section>
+
+<section aria-labelledby="e5">
+  <div class="exp">
+    <div>
+      <p class="eyebrow">05 · Craftsmanship</p>
+      <h2 id="e5">A jeweller's loupe</h2>
+      <ul><li>A magnifying lens over a macro photograph, showing real detail from the full-resolution image.</li><li>Five crafts unfold as you scroll: nakshi, granulation, stone setting, kundan and antique finish.</li><li>The page ends with Svarahi's own care guidance.</li></ul>
+      <p class="note">The crafts are described in general terms only. Nothing claims an in-house workshop until Svarahi confirms it.</p>
+    </div>
+    <div class="shots"><figure><img src="screens/07-craft-loupe-desktop.png" alt="Jeweller's loupe magnifying a gold pendant" loading="lazy"><figcaption>Desktop · loupe</figcaption></figure><figure><img src="screens/08-craft-chapters-mobile.png" alt="Craft chapters on a phone" loading="lazy"><figcaption>Phone · chapters</figcaption></figure></div>
+  </div>
+</section>
+
+<section aria-labelledby="e6">
+  <div class="exp">
+    <div>
+      <p class="eyebrow">06 · Instagram reels</p>
+      <h2 id="e6">Real Svarahi jewellery, in motion</h2>
+      <ul><li>Svarahi's own reels and posts, through Instagram's official embed.</li><li>One item loads at a time, and nothing plays until the visitor presses play.</li></ul>
+      <p class="note">Posts that show customers or staff are excluded until consent is given. One reel (DfwJDxcD1Vg) cannot currently be embedded: Instagram reports it as unavailable.</p>
+    </div>
+    <div class="shots"><figure><img src="screens/09-reels-desktop.png" alt="Instagram reel stage on desktop" loading="lazy"><figcaption>Desktop</figcaption></figure><figure><img src="screens/09-reels-mobile.png" alt="Instagram reel on a phone" loading="lazy"><figcaption>Phone</figcaption></figure></div>
+  </div>
+</section>
+
+<section aria-labelledby="e7">
+  <div class="exp">
+    <div>
+      <p class="eyebrow">07 · Bridal &amp; heritage</p>
+      <h2 id="e7">Chosen together, worn for a lifetime</h2>
+      <ul><li>A curved carousel of nine bridal and heritage looks.</li><li>Each look has "Ask about a bridal set in this style".</li><li>The page explains how a bridal trial works and offers pieces for the trial tray.</li></ul>
+      <p class="note">The looks are licensed editorial photographs or AI concepts, each captioned and never shown as Svarahi inventory.</p>
+    </div>
+    <div class="shots"><figure><img src="screens/11-bridal-carousel-desktop.png" alt="Bridal carousel showing Gold layers under the veil" loading="lazy"><figcaption>Desktop · carousel</figcaption></figure><figure><img src="screens/10-bridal-hero-mobile.png" alt="Bridal page on a phone" loading="lazy"><figcaption>Phone</figcaption></figure></div>
+  </div>
+</section>
+
+<section aria-labelledby="e8">
+  <div class="exp">
+    <div>
+      <p class="eyebrow">08 · Visit &amp; concierge</p>
+      <h2 id="e8">From browsing to booked</h2>
+      <ul><li>The visitor chooses an occasion, a day, a time of day and their trial tray.</li><li>They see the exact message before it opens in WhatsApp or email.</li><li>The page also explains what to expect at the counter, lists the concierge contacts and gives directions.</li></ul>
+      <p class="note">Opening hours read "to be confirmed" until Svarahi approves them, and the site stores nothing.</p>
+    </div>
+    <div class="shots"><figure><img src="screens/12-visit-planner-desktop.png" alt="Visit planner with composed WhatsApp message" loading="lazy"><figcaption>Desktop · planner</figcaption></figure><figure><img src="screens/12-visit-planner-mobile.png" alt="Visit planner on a phone" loading="lazy"><figcaption>Phone</figcaption></figure></div>
+  </div>
+</section>
+
+<section aria-labelledby="e9">
+  <div class="exp">
+    <div>
+      <p class="eyebrow">09 · Svarahi Gold</p>
+      <h2 id="e9">Connected, but separate</h2>
+      <ul><li>A bridge page explains the difference between jewellery here and bullion there.</li><li>It opens svarahigold.xyz in a new tab.</li></ul>
+      <p class="note">No rates, accounts or trading on this site, and nothing is shared between the two.</p>
+    </div>
+    <div class="shots"><figure><img src="screens/13-gold-bridge-desktop.png" alt="Svarahi Gold bridge page" loading="lazy"><figcaption>Desktop</figcaption></figure><figure><img src="screens/13-gold-bridge-mobile.png" alt="Svarahi Gold page on a phone" loading="lazy"><figcaption>Phone</figcaption></figure></div>
+  </div>
+</section>
+
+<!-- ===== Trust ===== -->
+<section class="ivory" aria-labelledby="s-honest">
+  <p class="eyebrow">Built on honesty</p>
+  <h2 id="s-honest">What the site will and won't say</h2>
+  <table>
+    <thead><tr><th>Area</th><th>Rule on the site today</th></tr></thead>
+    <tbody>
+      <tr><td>Photography</td><td>Every image is classified. Licensed editorial (C), showroom inspiration (D) and AI concepts (F) are captioned and never presented as Svarahi pieces, customers or the showroom. 36 images of unknown origin from svarahi.co are blocked from public pages.</td></tr>
+      <tr><td>Commercial claims</td><td>Only "Jewellery straight from manufacturers" is approved. The other 15 claims (V.A. 2.5 %, 0 % making, ₹123/g, Gold+ 7.5 %, buyback, hallmark/HUID, hours, rating…) stay hidden until approved.</td></tr>
+      <tr><td>Prices &amp; purchase</td><td>No prices, weights, purity or live rates. Purchases are made in the showroom: weight × the day's rate, with making charge and GST shown separately.</td></tr>
+      <tr><td>Instagram</td><td>Only Svarahi's own posts without people, through the official embed. No media is copied.</td></tr>
+      <tr><td>Privacy</td><td>No accounts, forms that post, or tracking. The trial tray and performance metrics stay on the visitor's device.</td></tr>
+      <tr><td>Search engines</td><td>The whole site is blocked from indexing (noindex and robots.txt) until you approve launch. One switch turns it on.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section aria-labelledby="s-quality">
+  <p class="eyebrow">Quality</p>
+  <h2 id="s-quality">Tested on every phase, and again at the end</h2>
+  <div class="grid stats">
+    <div class="stat"><b>144/144</b><span>automated checks across Phases 6–12 (<span class="route">npm run qa</span>)</span></div>
+    <div class="stat"><b>0</b><span>WCAG 2.2 AA violations (axe), 44 page-views</span></div>
+    <div class="stat"><b>100</b><span>Lighthouse accessibility, mobile and desktop</span></div>
+    <div class="stat"><b>0</b><span>layout shift (CLS) on every page</span></div>
+    <div class="stat"><b>&lt;200 ms</b><span>tap response (INP) on a throttled phone</span></div>
+  </div>
+  <table>
+    <thead><tr><th>Lab measurement</th><th>Desktop</th><th>Mobile (slow 4G simulation)</th></tr></thead>
+    <tbody>
+      <tr><td>Lighthouse performance</td><td>87–100</td><td>74–93</td></tr>
+      <tr><td>Largest contentful paint</td><td>0.6–1.1 s</td><td>3.2–4.8 s simulated · 1.5–3.6 s at 4× CPU, 1.6 Mbps</td></tr>
+      <tr><td>Best practices</td><td>100 (78 on pages with Instagram embeds)</td><td>100 (79 with embeds)</td></tr>
+    </tbody>
+  </table>
+  <p>Instagram's own embed sets third-party cookies, which lowers best practices on those pages. The SEO score of 69 reflects only the deliberate noindex. Testing on a real iPhone and Android phone is still to be done.</p>
+</section>
+
+<section aria-labelledby="s-iso">
+  <p class="eyebrow">Your original website</p>
+  <h2 id="s-iso">The Phase 7 site was not touched by this work</h2>
+  <p class="lead">Before any work began, every file of <span class="route">Desktop\svarahi</span> was fingerprinted (346 files). After each phase the fingerprint was checked again.</p>
+  <ul>
+    <li>No file was edited, added or removed by the v2 work. The v2 site imports none of its code.</li>
+    <li>One change appeared during the build, made outside this work: two Git commits on 19 Nov at 11:14 under the <b class="gold">sumannaidur</b> account ("feat: complete svarahi website implementation…" and "Merge origin/main and update README"), which changed only README.md. <b class="gold">Please confirm these were intended.</b></li>
+    <li>Since then, every check has shown it unchanged: 346 files, HEAD fcba436.</li>
+    <li>The v2 folder itself was also committed and pushed (11:03 and 11:06) to <b class="gold">github.com/sumannaidur/SVARAHI-2</b> under the same account, capturing the Phase 8 state. Later work is not committed. <b class="gold">Please confirm this, and whether that repository is private.</b></li>
+  </ul>
+</section>
+
+<section class="ivory" aria-labelledby="s-need">
+  <p class="eyebrow">What we need from you</p>
+  <h2 id="s-need">Decisions before launch</h2>
+  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-top:20px">
+    <ul class="check">
+      <li><b>Real photography</b> <span class="pill">most important</span><br>Original files of your Instagram product photos, and studio photos of at least 20 pieces, so real jewellery replaces style references.</li>
+      <li><b>Logo</b>: the official vector file (SVG/AI).</li>
+      <li><b>Phone and WhatsApp number</b>: confirm +91 85500 00483. Instagram also lists +91 70191 03928.</li>
+      <li><b>Opening hours</b>, including holidays.</li>
+      <li><b>Google Maps link and landmark</b> wording ("Beside Emmadi (Silver) / Rajalakshmi Jewellery").</li>
+      <li><b>Men's range</b>: should "Men's Jewellery" become a live collection?</li>
+    </ul>
+    <ul class="check">
+      <li><b>Commercial claims</b>: approve, with terms and dates, any you want shown (V.A., making charges, ₹123/g, Gold+, stone policies, hallmark/HUID, GST invoice, purity testing, rating, parking). These also unlock the savings visualiser.</li>
+      <li><b>Instagram</b>: approval to embed your posts, consent for the customer and staff reels, and re-enabling embedding on reel DfwJDxcD1Vg.</li>
+      <li><b>Wording</b>: the Svarahi Gold bridge copy and the bridal-trial steps.</li>
+      <li><b>Imagery policy</b>: are licensed editorial and AI concept images acceptable at launch, captioned as they are now?</li>
+      <li><b>Analytics</b>: whether to connect the on-device performance monitor to an analytics service. This needs a privacy notice.</li>
+      <li><b>Git</b>: confirm the 11:14 Phase 7 commits and the v2 push to GitHub (SVARAHI-2) were intended, and whether that repository is private.</li>
+    </ul>
+  </div>
+</section>
+
+<section aria-labelledby="s-next">
+  <p class="eyebrow">Next steps</p>
+  <h2 id="s-next">From review to launch</h2>
+  <table>
+    <thead><tr><th>Step</th><th>Who</th><th>What happens</th></tr></thead>
+    <tbody>
+      <tr><td>1 · Device testing</td><td>You, with us</td><td>Try the site on a real iPhone (Safari) and Android phone: tray, counter drag, WhatsApp hand-off, reels, maps.</td></tr>
+      <tr><td>2 · Content</td><td>You</td><td>Photographs, logo, hours and claim approvals (see the previous slide).</td></tr>
+      <tr><td>3 · Swap in real jewellery</td><td>Us</td><td>Run photographs through the asset pipeline. Piece pages, the counter and the hero switch to real pieces.</td></tr>
+      <tr><td>4 · Repository &amp; hosting</td><td>Your approval</td><td>Commit Phases 9–12 to the existing v2 repository, and choose a domain and host. Nothing more is committed, pushed or deployed until you say so.</td></tr>
+      <tr><td>5 · Launch</td><td>Your approval</td><td>Set the domain, switch on indexing, run Lighthouse on the live site and submit the sitemap.</td></tr>
+    </tbody>
+  </table>
+  <p style="margin-top:28px">Full reports: <span class="route">docs/01–12 reports</span> · registers: <span class="route">docs/registers/</span> · tests: <span class="route">docs/testing/</span> · performance: <span class="route">docs/performance/</span></p>
+</section>
+
+<div class="count" aria-hidden="true"><span id="n">1</span> / <span id="t"></span></div>
+<nav class="nav" aria-label="Slides">
+  <button type="button" id="prev" aria-label="Previous slide">↑</button>
+  <button type="button" id="next" aria-label="Next slide">↓</button>
+</nav>
+<script>
+  const S = [...document.querySelectorAll("section")];
+  document.getElementById("t").textContent = S.length;
+  const cur = () => { let i = 0; S.forEach((s, k) => { if (s.getBoundingClientRect().top <= innerHeight * 0.4) i = k; }); return i; };
+  const go = (d) => S[Math.max(0, Math.min(S.length - 1, cur() + d))].scrollIntoView();
+  document.getElementById("prev").onclick = () => go(-1);
+  document.getElementById("next").onclick = () => go(1);
+  addEventListener("keydown", (e) => {
+    if (["ArrowDown", "ArrowRight", "PageDown", " "].includes(e.key)) { e.preventDefault(); go(1); }
+    if (["ArrowUp", "ArrowLeft", "PageUp"].includes(e.key)) { e.preventDefault(); go(-1); }
+  });
+  addEventListener("scroll", () => { document.getElementById("n").textContent = cur() + 1; }, { passive: true });
+</script>
+</body>
+</html>

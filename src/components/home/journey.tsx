@@ -41,7 +41,7 @@ export function Journey() {
       });
       mm.add(MQ.mobile, () => {
         gsap.utils.toArray<HTMLElement>("[data-mstep]").forEach((el) =>
-          gsap.from(el, { y: 36, autoAlpha: 0, duration: 0.9, ease: "power3.out", scrollTrigger: { trigger: el, start: "top 86%", once: true } }),
+          gsap.from(el, { y: 36, opacity: 0, duration: 0.9, ease: "power3.out", scrollTrigger: { trigger: el, start: "top 86%", once: true } }),
         );
       });
     },
@@ -74,9 +74,9 @@ export function Journey() {
           </ol>
         </div>
         <div className="relative hidden aspect-[3/4] max-h-[76svh] lg:col-span-4 lg:col-start-9 lg:block">
-          {imgs.map((a, i) => (
+          {imgs.map((a) => (
             <figure key={a.id} data-pic className="arch absolute inset-0 ring-1 ring-gold/30">
-              <Picture asset={a} sizes="34vw" priority={i === 0} className="absolute inset-0" imgClassName="h-full w-full object-cover" />
+              <Picture asset={a} sizes="(min-width:1024px) 34vw, 90vw" className="absolute inset-0" imgClassName="h-full w-full object-cover" />
               <Provenance asset={a} className="absolute bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap" />
             </figure>
           ))}
@@ -96,7 +96,7 @@ export function Journey() {
               </div>
             </li>
           ))}
-          <li className="text-[10px] uppercase tracking-[0.16em] text-ivory/45">
+          <li className="text-[10px] uppercase tracking-[0.16em] text-ivory/60">
             Images: licensed editorial, showroom inspiration and AI-generated concepts — not Svarahi jewellery or our store.
           </li>
         </ol>

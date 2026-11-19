@@ -2,14 +2,20 @@
   "name": "svarahi-flagship-v2",
   "version": "0.1.0",
   "private": true,
-  "description": "Svarahi flagship website v2 — independent of the Phase 7 project (Desktop/svarahi)",
+  "description": "Svarahi flagship website v2 \u2014 independent of the Phase 7 project (Desktop/svarahi)",
   "scripts": {
     "dev": "next dev --port 3200",
     "build": "next build",
     "start": "next start --port 3200",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "assets": "node scripts/build-assets.mjs"
+    "assets": "node scripts/build-assets.mjs",
+    "qa": "node tests/run-all.mjs",
+    "qa:a11y": "node tests/tools/axe-audit.mjs http://localhost:3200 docs/performance/axe-latest.json",
+    "qa:lighthouse": "node tests/tools/lighthouse.mjs http://localhost:3210 docs/performance/lighthouse / /collections /pieces/sv-b01 /counter /craft /reels /bridal /visit /gold",
+    "qa:vitals": "node tests/tools/vitals.mjs http://localhost:3210 / /collections /pieces/sv-b01 /counter /bridal /visit",
+    "qa:isolation": "node scripts/snapshot-phase7.mjs ../svarahi docs/isolation/phase7-latest.json && node scripts/compare-snapshots.mjs docs/isolation/phase7-baseline.json docs/isolation/phase7-latest.json",
+    "start:audit": "next start --port 3210"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -24,8 +30,11 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "axe-core": "^4.10.2",
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
+    "lighthouse": "^12.2.1",
+    "playwright-core": "^1.49.1",
     "sharp": "^0.33.5",
     "tailwindcss": "4.3.3",
     "typescript": "^5"

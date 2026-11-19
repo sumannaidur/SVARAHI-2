@@ -143,7 +143,8 @@ export const getPiece = (slug: string) => pieces.find((p) => p.slug === slug);
 export const piecesIn = (slug: CategorySlug) => pieces.filter((p) => p.category === slug || p.alsoIn.includes(slug));
 export const related = (p: Piece, n = 6) => [...pieces.filter((x) => x.code !== p.code && x.category === p.category), ...pieces.filter((x) => x.code !== p.code && x.category !== p.category && x.styles.some((s) => p.styles.includes(s)))].slice(0, n);
 
-export const igPost = (code: string) => ig.posts.find((p) => p.code === code && p.people === "none");
+/** On-site posts: no people (consent pending) and embeddable via Instagram's official embed. */
+export const igPost = (code: string) => ig.posts.find((p) => p.code === code && p.people === "none" && !("embeddable" in p && p.embeddable === false));
 export const getPieceByCode = (code: string) => pieces.find((p) => p.code === code);
 
 /** One WhatsApp message for the whole trial tray. */

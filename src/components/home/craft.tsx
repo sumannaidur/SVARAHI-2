@@ -26,7 +26,7 @@ export function Craft() {
       const mm = gsap.matchMedia();
       mm.add(MQ.desktop, () => {
         const terms = gsap.utils.toArray<HTMLElement>("[data-term]");
-        gsap.set(terms, { autoAlpha: 0, y: 30 });
+        gsap.set(terms, { opacity: 0, y: 30 });
         const tl = gsap.timeline({
           defaults: { ease: "none" },
           scrollTrigger: { trigger: root.current, start: "top top", end: "+=180%", pin: true, scrub: 0.8 },
@@ -34,7 +34,7 @@ export function Craft() {
         tl.fromTo("[data-macro]", { scale: 2.1 }, { scale: 1, duration: 3 }, 0)
           .fromTo("[data-macro-frame]", { clipPath: "inset(0% 0% 0% 0% round 0px)" }, { clipPath: "inset(8% 6% 8% 6% round 999px 999px 0px 0px)", duration: 3 }, 0)
           .fromTo("[data-sweep]", { xPercent: -140 }, { xPercent: 260, duration: 3 }, 0);
-        terms.forEach((el, i) => tl.to(el, { autoAlpha: 1, y: 0, duration: 0.4 }, 0.5 + i * 0.85));
+        terms.forEach((el, i) => tl.to(el, { opacity: 1, y: 0, duration: 0.4 }, 0.5 + i * 0.85));
         tl.fromTo("[data-detail='a']", { yPercent: 40, autoAlpha: 0 }, { yPercent: 0, autoAlpha: 1, duration: 0.8 }, 1.6)
           .fromTo("[data-detail='b']", { yPercent: 60, autoAlpha: 0 }, { yPercent: 0, autoAlpha: 1, duration: 0.8 }, 2.0);
       });
@@ -72,7 +72,7 @@ export function Craft() {
             </div>
             <div aria-hidden data-sweep className="pointer-events-none absolute inset-y-0 left-0 w-1/3 mix-blend-soft-light" style={{ background: "linear-gradient(100deg, transparent, rgb(255 230 180 / 0.45), transparent)" }} />
           </div>
-          <Provenance asset={macro} className="mt-3 !bg-transparent !px-0 !text-ink/55 lg:absolute lg:-bottom-7 lg:right-0 lg:mt-0" />
+          <Provenance asset={macro} className="mt-3 !bg-transparent !px-0 !text-ink/70 lg:absolute lg:-bottom-7 lg:right-0 lg:mt-0" />
           <figure data-detail="a" className="absolute -left-10 bottom-[12%] hidden w-[30%] ring-8 ring-ivory lg:block">
             <div className="relative aspect-square"><Picture asset={detailA} sizes="18vw" className="absolute inset-0" imgClassName="h-full w-full object-cover" /></div>
           </figure>

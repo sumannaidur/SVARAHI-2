@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { business, wa } from "@/content/business";
+import { wa } from "@/content/business";
 import { publicAsset } from "@/lib/assets";
 import { Picture } from "../media/picture";
 import { Announcer, TrayButton, TrayDrawer } from "../tray/tray-ui";
@@ -10,9 +10,10 @@ import { Announcer, TrayButton, TrayDrawer } from "../tray/tray-ui";
 // Absolute paths so the header works on every route (Phase 7 added /collections and /pieces).
 const NAV = [
   { href: "/collections", label: "Collections" },
+  { href: "/bridal", label: "Bridal" }, // Phase 9
   { href: "/counter", label: "The counter" }, // Phase 8: the virtual counter page
-  { href: "/#craft", label: "Craft" },
-  { href: "/#visit", label: "Visit" },
+  { href: "/craft", label: "Craft" }, // Phase 9: was /#craft
+  { href: "/visit", label: "Visit" }, // Phase 10: was /#visit
 ];
 
 export function Header() {
@@ -43,15 +44,16 @@ export function Header() {
           <Link href="/" aria-label="Svarahi — home" className="block">
             <Picture asset={logo} sizes="80px" priority imgClassName="h-11 w-auto md:h-12" />
           </Link>
-          <nav aria-label="Primary" className="hidden items-center gap-9 lg:flex">
+          <nav aria-label="Primary" className="hidden items-center gap-6 whitespace-nowrap lg:flex xl:gap-9">
             {NAV.map((n) => (
               <Link key={n.href} href={n.href} className="text-[0.7rem] font-semibold uppercase tracking-[0.24em] text-ivory/75 transition-colors hover:text-gold-soft">
                 {n.label}
               </Link>
             ))}
-            <a href={business.svarahiGold} target="_blank" rel="noopener noreferrer" className="text-[0.7rem] font-semibold uppercase tracking-[0.24em] text-ivory/50 transition-colors hover:text-gold-soft">
-              Svarahi Gold ↗
-            </a>
+            {/* Phase 10: internal bridge page, which opens the separate platform */}
+            <Link href="/gold" className="text-[0.7rem] font-semibold uppercase tracking-[0.24em] text-ivory/60 transition-colors hover:text-gold-soft">
+              Svarahi Gold
+            </Link>
           </nav>
           <div className="flex items-center gap-2">
             <a
@@ -93,9 +95,9 @@ export function Header() {
               {n.label}
             </Link>
           ))}
-          <a href={business.svarahiGold} target="_blank" rel="noopener noreferrer" className="py-4 font-display text-3xl text-ivory/60">
-            Svarahi Gold ↗
-          </a>
+          <Link href="/gold" className="py-4 font-display text-3xl text-ivory/60">
+            Svarahi Gold
+          </Link>
         </nav>
       </div>
     </>

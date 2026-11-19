@@ -14,7 +14,7 @@ export function ActionBar() {
           </a>
         </li>
         <li>
-          <Link href="/#visit" className={`${item} text-ivory`}>
+          <Link href="/visit" className={`${item} text-ivory`}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden><path d="M4 20V10l8-6 8 6v10M9 20v-6h6v6" /></svg>
             Visit
           </Link>

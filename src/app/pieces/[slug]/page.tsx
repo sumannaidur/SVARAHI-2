@@ -1,4 +1,6 @@
+import Link from "next/link";
 import type { Metadata } from "next";
+import { og } from "@/lib/site";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { business, tel, wa } from "@/content/business";
@@ -17,7 +19,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps<"/pieces/[slug]">): Promise<Metadata> {
   const p = getPiece((await params).slug);
   if (!p) notFound(); // real 404 status for unknown slugs (resolves before streaming)
-  return p ? { title: `${p.name} (${p.code})`, description: `${p.name}, catalogue code ${p.code}, at Svarahi, Jayanagar. Ask for photographs, price and availability on WhatsApp.` } : {};
+  return p ? { title: `${p.name} (${p.code})`, description: `${p.name}, catalogue code ${p.code}, at Svarahi, Jayanagar. Ask for photographs, price and availability on WhatsApp.`, alternates: { canonical: `/pieces/${p.slug}` }, openGraph: og(`${p.name} · Svarahi`, `/pieces/${p.slug}`) } : {};
 }
 
 /** Not verified anywhere — always confirmed in person (svarahi.co FAQ / About). */
@@ -56,18 +58,18 @@ async function PieceContent({ params }: Pick<PageProps<"/pieces/[slug]">, "param
             <Reveal className="lg:col-span-5 lg:col-start-8 lg:pt-6">
               <div className="lg:sticky lg:top-28">
                 <p data-reveal className="eyebrow text-gold-soft">
-                  <a href={`/collections/${cat.slug}`} className="hover:underline">{cat.name}</a>
+                  <Link href={`/collections/${cat.slug}`} className="inline-flex min-h-6 items-center hover:underline">{cat.name}</Link>
                 </p>
                 <h1 data-reveal="0.08" className="display-l mt-4">{p.name}</h1>
                 <dl data-reveal="0.14" className="mt-6 grid grid-cols-[auto_1fr] gap-x-6 gap-y-2 text-sm">
-                  <dt className="text-ivory/50">Catalogue code</dt>
+                  <dt className="text-ivory/60">Catalogue code</dt>
                   <dd className="tracking-[0.12em]">{p.code}</dd>
-                  <dt className="text-ivory/50">Listed on</dt>
+                  <dt className="text-ivory/60">Listed on</dt>
                   <dd>svarahi.co catalogue</dd>
                   {p.styles.length > 0 && (
                     <>
-                      <dt className="text-ivory/50">Style</dt>
-                      <dd>{p.styles.map((s) => STYLE_LABEL[s]).join(" · ")} <span className="text-ivory/40">(from the name)</span></dd>
+                      <dt className="text-ivory/60">Style</dt>
+                      <dd>{p.styles.map((s) => STYLE_LABEL[s]).join(" · ")} <span className="text-ivory/60">(from the name)</span></dd>
                     </>
                   )}
                 </dl>
@@ -99,8 +101,8 @@ async function PieceContent({ params }: Pick<PageProps<"/pieces/[slug]">, "param
                 </div>
 
                 <nav aria-label="More pieces" className="mt-10 flex justify-between gap-4 border-t border-gold/20 pt-5 text-sm">
-                  <a href={`/pieces/${prev.slug}`} className="text-ivory/70 hover:text-gold-soft">← {prev.name}</a>
-                  <a href={`/pieces/${next.slug}`} className="text-right text-ivory/70 hover:text-gold-soft">{next.name} →</a>
+                  <Link href={`/pieces/${prev.slug}`} className="inline-flex min-h-11 items-center text-ivory/70 hover:text-gold-soft">← {prev.name}</Link>
+                  <Link href={`/pieces/${next.slug}`} className="inline-flex min-h-11 items-center justify-end text-right text-ivory/70 hover:text-gold-soft">{next.name} →</Link>
                 </nav>
               </div>
             </Reveal>
@@ -112,7 +114,7 @@ async function PieceContent({ params }: Pick<PageProps<"/pieces/[slug]">, "param
         <section aria-labelledby="related" className="border-t border-gold/15 py-16 md:py-20">
           <div className="shell flex items-end justify-between gap-4">
             <h2 id="related" className="display-m">You may also like</h2>
-            <a href={`/collections/${cat.slug}`} className="text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-gold-soft hover:underline">All {cat.name} →</a>
+            <Link href={`/collections/${cat.slug}`} className="inline-flex min-h-11 items-center text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-gold-soft hover:underline">All {cat.name} →</Link>
           </div>
           <ul className="mt-10 flex snap-x snap-mandatory gap-5 overflow-x-auto px-[var(--gutter)] pb-4 [scrollbar-width:none] lg:mx-auto lg:grid lg:max-w-[1440px] lg:grid-cols-6 lg:gap-6 lg:overflow-visible">
             {rel.map((r) => (

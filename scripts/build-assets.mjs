@@ -4,7 +4,7 @@
 // and generates the manifest, source & rights registers and a contact sheet.
 // Usage: npm run assets
 import sharp from "sharp";
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, statSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 
@@ -155,7 +155,7 @@ for (const a of Object.values(aiMeta)) {
 
 // ── optimize ────────────────────────────────────────────────────────────────
 const manifest = [];
-const LADDER = [640, 1280, 1920];
+const LADDER = [640, 960, 1280, 1920]; // Phase 11: 960 serves 2× phones without jumping to 1280
 for (const e of entries) {
   const src = join(ORIG, e.src);
   if (!existsSync(src)) throw new Error(`missing original ${e.src}`);
@@ -164,13 +164,28 @@ for (const e of entries) {
   const { dominant } = await sharp(buf).stats();
   const widths = e.graphic ? [Math.min(meta.width, 520)] : [...new Set([...LADDER.filter((w) => w < meta.width), Math.min(meta.width, 1920)])].sort((a, b) => a - b);
   const formats = e.graphic ? ["webp", "png"] : ["avif", "webp"];
+  // Phase 11: byte budget per pixel for photographs. Very detailed images (e.g. a wall of
+  // jhumkas) blow past normal sizes at default quality and slow mobile LCP; those are
+  // re-encoded at stepped-down quality until they fit (or reach the floor).
+  const BUDGET = { avif: 0.11, webp: 0.16 }; // bytes per output pixel
+  const LADDER_Q = { avif: [56, 46, 38, 32], webp: [80, 70, 60, 52] };
   for (const w of widths) for (const f of formats) {
     const out = join(PUB, `${e.out}-${w}.${f}`);
-    if (existsSync(out) && !process.env.FORCE) continue; // cache: originals are immutable
+    const h = Math.round((Math.min(w, meta.width) / meta.width) * meta.height);
+    const budget = BUDGET[f] ? Math.min(w, meta.width) * h * BUDGET[f] : Infinity;
+    if (existsSync(out) && !process.env.FORCE && (e.graphic || statSync(out).size <= budget)) continue; // cache: originals are immutable
     mkdirSync(dirname(out), { recursive: true });
-    let p = sharp(buf).resize({ width: w, withoutEnlargement: true });
-    p = f === "avif" ? p.avif({ quality: 56, effort: 5 }) : f === "webp" ? p.webp({ quality: e.graphic ? 92 : 80, effort: 5 }) : p.png({ compressionLevel: 9 });
-    await p.toFile(out);
+    const encode = (q) => {
+      const p = sharp(buf).resize({ width: w, withoutEnlargement: true });
+      return (f === "avif" ? p.avif({ quality: q, effort: 5 }) : f === "webp" ? p.webp({ quality: e.graphic ? 92 : q, effort: 5 }) : p.png({ compressionLevel: 9 })).toBuffer();
+    };
+    const qs = e.graphic || !LADDER_Q[f] ? [null] : LADDER_Q[f];
+    let data;
+    for (const q of qs) {
+      data = await encode(q);
+      if (data.length <= budget) break;
+    }
+    writeFileSync(out, data);
   }
   manifest.push({
     id: e.id, group: e.group, groupLabel: GROUP[e.group], path: `/assets/${e.out}`, widths, formats,

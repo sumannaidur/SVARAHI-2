@@ -17,7 +17,7 @@ export function Reveal({ children, className = "" }: { children: ReactNode; clas
       const mm = gsap.matchMedia();
       const reveals = (dist: number) => {
         gsap.utils.toArray<HTMLElement>("[data-reveal]").forEach((el) =>
-          gsap.from(el, { y: dist, autoAlpha: 0, duration: 1, ease: "power3.out", delay: Number(el.dataset.reveal || 0), scrollTrigger: { trigger: el, start: "top 88%", once: true } }),
+          gsap.from(el, { y: dist, opacity: 0, duration: 1, ease: "power3.out", delay: Number(el.dataset.reveal || 0), scrollTrigger: { trigger: el, start: "top 88%", once: true } }),
         );
         gsap.utils.toArray<HTMLElement>("[data-arch-reveal]").forEach((el) =>
           gsap.fromTo(el, { clipPath: "inset(45% 30% 0% 30% round 999px 999px 0px 0px)" }, { clipPath: "inset(0% 0% 0% 0% round 999px 999px 0px 0px)", duration: 1.4, ease: "power3.inOut", scrollTrigger: { trigger: el, start: "top 85%", once: true } }),

@@ -31,11 +31,11 @@ export function Hero() {
           .to("[data-copy]", { y: -60, autoAlpha: 0, duration: 0.45 }, 0.05)
           .fromTo("[data-after]", { autoAlpha: 0, y: 30 }, { autoAlpha: 1, y: 0, duration: 0.35 }, 0.6);
         // entrance
-        gsap.from("[data-in]", { y: 28, autoAlpha: 0, duration: 1.2, stagger: 0.12, ease: "power3.out", delay: 0.15 });
+        gsap.from("[data-in]", { y: 28, opacity: 0, duration: 1.2, stagger: 0.12, ease: "power3.out", delay: 0.15 });
       });
       mm.add(MQ.mobile, () => {
         gsap.fromTo("[data-img]", { yPercent: 0 }, { yPercent: 12, ease: "none", scrollTrigger: { trigger: root.current, start: "top top", end: "bottom top", scrub: true } });
-        gsap.from("[data-in]", { y: 22, autoAlpha: 0, duration: 1, stagger: 0.1, ease: "power3.out", delay: 0.1 });
+        gsap.from("[data-in]", { y: 22, opacity: 0, duration: 1, stagger: 0.1, ease: "power3.out", delay: 0.1 });
       });
     },
     { scope: root },
@@ -84,12 +84,12 @@ export function Hero() {
       </div>
 
       {/* revealed once the photograph settles into its arch (desktop) */}
-      <div data-after className="shell pointer-events-none invisible absolute inset-x-0 bottom-[14%] hidden lg:block">
+      <div data-after aria-hidden className="shell pointer-events-none invisible absolute inset-x-0 bottom-[14%] hidden lg:block">
         <p className="eyebrow text-gold-soft">The Svarahi way</p>
         <p className="display-l mt-4 max-w-[12ch]">From first look to forever</p>
       </div>
 
-      <span className="pointer-events-none absolute bottom-5 right-[var(--gutter)] hidden text-[9px] font-semibold uppercase tracking-[0.18em] text-ivory/45 md:block">
+      <span className="pointer-events-none absolute bottom-5 right-[var(--gutter)] hidden text-[9px] font-semibold uppercase tracking-[0.18em] text-ivory/60 md:block">
         {captionFor(wide)}
       </span>
       <span className="pointer-events-none absolute left-[var(--gutter)] top-[4.6rem] text-[9px] font-semibold uppercase tracking-[0.18em] text-ivory/55 md:hidden">

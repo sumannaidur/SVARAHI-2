@@ -1,0 +1,294 @@
+[
+ {
+  "name": "mobile-home",
+  "perf": 80,
+  "a11y": 96,
+  "bp": 89,
+  "seo": 63,
+  "lcp": "5.4 s",
+  "cls": "0",
+  "tbt": "20 ms",
+  "fcp": "0.8 s",
+  "fails": [
+   "largest-contentful-paint(5.4 s)",
+   "max-potential-fid(190 ms)",
+   "errors-in-console",
+   "interactive(5.4 s)",
+   "image-aspect-ratio",
+   "image-size-responsive",
+   "target-size",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "is-crawlable"
+  ]
+ },
+ {
+  "name": "mobile-collections-necklaces",
+  "perf": 90,
+  "a11y": 93,
+  "bp": 71,
+  "seo": 63,
+  "lcp": "3.3 s",
+  "cls": "0",
+  "tbt": "170 ms",
+  "fcp": "1.0 s",
+  "fails": [
+   "largest-contentful-paint(3.3 s)",
+   "max-potential-fid(230 ms)",
+   "errors-in-console",
+   "image-size-responsive",
+   "third-party-cookies(1 cookie found)",
+   "color-contrast",
+   "label-content-name-mismatch",
+   "target-size",
+   "uses-long-cache-ttl(14 resources found)",
+   "total-byte-weight(Total size was 3,644 KiB)",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "modern-image-formats(Potential savings of 17 KiB)",
+   "inspector-issues",
+   "is-crawlable",
+   "bf-cache(3 failure reasons)"
+  ]
+ },
+ {
+  "name": "mobile-pieces-sv-b01",
+  "perf": 88,
+  "a11y": 93,
+  "bp": 93,
+  "seo": 63,
+  "lcp": "3.7 s",
+  "cls": "0",
+  "tbt": "140 ms",
+  "fcp": "0.8 s",
+  "fails": [
+   "largest-contentful-paint(3.7 s)",
+   "max-potential-fid(210 ms)",
+   "errors-in-console",
+   "image-size-responsive",
+   "color-contrast",
+   "label-content-name-mismatch",
+   "target-size",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "is-crawlable"
+  ]
+ },
+ {
+  "name": "mobile-counter",
+  "perf": 92,
+  "a11y": 93,
+  "bp": 93,
+  "seo": 54,
+  "lcp": "3.3 s",
+  "cls": "0",
+  "tbt": "70 ms",
+  "fcp": "0.8 s",
+  "fails": [
+   "largest-contentful-paint(3.3 s)",
+   "errors-in-console",
+   "image-size-responsive",
+   "color-contrast",
+   "target-size",
+   "unused-javascript(Potential savings of 150 KiB)",
+   "crawlable-anchors",
+   "is-crawlable"
+  ]
+ },
+ {
+  "name": "mobile-craft",
+  "perf": 90,
+  "a11y": 93,
+  "bp": 93,
+  "seo": 63,
+  "lcp": "3.5 s",
+  "cls": "0",
+  "tbt": "70 ms",
+  "fcp": "0.8 s",
+  "fails": [
+   "largest-contentful-paint(3.5 s)",
+   "errors-in-console",
+   "image-size-responsive",
+   "color-contrast",
+   "target-size",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "is-crawlable",
+   "bf-cache(3 failure reasons)"
+  ]
+ },
+ {
+  "name": "mobile-bridal",
+  "perf": 92,
+  "a11y": 93,
+  "bp": 93,
+  "seo": 63,
+  "lcp": "3.2 s",
+  "cls": "0",
+  "tbt": "120 ms",
+  "fcp": "0.9 s",
+  "fails": [
+   "largest-contentful-paint(3.2 s)",
+   "max-potential-fid(170 ms)",
+   "errors-in-console",
+   "image-size-responsive",
+   "color-contrast",
+   "label-content-name-mismatch",
+   "target-size",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "is-crawlable",
+   "bf-cache(2 failure reasons)"
+  ]
+ },
+ {
+  "name": "mobile-visit",
+  "perf": 75,
+  "a11y": 97,
+  "bp": 93,
+  "seo": 63,
+  "lcp": "6.9 s",
+  "cls": "0",
+  "tbt": "130 ms",
+  "fcp": "0.8 s",
+  "fails": [
+   "largest-contentful-paint(6.9 s)",
+   "max-potential-fid(170 ms)",
+   "errors-in-console",
+   "interactive(6.9 s)",
+   "image-size-responsive",
+   "target-size",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "is-crawlable"
+  ]
+ },
+ {
+  "name": "desktop-home",
+  "perf": 99,
+  "a11y": 96,
+  "bp": 96,
+  "seo": 63,
+  "lcp": "0.9 s",
+  "cls": "0",
+  "tbt": "0 ms",
+  "fcp": "0.2 s",
+  "fails": [
+   "errors-in-console",
+   "target-size",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "is-crawlable"
+  ]
+ },
+ {
+  "name": "desktop-collections-necklaces",
+  "perf": 100,
+  "a11y": 93,
+  "bp": 74,
+  "seo": 63,
+  "lcp": "0.6 s",
+  "cls": "0",
+  "tbt": "0 ms",
+  "fcp": "0.3 s",
+  "fails": [
+   "errors-in-console",
+   "third-party-cookies(1 cookie found)",
+   "color-contrast",
+   "label-content-name-mismatch",
+   "target-size",
+   "uses-long-cache-ttl(14 resources found)",
+   "total-byte-weight(Total size was 3,592 KiB)",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "modern-image-formats(Potential savings of 17 KiB)",
+   "inspector-issues",
+   "is-crawlable",
+   "bf-cache(3 failure reasons)"
+  ]
+ },
+ {
+  "name": "desktop-pieces-sv-b01",
+  "perf": 100,
+  "a11y": 93,
+  "bp": 96,
+  "seo": 63,
+  "lcp": "0.7 s",
+  "cls": "0",
+  "tbt": "0 ms",
+  "fcp": "0.2 s",
+  "fails": [
+   "errors-in-console",
+   "color-contrast",
+   "label-content-name-mismatch",
+   "target-size",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "is-crawlable"
+  ]
+ },
+ {
+  "name": "desktop-counter",
+  "perf": 100,
+  "a11y": 93,
+  "bp": 96,
+  "seo": 54,
+  "lcp": "0.7 s",
+  "cls": "0",
+  "tbt": "0 ms",
+  "fcp": "0.2 s",
+  "fails": [
+   "errors-in-console",
+   "color-contrast",
+   "target-size",
+   "unused-javascript(Potential savings of 150 KiB)",
+   "crawlable-anchors",
+   "is-crawlable"
+  ]
+ },
+ {
+  "name": "desktop-craft",
+  "perf": 100,
+  "a11y": 93,
+  "bp": 96,
+  "seo": 63,
+  "lcp": "0.7 s",
+  "cls": "0",
+  "tbt": "0 ms",
+  "fcp": "0.2 s",
+  "fails": [
+   "errors-in-console",
+   "color-contrast",
+   "target-size",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "is-crawlable"
+  ]
+ },
+ {
+  "name": "desktop-bridal",
+  "perf": 100,
+  "a11y": 93,
+  "bp": 96,
+  "seo": 63,
+  "lcp": "0.7 s",
+  "cls": "0",
+  "tbt": "0 ms",
+  "fcp": "0.3 s",
+  "fails": [
+   "errors-in-console",
+   "color-contrast",
+   "label-content-name-mismatch",
+   "target-size",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "is-crawlable"
+  ]
+ },
+ {
+  "name": "desktop-visit",
+  "perf": 99,
+  "a11y": 97,
+  "bp": 96,
+  "seo": 63,
+  "lcp": "0.9 s",
+  "cls": "0",
+  "tbt": "0 ms",
+  "fcp": "0.2 s",
+  "fails": [
+   "errors-in-console",
+   "target-size",
+   "unused-javascript(Potential savings of 115 KiB)",
+   "is-crawlable"
+  ]
+ }
+]

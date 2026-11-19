@@ -1,4 +1,6 @@
+import Link from "next/link";
 import type { Metadata } from "next";
+import { og } from "@/lib/site";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { wa } from "@/content/business";
@@ -19,7 +21,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps<"/collections/[slug]">): Promise<Metadata> {
   const c = getCategory((await params).slug);
   if (!c) notFound(); // real 404 status for unknown slugs (resolves before streaming)
-  return c ? { title: c.name, description: `${c.name} at Svarahi, Jayanagar, Bengaluru — ${c.short.toLowerCase()}. Enquire on WhatsApp or try them in the showroom.` } : {};
+  return c ? { title: c.name, description: `${c.name} at Svarahi, Jayanagar, Bengaluru — ${c.short.toLowerCase()}. Enquire on WhatsApp or try them in the showroom.`, alternates: { canonical: `/collections/${c.slug}` }, openGraph: og(`${c.name} · Svarahi`, `/collections/${c.slug}`) } : {};
 }
 
 /** params are read inside <Suspense> (Cache Components instant navigation); all 8 are prerendered. */
@@ -112,15 +114,15 @@ async function CategoryContent({ params }: Pick<PageProps<"/collections/[slug]">
       )}
 
       {/* Next collection */}
-      <a href={`/collections/${next.slug}`} className="group block border-t border-gold/15">
+      <Link href={`/collections/${next.slug}`} className="group block border-t border-gold/15">
         <div className="shell flex items-center justify-between gap-6 py-12 md:py-16">
           <span>
-            <span className="eyebrow block text-ivory/50">Next collection</span>
+            <span className="eyebrow block text-ivory/60">Next collection</span>
             <span className="display-l mt-3 block transition-colors group-hover:text-gold-soft">{next.name}</span>
           </span>
           <span className="font-display text-5xl text-gold transition-transform duration-500 group-hover:translate-x-2" aria-hidden>→</span>
         </div>
-      </a>
+      </Link>
 
       <ShowroomCta message={msg} heading={`Try ${c.name.toLowerCase()} at the counter`} />
     </Shell>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { og } from "@/lib/site";
 import { Breadcrumbs, Shell } from "@/components/site/shell";
 import { CounterStage } from "@/components/tray/counter-stage";
 import { ShowroomCta } from "@/components/catalogue/showroom-cta";
@@ -6,6 +7,8 @@ import { ShowroomCta } from "@/components/catalogue/showroom-cta";
 export const metadata: Metadata = {
   title: "The virtual counter",
   description: "Lay out Svarahi pieces on a virtual velvet counter, place your favourites on a trial tray, and send it to us to reserve a showroom trial in Jayanagar.",
+  alternates: { canonical: "/counter" },
+  openGraph: og("The virtual counter · Svarahi", "/counter"),
 };
 
 const STEPS = [
@@ -44,7 +47,7 @@ export default function CounterPage() {
               </li>
             ))}
           </ol>
-          <p className="mt-10 max-w-2xl text-xs leading-relaxed text-ivory/50">
+          <p className="mt-10 max-w-2xl text-xs leading-relaxed text-ivory/60">
             The counter is a conceptual visualisation, not a photograph of our showroom. Piece images are licensed style references or photographs still to come — never the actual piece. Nothing is reserved or priced online: availability and prices are confirmed with you, and purchases are made in person.
           </p>
         </div>

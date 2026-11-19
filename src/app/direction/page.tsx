@@ -58,7 +58,7 @@ export default function DirectionPage() {
             <Provenance asset={hero} className="mt-3" />
           </div>
         </div>
-        <p className="absolute bottom-4 left-[var(--gutter)] text-[10px] uppercase tracking-[0.2em] text-ivory/35">Direction preview · not the final homepage</p>
+        <p className="absolute bottom-4 left-[var(--gutter)] text-[10px] uppercase tracking-[0.2em] text-ivory/60">Direction preview · not the final homepage</p>
       </section>
 
       {/* 02 — Palette + type */}
@@ -126,7 +126,7 @@ export default function DirectionPage() {
                 </div>
                 <figcaption className="mt-3 flex items-center justify-between text-sm">
                   <span className="font-display text-xl">{a.pieceCode}</span>
-                  <span className="text-[10px] uppercase tracking-[0.18em] text-ivory/50">Representative image</span>
+                  <span className="text-[10px] uppercase tracking-[0.18em] text-ivory/60">Representative image</span>
                 </figcaption>
               </figure>
             ))}

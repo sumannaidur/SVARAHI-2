@@ -24,7 +24,7 @@ export function InstagramEmbed({ code }: { code: string }) {
       </div>
       <figcaption className="mt-3 flex items-start justify-between gap-3 text-[13px] leading-snug text-ivory/65">
         <span>{p.subject}</span>
-        <a href={`https://www.instagram.com/${kind}/${p.code}/`} target="_blank" rel="noopener noreferrer" className="shrink-0 text-[10px] font-semibold uppercase tracking-[0.16em] text-gold-soft hover:underline">
+        <a href={`https://www.instagram.com/${kind}/${p.code}/`} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center shrink-0 text-[10px] font-semibold uppercase tracking-[0.16em] text-gold-soft hover:underline">
           {p.type === "reel" ? "Reel" : "Post"} ↗
         </a>
       </figcaption>

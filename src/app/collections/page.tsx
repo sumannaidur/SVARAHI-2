@@ -1,4 +1,6 @@
+import Link from "next/link";
 import type { Metadata } from "next";
+import { og } from "@/lib/site";
 import { wa } from "@/content/business";
 import { categories, piecesIn, proposedCategory } from "@/content/catalogue";
 import { publicAsset } from "@/lib/assets";
@@ -11,6 +13,8 @@ import { ShowroomCta } from "@/components/catalogue/showroom-cta";
 export const metadata: Metadata = {
   title: "Collections",
   description: "Necklaces and harams, temple and antique, earrings and jhumkas, bangles, rings, pendants, chains and bridal jewellery at Svarahi, Jayanagar, Bengaluru.",
+  alternates: { canonical: "/collections" },
+  openGraph: og("Collections · Svarahi", "/collections"),
 };
 
 export default function CollectionsPage() {
@@ -53,7 +57,7 @@ export default function CollectionsPage() {
               const n = piecesIn(c.slug).length;
               return (
                 <li key={c.slug} data-reveal={(i % 4) * 0.08}>
-                  <a href={`/collections/${c.slug}`} className="group block">
+                  <Link href={`/collections/${c.slug}`} className="group block">
                     <div className="arch relative aspect-[3/4] ring-1 ring-gold/30">
                       <Picture asset={a} sizes="(min-width:1024px) 23vw, 46vw" className="absolute inset-0" imgClassName="h-full w-full object-cover object-top transition-transform duration-[1400ms] ease-[var(--ease-velvet)] group-hover:scale-[1.06]" />
                       <div aria-hidden className="absolute inset-0 opacity-0 transition-opacity duration-700 group-hover:opacity-100" style={{ background: "linear-gradient(180deg, transparent 40%, rgb(20 6 8 / 0.7))" }} />
@@ -64,9 +68,9 @@ export default function CollectionsPage() {
                     <div className="mt-4 border-t border-gold/25 pt-3">
                       <h3 className="font-display text-[1.5rem] leading-tight transition-colors group-hover:text-gold-soft md:text-[1.7rem]">{c.name}</h3>
                       <p className="mt-1 text-[13px] text-ivory/60">{c.short}</p>
-                      <p className="mt-2 text-[10px] uppercase tracking-[0.18em] text-ivory/45">{n} catalogue {n === 1 ? "reference" : "references"}</p>
+                      <p className="mt-2 text-[10px] uppercase tracking-[0.18em] text-ivory/60">{n} catalogue {n === 1 ? "reference" : "references"}</p>
                     </div>
-                  </a>
+                  </Link>
                 </li>
               );
             })}

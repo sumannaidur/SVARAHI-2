@@ -32,8 +32,8 @@ export function Counter() {
         tl.fromTo("[data-stage]", { clipPath: "inset(14% 26% 14% 26% round 999px 999px 0px 0px)" }, { clipPath: "inset(0% 0% 0% 0% round 0px 0px 0px 0px)", duration: 1 }, 0)
           .fromTo("[data-stage-img]", { scale: 1.25 }, { scale: 1, duration: 1 }, 0)
           .fromTo("[data-spot]", { xPercent: -60 }, { xPercent: 60, duration: 2.2 }, 0.4)
-          .from("[data-point]", { autoAlpha: 0, y: 24, stagger: 0.35, duration: 0.4 }, 0.9)
-          .from("[data-counter-cta]", { autoAlpha: 0, y: 24, duration: 0.4 }, 2);
+          .from("[data-point]", { opacity: 0, y: 24, stagger: 0.35, duration: 0.4 }, 0.9)
+          .from("[data-counter-cta]", { opacity: 0, y: 24, duration: 0.4 }, 2);
       });
       mm.add(MQ.mobile, () => {
         gsap.fromTo("[data-stage-img]", { scale: 1.2 }, { scale: 1, ease: "none", scrollTrigger: { trigger: "[data-stage]", start: "top bottom", end: "bottom 40%", scrub: true } });

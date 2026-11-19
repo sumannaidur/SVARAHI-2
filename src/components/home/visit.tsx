@@ -34,15 +34,15 @@ export function Visit() {
             </address>
             <dl className="mt-8 grid gap-5 border-t border-gold/25 pt-6 text-sm">
               <div>
-                <dt className="eyebrow !text-[0.62rem] text-ivory/50">Hours</dt>
+                <dt className="eyebrow !text-[0.62rem] text-ivory/60">Hours</dt>
                 <dd className="mt-1 text-ivory/85">{hours ? hours.claim : "To be confirmed — please call or WhatsApp before visiting"}</dd>
               </div>
               <div>
-                <dt className="eyebrow !text-[0.62rem] text-ivory/50">Phone</dt>
+                <dt className="eyebrow !text-[0.62rem] text-ivory/60">Phone</dt>
                 <dd className="mt-1"><a href={tel()} className="hover:text-gold-soft">{business.phone.display}</a></dd>
               </div>
               <div>
-                <dt className="eyebrow !text-[0.62rem] text-ivory/50">Email</dt>
+                <dt className="eyebrow !text-[0.62rem] text-ivory/60">Email</dt>
                 <dd className="mt-1"><a href={`mailto:${business.email}`} className="break-all hover:text-gold-soft">{business.email}</a></dd>
               </div>
             </dl>
